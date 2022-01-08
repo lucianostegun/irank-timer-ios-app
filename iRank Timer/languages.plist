@@ -7,10 +7,6 @@
             <key>language</key><string>English</string>
         </dict>
         <dict>
-            <key>culture</key><string>es</string>
-            <key>language</key><string>Español</string>
-        </dict>
-        <dict>
             <key>culture</key><string>pt</string>
             <key>language</key><string>Português</string>
         </dict>
