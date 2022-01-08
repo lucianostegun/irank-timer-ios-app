@@ -63,7 +63,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
     
     override func supportedInterfaceOrientations() -> Int {
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             return Int(UIInterfaceOrientationMask.LandscapeLeft.rawValue) | Int(UIInterfaceOrientationMask.LandscapeRight.rawValue)
         }else{
@@ -91,7 +91,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
         blindLevel.ante = ante;
         blindLevel.duration = duration;
         blindLevel.isBreak = false;
-        blindLevel.elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as! String;
+        blindLevel.elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as String;
         
         self.blindSet.blindLevelList.append(blindLevel);
         self.blindSet.levels = self.blindSet.levels+1;
@@ -147,7 +147,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
                 lastFirstResponder = txtDuration;
             }else{
              
-                if( Constants.DeviceIdiom.IS_IPAD ){
+                if( appDelegate.IS_IPAD ){
                     
                     if( lastFirstResponder == nil ){
                         
@@ -347,7 +347,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
         }
         
         blindSet.blindLevelList[currentLevelIndex].duration       = txtDuration.text.toInt()!*60;
-        blindSet.blindLevelList[currentLevelIndex].elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindSet.blindLevelList[currentLevelIndex].levelIndex)+(blindSet.blindLevelList[currentLevelIndex].duration))) as! String;
+        blindSet.blindLevelList[currentLevelIndex].elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindSet.blindLevelList[currentLevelIndex].levelIndex)+(blindSet.blindLevelList[currentLevelIndex].duration))) as String;
     }
     
     @IBAction func loadPreviousLevel(sender: AnyObject) {
@@ -431,7 +431,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
         validateBlindLevel();
         self.tableView.reloadData();
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             txtDuration.becomeFirstResponder();
         }
@@ -453,7 +453,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
 
-        let validString = string as! NSString
+        let validString = string as NSString
         
         let validTimeCharacterSet = NSCharacterSet(charactersInString: "0123456789");
         let invalidTimeCharacterSet = validTimeCharacterSet.invertedSet
@@ -542,7 +542,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
             var blindLevel : BlindLevel = blindSet.blindLevelList[currentLevelIndex];
             
             blindLevel.duration = txtDuration.text.toInt()!*60;
-            blindLevel.elapsedTime = Util.formatTimeString(Float(self.blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as! String;
+            blindLevel.elapsedTime = Util.formatTimeString(Float(self.blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as String;
         }
     }
     
@@ -565,7 +565,7 @@ class BlindLevelEditorViewController : UITableViewController, UITextFieldDelegat
         for( var i = 0; i < blindSet.blindLevelList.count; i++){
             
             blindSet.blindLevelList[i].duration = duration;
-            blindSet.blindLevelList[i].elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindSet.blindLevelList[i].levelIndex)+(blindSet.blindLevelList[i].duration))) as! String;
+            blindSet.blindLevelList[i].elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindSet.blindLevelList[i].levelIndex)+(blindSet.blindLevelList[i].duration))) as String;
         }
         
         

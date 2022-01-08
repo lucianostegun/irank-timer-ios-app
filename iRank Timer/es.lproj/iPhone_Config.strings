@@ -35,7 +35,7 @@
 "Xh8-N1-Ksu.text" = "Acortar ciegas";
 	
 /* Class = "UILabel"; text = "Enable multipeer"; ObjectID = "ZM6-TP-5nt"; */	
-"ZM6-TP-5nt.text" = "Habilitar el control remoto";
+"ZM6-TP-5nt.text" = "Habilitar múltiples temporizador";
 	
 /* Class = "UILabel"; text = "Inverse text color"; ObjectID = "ald-r2-DaZ"; */	
 "ald-r2-DaZ.text" = "Invertir colores";

@@ -327,18 +327,3 @@
 
 /* No comment provided by engineer. */
 "replicate" = "replicar";
-
-/* No comment provided by engineer. */
-"Feature unavailable" = "Função indisponível";
-
-/* No comment provided by engineer. */
-"This feature is only available in the full version of the app.\nWould you like to upgrade now?" = "Este recurso só está disponível na versão completa.\nGostaria de atualizar o aplicativo agora?";
-
-/* No comment provided by engineer. */
-"This version of iRank Timer only allow 3 blind sets. Would like to upgrade and create unlimited blind sets?" = "Esta versão só permite a utilização dos 3 jogos pré-configurados. Deseja atualizar e criar jogos ilimitados?";
-
-/* No comment provided by engineer. */
-"Upgrade" = "Atualizar";
-
-/* No comment provided by engineer. */
-"Not now" = "Agora não";

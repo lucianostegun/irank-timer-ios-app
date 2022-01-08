@@ -58,7 +58,7 @@ class ConfigMasterViewController : UITableViewController {
     
     override func supportedInterfaceOrientations() -> Int {
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             return Int(UIInterfaceOrientationMask.LandscapeLeft.rawValue) | Int(UIInterfaceOrientationMask.LandscapeRight.rawValue)
         }
@@ -70,7 +70,7 @@ class ConfigMasterViewController : UITableViewController {
 
         super.viewWillAppear(animated);
         
-        if( firstAppear && Constants.DeviceIdiom.IS_IPAD ){
+        if( firstAppear && appDelegate.IS_IPAD ){
             
             firstAppear = false;
         }
@@ -91,20 +91,6 @@ class ConfigMasterViewController : UITableViewController {
 //        self.tableView(self.tableView, didSelectRowAtIndexPath: indexPath);
 //        self.tableView.selectRowAtIndexPath(indexPath, animated: false, scrollPosition: UITableViewScrollPosition.None);
 //    }
-    
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        switch( section ){
-        case 0:
-            return 4;
-        case 1:
-            return (Constants.DeviceIdiom.IS_IPHONE && Constants.LITE_VERSION ? 4 : 5);
-        case 2:
-            return (appDelegate.enableMultipeer && Constants.DeviceIdiom.IS_IPAD ? 5 : 4);
-        default:
-            return 0;
-        }
-    }
     
     @IBAction func togglePlaySounds(sender: AnyObject) {
         
@@ -133,12 +119,6 @@ class ConfigMasterViewController : UITableViewController {
     }
     
     @IBAction func toggleEnableMultipeer(sender: AnyObject) {
-        
-        if( !appDelegate.checkLiteVersion() ){
-        
-            appDelegate.enableMultipeer = false;
-            swcEnableMultipeer.on       = false;
-        }
         
         appDelegate.enableMultipeer = swcEnableMultipeer.on;
         self.tableView.reloadData();
@@ -227,7 +207,7 @@ class ConfigMasterViewController : UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( appDelegate.IS_IPHONE ){
             
             return;
         }
@@ -294,7 +274,7 @@ class ConfigMasterViewController : UITableViewController {
     
     func changeDetailViewController(viewController : UIViewController){
      
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             var splitViewController = self.parentViewController?.parentViewController as! UISplitViewController;
             
@@ -320,7 +300,7 @@ class ConfigMasterViewController : UITableViewController {
             }
         }
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             println("appDelegate.multipeerDeviceName: \(appDelegate.multipeerDeviceName)");
             lblMultipeerDevice.text = appDelegate.multipeerDeviceName;

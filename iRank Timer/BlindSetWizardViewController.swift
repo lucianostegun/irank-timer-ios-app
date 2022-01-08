@@ -336,7 +336,7 @@ class BlindSetWizardViewController : BackgroundViewController {
                 lastBigBlind   = bigBlind;
             }
             
-            blindLevel.elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as! String;
+            blindLevel.elapsedTime = Util.formatTimeString(Float(blindSet.getElapsedSeconds(blindLevel.levelIndex)+(blindLevel.duration))) as String;
             blindSet.addBlindLevel(blindLevel)
         }
         

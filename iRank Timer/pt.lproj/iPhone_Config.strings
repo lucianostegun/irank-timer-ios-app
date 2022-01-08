@@ -53,7 +53,7 @@
 "YYZ-xk-QQb.title" = "Root View Controller";
 
 /* Class = "UILabel"; text = "Enable multipeer"; ObjectID = "ZM6-TP-5nt"; */
-"ZM6-TP-5nt.text" = "Habilitar controle remoto";
+"ZM6-TP-5nt.text" = "Habilitar multi timer";
 
 /* Class = "UILabel"; text = "Inverse text color"; ObjectID = "ald-r2-DaZ"; */
 "ald-r2-DaZ.text" = "Inverter cores";

@@ -19,7 +19,6 @@ class BlindSetEditorDetailsViewController : UITableViewController {
     @IBOutlet weak var lblAnte: UILabel!
     @IBOutlet weak var lblDuration: UILabel!
     @IBOutlet weak var lblElapsedTime: UILabel!
-    @IBOutlet weak var btnNewLevel: UIBarButtonItem!
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
 
@@ -30,7 +29,7 @@ class BlindSetEditorDetailsViewController : UITableViewController {
 
         super.viewDidLoad();
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             blindSet = (parentViewController?.parentViewController as! iPad_BlindSetEditorViewController).blindSet;
         }else{
@@ -42,11 +41,11 @@ class BlindSetEditorDetailsViewController : UITableViewController {
             NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("onDeviceOrientationDidChange:"), name: UIDeviceOrientationDidChangeNotification, object: nil);
         }
 
-        var isEditing = !Constants.LITE_VERSION;
-        self.tableView.setEditing(isEditing, animated: false);
+        self.tableView.setEditing(true, animated: false);
         
+
         var intrinsicSize : CGSize = self.tableViewHeader.intrinsicContentSize();
-        var height : CGFloat = (intrinsicSize.height > 0) ? intrinsicSize.height : 25; // replace with some fixed value as! needed
+        var height : CGFloat = (intrinsicSize.height > 0) ? intrinsicSize.height : 25; // replace with some fixed value as needed
         var width : CGFloat = CGRectGetWidth(self.view.bounds);
         var frame : CGRect = CGRectMake(0, 0, width, height);
         
@@ -78,7 +77,7 @@ class BlindSetEditorDetailsViewController : UITableViewController {
     
     override func viewWillDisappear(animated: Bool) {
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( appDelegate.IS_IPHONE ){
             
             (parentViewController as! iPhone_BlindSetEditorViewController).blindSet.blindLevelList = blindSet.blindLevelList;
         }
@@ -86,7 +85,7 @@ class BlindSetEditorDetailsViewController : UITableViewController {
     
     override func supportedInterfaceOrientations() -> Int {
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             return Int(UIInterfaceOrientationMask.LandscapeLeft.rawValue) | Int(UIInterfaceOrientationMask.LandscapeRight.rawValue)
         }else{
@@ -140,9 +139,9 @@ class BlindSetEditorDetailsViewController : UITableViewController {
             cell.lblAnte.text        = "\(blindLevel.ante)";
         }
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
-            cell.lblDuration.text    = Util.formatTimeString(Float(blindLevel.duration)) as? String;
+            cell.lblDuration.text    = Util.formatTimeString(Float(blindLevel.duration)) as String;
         }else{
             
             cell.lblDuration.text    = "\(blindLevel.duration) "+NSLocalizedString("min", comment: "");
@@ -157,9 +156,9 @@ class BlindSetEditorDetailsViewController : UITableViewController {
         var blindLevel : BlindLevel = blindSet.blindLevelList[indexPath.row];
         var cell = cell as! BlindLevelCell;
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( appDelegate.IS_IPHONE ){
             
-            cell.lblDuration.hidden    = ( (Constants.DeviceType.IS_IPHONE_4_OR_LESS || Constants.DeviceType.IS_IPHONE_5) && appDelegate.isPortrait() );
+            cell.lblDuration.hidden    = ( (appDelegate.IS_IPHONE_4_OR_LESS || appDelegate.IS_IPHONE_5) && appDelegate.isPortrait() );
             cell.lblElapsedTime.hidden = appDelegate.isPortrait();
         }
     }
@@ -170,11 +169,11 @@ class BlindSetEditorDetailsViewController : UITableViewController {
     
 //    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
 //        
-//        if( Constants.DeviceIdiom.IS_IPHONE ){
+//        if( appDelegate.IS_IPHONE ){
 //
 //            if( appDelegate.isPortrait() ){
 //                
-//                if( Constants.DeviceIdiom.IS_IPHONE_4_OR_LESS || Constants.DeviceIdiom.IS_IPHONE_5 ){
+//                if( appDelegate.IS_IPHONE_4_OR_LESS || appDelegate.IS_IPHONE_5 ){
 //                    
 //                    return NSLocalizedString("blindSetList.tableHeader-iPhone[4-5]-portrait", comment: "");
 //                }else{
@@ -253,7 +252,7 @@ class BlindSetEditorDetailsViewController : UITableViewController {
         if( editingStyle == UITableViewCellEditingStyle.Delete ){
             
             blindSet.blindLevelList.removeAtIndex(indexPath.row);
-            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as! [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
+            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
             
             blindSet.updateMetadata();
         }
@@ -261,21 +260,11 @@ class BlindSetEditorDetailsViewController : UITableViewController {
         self.tableView.reloadData();
     }
     
-    override func shouldPerformSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool {
-
-        if( identifier == "CreateNewBlindLevelSegue" && !appDelegate.checkLiteVersion() ){
-            
-            return false;
-        }
-        
-        return true;
-    }
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if( segue.identifier == "CreateNewBlindLevelSegue" || segue.identifier == "EditBlindLevelSegue" ){
 
-            var vc = (segue.destinationViewController.viewControllers as! Array).first as! BlindLevelEditorViewController;
+            var vc = (segue.destinationViewController.viewControllers as Array).first as! BlindLevelEditorViewController;
             
             vc.blindSet               = blindSet.copy() as! BlindSet;
             vc.previousViewController = self;
@@ -292,9 +281,9 @@ class BlindSetEditorDetailsViewController : UITableViewController {
     
     func switchOptionalLabels(){
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( appDelegate.IS_IPHONE ){
             
-            lblDuration.hidden    = ( (Constants.DeviceType.IS_IPHONE_4_OR_LESS || Constants.DeviceType.IS_IPHONE_5) && appDelegate.isPortrait() );
+            lblDuration.hidden    = ( (appDelegate.IS_IPHONE_4_OR_LESS || appDelegate.IS_IPHONE_5) && appDelegate.isPortrait() );
             lblElapsedTime.hidden = appDelegate.isPortrait();
         }
     }

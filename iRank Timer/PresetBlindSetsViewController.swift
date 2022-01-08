@@ -339,7 +339,7 @@ class PresetBlindSetsViewController : BackgroundViewController, UITableViewDeleg
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return Constants.DeviceIdiom.IS_IPAD || tableViewFilter.tag == 0 ? 44 : 66;
+        return appDelegate.IS_IPAD || tableViewFilter.tag == 0 ? 44 : 66;
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -469,10 +469,10 @@ class PresetBlindSetsViewController : BackgroundViewController, UITableViewDeleg
             
             blindSet.isNew = true;
             
-            let iDevice    = Constants.DeviceIdiom.IS_IPAD ? "iPad" : "iPhone";
+            let iDevice    = appDelegate.IS_IPAD ? "iPad" : "iPhone";
             let storyboard = UIStoryboard(name: "\(iDevice)_BlindSetEditor", bundle: nil)
             
-            if( Constants.DeviceIdiom.IS_IPAD ){
+            if( appDelegate.IS_IPAD ){
                 
                 let vc         = storyboard.instantiateInitialViewController() as! UINavigationController;
                 let svc        = vc.viewControllers.first as! iPad_BlindSetEditorViewController;
@@ -640,7 +640,7 @@ class PresetBlindSetsViewController : BackgroundViewController, UITableViewDeleg
         
         var blindSet = BlindSet();
 
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
         
             let svc = vc.viewControllers.first as! iPad_BlindSetEditorViewController;
             

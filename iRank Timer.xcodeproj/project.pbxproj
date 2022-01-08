@@ -182,9 +182,6 @@
 		DD1EF94B1A9ED8FF00B745AA /* background-1.3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92B1A9ED8FF00B745AA /* background-1.3.jpg */; };
 		DD1EF94C1A9ED8FF00B745AA /* background-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92C1A9ED8FF00B745AA /* background-10.jpg */; };
 		DD1EF94D1A9ED8FF00B745AA /* background-10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92D1A9ED8FF00B745AA /* background-10@2x.jpg */; };
-		DD3AA5071AFB0DF500AB8EC5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */; };
-		DD3CC0A81AF475D700CADD1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC0A71AF475D700CADD1F /* Constants.swift */; };
-		DD3CC5371AF486A900CADD1F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */; };
 		DD5BC4A51AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5BC4A71AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard */; };
 		DD6DFA521AB51FAF00B5A15C /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD6DFA4F1AB51FAF00B5A15C /* iRate.bundle */; };
 		DD6DFA531AB51FAF00B5A15C /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6DFA511AB51FAF00B5A15C /* iRate.m */; };
@@ -228,6 +225,7 @@
 		DDFA4D1F1AB154B6002A7F43 /* iPad_CreateMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D211AB154B6002A7F43 /* iPad_CreateMenu.storyboard */; };
 		DDFA4D251AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D271AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard */; };
 		DDFA4D2A1AB154D7002A7F43 /* iPad_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */; };
+		DDFA4D3B1AB271C5002A7F43 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D3D1AB271C5002A7F43 /* Info.plist */; };
 		DDFA4D481AB27274002A7F43 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D471AB27274002A7F43 /* Info.plist */; };
 		DDFA4D521AB27495002A7F43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D541AB27495002A7F43 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -424,9 +422,6 @@
 		DD1EF92C1A9ED8FF00B745AA /* background-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-10.jpg"; sourceTree = "<group>"; };
 		DD1EF92D1A9ED8FF00B745AA /* background-10@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-10@2x.jpg"; sourceTree = "<group>"; };
 		DD1EF94F1A9EDAEC00B745AA /* iRank Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iRank Timer.entitlements"; sourceTree = "<group>"; };
-		DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		DD3CC0A71AF475D700CADD1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		DD5BC4A61AB3C2D500CA2974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone_PresetBlindSets.storyboard; sourceTree = "<group>"; };
 		DD6DFA4A1AB5145300B5A15C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/iPhone_Timer.strings; sourceTree = "<group>"; };
 		DD6DFA4B1AB5146600B5A15C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPhone_Timer.strings; sourceTree = "<group>"; };
@@ -493,6 +488,9 @@
 		DDFA4D2E1AB154DA002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPad_Timer.strings; sourceTree = "<group>"; };
 		DDFA4D321AB26B21002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/iPhone_CreateMenu.strings; sourceTree = "<group>"; };
 		DDFA4D331AB26B28002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPhone_CreateMenu.strings; sourceTree = "<group>"; };
+		DDFA4D3E1AB271DB002A7F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		DDFA4D411AB271F1002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/Info.plist; sourceTree = "<group>"; };
+		DDFA4D421AB271F4002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Info.plist; sourceTree = "<group>"; };
 		DDFA4D471AB27274002A7F43 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDFA4D531AB27495002A7F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DDFA4D551AB27498002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -506,8 +504,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3CC5371AF486A900CADD1F /* GoogleMobileAds.framework in Frameworks */,
-				DD3AA5071AFB0DF500AB8EC5 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +520,6 @@
 		DD1EF7901A9ED5CA00B745AA = {
 			isa = PBXGroup;
 			children = (
-				DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */,
-				DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */,
 				DD1EF79B1A9ED5CA00B745AA /* iRank Timer */,
 				DD1EF7B11A9ED5CA00B745AA /* iRank TimerTests */,
 				DD1EF79A1A9ED5CA00B745AA /* Products */,
@@ -579,6 +573,7 @@
 			children = (
 				DDFA4D541AB27495002A7F43 /* Localizable.strings */,
 				DDFA4D471AB27274002A7F43 /* Info.plist */,
+				DDFA4D3D1AB271C5002A7F43 /* Info.plist */,
 				DD1EF7F01A9ED74400B745AA /* languages.plist */,
 				DD1EF7F11A9ED74400B745AA /* firstAnteSoundList.plist */,
 				DD1EF7F21A9ED74400B745AA /* lastMinuteSoundList.plist */,
@@ -622,7 +617,6 @@
 				DD1EF81B1A9ED84100B745AA /* XmlBlindSetParser.swift */,
 				DD1EF81C1A9ED84100B745AA /* TutorialView.swift */,
 				DD7ACC741AA4127400D7EC05 /* BackgroundViewController.swift */,
-				DD3CC0A71AF475D700CADD1F /* Constants.swift */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -818,12 +812,12 @@
 			children = (
 				DD9B8ED11AA2A15500AD993E /* iPad_TimerViewController.swift */,
 				DD1EF7C51A9ED72A00B745AA /* iPad_BlindSetEditorViewController.swift */,
-				DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */,
 				DDFA4D121AB15495002A7F43 /* iPad_BlindSetEditor.storyboard */,
 				DDFA4D171AB154A3002A7F43 /* iPad_BlindSetWizard.storyboard */,
 				DDFA4D1C1AB154AD002A7F43 /* iPad_Config.storyboard */,
 				DDFA4D211AB154B6002A7F43 /* iPad_CreateMenu.storyboard */,
 				DDFA4D271AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard */,
+				DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -858,21 +852,21 @@
 		DD9B8ED31AA2A26E00AD993E /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				DD9B8ECF1AA29FD100AD993E /* iPhone_TimerViewController.swift */,
 				DD7ACC6E1AA4099600D7EC05 /* iPhone_NavigationController.swift */,
 				DD022FE91AABF1E400ED0D39 /* iPhone_RemoteControlNavigationController.swift */,
 				DD0230161AAD06FD00ED0D39 /* iPhone_CreateMenuNavigationController.swift */,
+				DD9B8ECF1AA29FD100AD993E /* iPhone_TimerViewController.swift */,
 				DD7ACC691AA3F3A900D7EC05 /* iPhone_TimerMenuViewController.swift */,
 				DD7ACC721AA411AE00D7EC05 /* iPhone_RemoteControlViewController.swift */,
 				DD12433D1AA7D4F30061832B /* iPhone_BlindSetEditorViewController.swift */,
 				DD9F58401AAB75FD004AC8DD /* iPhone_BlindLevelEditorViewController.swift */,
 				DD0230141AACD1BE00ED0D39 /* iPhone_CreateMenuViewController.swift */,
-				DDFA4CEE1AB14449002A7F43 /* iPhone_Timer.storyboard */,
 				DDFA4D021AB14495002A7F43 /* iPhone_BlindSetEditor.storyboard */,
 				DDFA4CFD1AB14485002A7F43 /* iPhone_Config.storyboard */,
 				DDFA4CF81AB14473002A7F43 /* iPhone_CreateMenu.storyboard */,
 				DD5BC4A71AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard */,
 				DDFA4CF31AB1445E002A7F43 /* iPhone_RemoteControl.storyboard */,
+				DDFA4CEE1AB14449002A7F43 /* iPhone_Timer.storyboard */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -1065,6 +1059,7 @@
 				DD1EF8D41A9ED8E500B745AA /* table-3-players.png in Resources */,
 				DD1EF86F1A9ED89600B745AA /* first-ante-6.mp3 in Resources */,
 				DD1EF8C81A9ED8E500B745AA /* chip100.png in Resources */,
+				DDFA4D3B1AB271C5002A7F43 /* Info.plist in Resources */,
 				DD1EF8621A9ED89600B745AA /* first-ante-4.mp3 in Resources */,
 				DD1EF8701A9ED89600B745AA /* blind-change-13.mp3 in Resources */,
 				DD1EF9471A9ED8FF00B745AA /* background-6.jpg in Resources */,
@@ -1203,7 +1198,6 @@
 				DD1EF8251A9ED84100B745AA /* TutorialView.swift in Sources */,
 				DD1EF8221A9ED84100B745AA /* Regex.swift in Sources */,
 				DD1EF7DF1A9ED72A00B745AA /* BlindSetEditorDetailsViewController.swift in Sources */,
-				DD3CC0A81AF475D700CADD1F /* Constants.swift in Sources */,
 				DD022FE71AABDC3C00ED0D39 /* MBProgressHUD.m in Sources */,
 				DD12433E1AA7D4F30061832B /* iPhone_BlindSetEditorViewController.swift in Sources */,
 				DD9F58411AAB75FD004AC8DD /* iPhone_BlindLevelEditorViewController.swift in Sources */,
@@ -1362,6 +1356,16 @@
 			name = iPad_Timer.storyboard;
 			sourceTree = "<group>";
 		};
+		DDFA4D3D1AB271C5002A7F43 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFA4D3E1AB271DB002A7F43 /* Base */,
+				DDFA4D411AB271F1002A7F43 /* pt */,
+				DDFA4D421AB271F4002A7F43 /* es */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		DDFA4D541AB27495002A7F43 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1467,12 +1471,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "iRank Timer/iRank Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1491,12 +1491,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "iRank Timer/iRank Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -10,10 +10,14 @@ import UIKit
 import MultipeerConnectivity
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRateDelegate, UIAlertViewDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRateDelegate {
 
-    let device = UIDevice.currentDevice();
+    let device     = UIDevice.currentDevice();
+    let iosVersion = NSString(string: UIDevice.currentDevice().systemVersion).doubleValue;
     
+    let IS_IPAD : Bool = (UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad);
+    let IS_IPHONE : Bool = (UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Phone);
+
     let kCurrentBlindSetIndex          = "currentBlindSetIndex"
     let kSavedSettings                 = "savedSettings";
     let kSettingsBlindChangeSound      = "settings.blindChangeSound"
@@ -75,11 +79,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
     var hideStatusBar : Bool = true;
     var multipeerDeviceName : String = NSLocalizedString("No device", comment: "");
     var multipeerDeviceID : String = "";
-    var lastMultipeerDeviceID : String = "";
     var language : String = "english";
     var needBackup : Bool = false;
     var isAdvertising : Bool = true; // Utilizado apenas por iPhones
-    var bannerType : String!;
+    var IS_IPHONE_4_OR_LESS : Bool = false;
+    var IS_IPHONE_5 : Bool = false;
+    var IS_IPHONE_6 : Bool = false;
+    var IS_IPHONE_6P : Bool = false;
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -100,16 +106,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             convertedBlindSet = true;
         }
         
-        if( Constants.LITE_VERSION ){
-            
-            enableBackup = false;
-            
-            if( Constants.DeviceIdiom.IS_IPHONE ){
-                
-                hideStatusBar = true;
-            }
-        }
-        
         blindSetList = BlindSet.loadArchivedBlindSetList(true);
         
         // Instanciar isso apenas quando a conexão estiver habilitada
@@ -118,7 +114,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             enableMultipeerConnection();
         }
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( IS_IPHONE ){
+            
+            let SCREEN_WIDTH = UIScreen.mainScreen().bounds.size.width
+            let SCREEN_HEIGHT = UIScreen.mainScreen().bounds.size.height
+            let SCREEN_MAX_LENGTH = max(SCREEN_WIDTH, SCREEN_HEIGHT)
+            let SCREEN_MIN_LENGTH = min(SCREEN_WIDTH, SCREEN_HEIGHT)
+            
+            IS_IPHONE_4_OR_LESS = (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+            IS_IPHONE_5 = (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+            IS_IPHONE_6 = (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+            IS_IPHONE_6P = (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
 
             self.timerViewController = (self.window?.rootViewController as! UINavigationController).viewControllers.first as! iPhone_TimerViewController;
         }else{
@@ -129,21 +135,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         timerViewController.blindSetList         = blindSetList;
         timerViewController.currentBlindSetIndex = currentBlindSetIndex;
         
-        iRate.sharedInstance().applicationBundleID = "com.stegun.iRank-Timer" + (Constants.LITE_VERSION ? "-Lite" : "");
+        iRate.sharedInstance().applicationBundleID = "com.stegun.iRank-Timer"
         iRate.sharedInstance().onlyPromptIfLatestVersion = false
         
         //enable preview mode
         iRate.sharedInstance().previewMode = false
         
-        bannerType = Int(arc4random_uniform(UInt32(10))) >= 5 ? "google" : "apple";
-        bannerType = "google";
-        println("bannerType: \(bannerType)");
-        
         return true;
     }
 
     func applicationWillResignActive(application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as! an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
 
@@ -166,7 +168,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
-        // Called as! part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
         
         NSNotificationCenter.defaultCenter().removeObserver(self, name: kNotificationBlindLevelChange, object: nil);
         
@@ -274,7 +276,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         
         if( backgroundImageName == "custom" ){
             
-//            backgroundCustomImage = userDefaults.objectForKey(kSettingsBackgroundImageName) as! UIImage;
+//            backgroundCustomImage = userDefaults.objectForKey(kSettingsBackgroundImageName) as UIImage;
             
             var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as Array;
             var documentsDirectory : String = paths[0] as! String;
@@ -363,7 +365,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         
         blindSetList = timerViewController.blindSetList;
         
-        (timerViewController as TimerViewController).blindSet.currentElapsedSeconds = (timerViewController as TimerViewController).currentElapsedSeconds;
+        (timerViewController as TimerViewController).blindSet.currentElapsedSeconds     = (timerViewController as TimerViewController).currentElapsedSeconds;
         blindSetList[timerViewController.currentBlindSetIndex] = (timerViewController as TimerViewController).blindSet;
         
         BlindSet.archiveBlindSetList(blindSetList);
@@ -377,7 +379,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         mpcManager.delegate = self;
         
         // Só vai ficar visível se for um iPhone. Um iPad não controlará outro iPad
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( IS_IPHONE ){
             
             mpcManager.advertiser.startAdvertisingPeer();
         }else{
@@ -391,7 +393,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
     
     func foundPeer() {
 
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( IS_IPAD ){
             
             dispatch_async(dispatch_get_main_queue()!, { () -> Void in
                 
@@ -403,7 +405,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
     
     func lostPeer() {
 
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( IS_IPAD ){
             
             dispatch_async(dispatch_get_main_queue()!, { () -> Void in
                 
@@ -438,7 +440,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
 
 //        print("connectedWithPeer, ");
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( IS_IPHONE ){
             
             (timerViewController as! iPhone_TimerViewController).loadRemoteControl();
             
@@ -447,7 +449,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             isAdvertising = false;
             
 //            println("I'm an iPhone");
-        }else if( Constants.DeviceIdiom.IS_IPAD ){
+        }else if( IS_IPAD ){
             
 //            println("I'm an iPad");
             dispatch_async(dispatch_get_main_queue()!, { () -> Void in
@@ -461,12 +463,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         
 //        println("disconnectedFromPeer");
         
-        lastMultipeerDeviceID = multipeerDeviceID;
-        
         multipeerDeviceName = NSLocalizedString("No device", comment: "");
         multipeerDeviceID   = "";
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( IS_IPHONE ){
   
             (timerViewController as! iPhone_TimerViewController).unloadRemoteControl();
             
@@ -475,7 +475,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             isAdvertising = true;
         }
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( IS_IPAD ){
 
             dispatch_async(dispatch_get_main_queue()!, { () -> Void in
                 
@@ -494,40 +494,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         
         var orientation = UIApplication.sharedApplication().statusBarOrientation;
         return UIInterfaceOrientationIsPortrait(orientation);
-    }
-    
-    
-    
-    func checkLiteVersion(message: String) -> Bool {
-        
-        if( Constants.LITE_VERSION ){
-            
-            var alertView = UIAlertView(title: NSLocalizedString("Feature unavailable", comment: ""), message: message, delegate: self, cancelButtonTitle: NSLocalizedString("Not now", comment: ""), otherButtonTitles: NSLocalizedString("Upgrade", comment: ""));
-            
-            alertView.show();
-            
-            return false;
-        }
-        
-        return true;
-    }
-    
-    func checkLiteVersion() -> Bool {
-        
-        return checkLiteVersion(NSLocalizedString("This feature is only available in the full version of the app.\nWould you like to upgrade now?", comment:""));
-    }
-    
-    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
-        
-        if( buttonIndex == 1 ){
-            
-            let appUrl = String(format: "\(Constants.APP_URL)", language);
-            
-            UIApplication.sharedApplication().openURL(NSURL(string: appUrl)!);
-        }else{
-            
-            
-        }
     }
 }
 

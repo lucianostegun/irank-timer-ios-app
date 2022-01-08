@@ -83,7 +83,7 @@ class ConfigDetailsBackupViewController : UITableViewController, UIAlertViewDele
             
             let decodedData = NSData(base64EncodedString: fileName, options: NSDataBase64DecodingOptions.allZeros);
             
-            fileName = NSString(data: decodedData!, encoding: NSUTF8StringEncoding)! as! String;
+            fileName = NSString(data: decodedData!, encoding: NSUTF8StringEncoding)! as String;
 //            println("fileName: \(fileName)")
             
             cell.textLabel?.text = "\(fileName)";
@@ -256,14 +256,6 @@ class ConfigDetailsBackupViewController : UITableViewController, UIAlertViewDele
     }
     
     @IBAction func toggleEnableBackup(sender: AnyObject) {
-        
-        if( !appDelegate.checkLiteVersion() ){
-            
-            appDelegate.enableBackup = false;
-            swcEnableBackup.on       = false;
-            appDelegate.needBackup   = false;
-            return;
-        }
         
         if( !appDelegate.enableBackup && swcEnableBackup.on && !appDelegate.needBackup ){
             

@@ -43,7 +43,7 @@ class ConfigDetailsLongPauseViewController : UITableViewController {
             style: UITableViewCellStyle.Default,
             reuseIdentifier: "LONG_PAUSE_ALERT_CELL")
         
-        var minutes : Int = longPauseAlertOptionList[indexPath.row] as! Int;
+        var minutes : Int = longPauseAlertOptionList[indexPath.row] as Int;
         var pluralMinutes = minutes == 1 ? NSLocalizedString("minute", comment: "") : NSLocalizedString("minutes", comment: "");
             
         cell.textLabel?.text = minutes == 0 ? NSLocalizedString("Disabled", comment: "") : "\(minutes) \(pluralMinutes)";

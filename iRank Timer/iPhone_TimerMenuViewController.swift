@@ -111,7 +111,7 @@ class iPhone_TimerMenuViewController : UITableViewController {
             timerViewController.appDelegate.needBackup = true;
             
             timerViewController.blindSetList.removeAtIndex(indexPath.row);
-            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as! [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
+            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
             
             var resetTimer = (indexPath.row == timerViewController.currentBlindSetIndex);
             
@@ -155,11 +155,6 @@ class iPhone_TimerMenuViewController : UITableViewController {
     }
     
     @IBAction func switchEditingBlindSetList(sender: AnyObject) {
-        
-        if( !appDelegate.checkLiteVersion() ){
-            
-            return;
-        }
         
         var btnEdit = sender as! UIBarButtonItem;
         

@@ -68,7 +68,7 @@ class Util {
         
         blindNumberFloat = blindNumberFloat / 1000;
         
-        var blindLabel : String = NSString(format: "%.2fk", blindNumberFloat) as! String;
+        var blindLabel : String = NSString(format: "%.2fk", blindNumberFloat) as String;
         
         blindLabel = blindLabel.stringByReplacingOccurrencesOfString(".00", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil);
         blindLabel = blindLabel.stringByReplacingOccurrencesOfString(".0", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil);
@@ -77,32 +77,6 @@ class Util {
         blindLabel = blindLabel.replace("(\\.[1-9]+)0*k$", template: "$1k");
         
         return blindLabel;
-    }
-    
-    class func getScreenWidth(view: UIView) -> CGFloat {
-        
-        var width  = view.frame.size.width;
-        var height = view.frame.size.height;
-        
-        if( Constants.DeviceIdiom.IS_IPAD && height > width ){
-                
-            width = height;
-        }
-        
-        return width;
-    }
-    
-    class func getScreenHeight(view: UIView) -> CGFloat {
-        
-        var width  = view.frame.size.width;
-        var height = view.frame.size.height;
-        
-        if( Constants.DeviceIdiom.IS_IPAD && height > width ){
-                
-            height = width;
-        }
-        
-        return height;
     }
 }
 

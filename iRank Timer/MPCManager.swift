@@ -143,7 +143,7 @@ class MPCManager: NSObject, MCSessionDelegate, MCNearbyServiceBrowserDelegate, M
         let peersArray = NSArray(object: targetPeer)
         var error: NSError?
         
-        if !session.sendData(dataToSend, toPeers: peersArray as! [AnyObject], withMode: MCSessionSendDataMode.Reliable, error: &error) {
+        if !session.sendData(dataToSend, toPeers: peersArray as [AnyObject], withMode: MCSessionSendDataMode.Reliable, error: &error) {
             println(error?.localizedDescription)
             return false
         }

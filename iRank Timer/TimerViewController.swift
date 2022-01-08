@@ -11,14 +11,10 @@ import Foundation
 import AudioToolbox
 import AVFoundation
 import MultipeerConnectivity
-import iAd
 
-class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBannerViewDelegate, GADBannerViewDelegate {
+class TimerViewController: BackgroundViewController, UIAlertViewDelegate {
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
-    
-    var gAdBannerView : GADBannerView!;
-    var iAdBannerView: ADBannerView!
     
     @IBOutlet var sldrTimeSlider : [UISlider]!;
     @IBOutlet var lblTimer : [UILabel]!;
@@ -34,7 +30,6 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
     @IBOutlet var lblNextLevel : [UILabel]!;
     @IBOutlet var btnNextLevel : [UIButton]!;
     @IBOutlet var btnPreviousLevel : [UIButton]!;
-    @IBOutlet var btnTimer : [UIButton]!;
     @IBOutlet var imgHand : [UIImageView]!;
     @IBOutlet var lblCountDown : [UILabel]!;
     @IBOutlet var imgHorizontalLineLeft : [UIImageView]!;
@@ -153,29 +148,11 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
     }
     
     override func viewDidAppear(animated: Bool) {
-        
         super.viewDidAppear(animated);
         
         if( appDelegate.firstExecution ){
             
             NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("showHandAnimation"), userInfo: nil, repeats: false);
-        }
-        
-        if( Constants.LITE_VERSION ){
-            
-            setupAdBanner();
-            
-            if( iAdBannerView != nil ){
-                
-                iAdBannerView.hidden = false;
-                iAdBannerView.alpha  = 1;
-            }
-            
-            if( gAdBannerView != nil ){
-                
-                gAdBannerView.hidden = false;
-                gAdBannerView.alpha  = 1;
-            }
         }
     }
     
@@ -190,46 +167,6 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
     
     override func prefersStatusBarHidden() -> Bool {
         return appDelegate.hideStatusBar;
-    }
-    
-    func setupAdBanner(){
-        
-    }
-    
-    func bannerViewDidLoadAd(banner: ADBannerView!) {
-        
-        if( iAdBannerView != nil ){
-            
-            iAdBannerView.hidden = false;
-        }
-        
-        banner.hidden = false;
-    }
-    
-    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!){
-
-        if( iAdBannerView != nil ){
-            
-            iAdBannerView.hidden = true;
-        }
-    }
-    
-    func adViewDidReceiveAd(view: GADBannerView!) {
-        
-        if( gAdBannerView != nil ){
-            
-            gAdBannerView.hidden = false;
-        }
-    }
-    
-    func adView(view: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
-        
-        if( gAdBannerView != gAdBannerView ){
-            
-            gAdBannerView.hidden = true;
-        }
-        
-        view.hidden = false;
     }
     
     func checkMultipeerMode(){
@@ -329,7 +266,7 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
             lblLevel.last!.text        = lblLevel.first!.text
         }
         
-        if( blindSet.blindLevelList[currentLevelIndex].isBreak && appDelegate.isPortrait() && (Constants.DeviceType.IS_IPHONE_4_OR_LESS) ){
+        if( blindSet.blindLevelList[currentLevelIndex].isBreak && appDelegate.isPortrait() && (appDelegate.IS_IPHONE_4_OR_LESS) ){
             
             lblSmallBlindLabel.first!.hidden = true;
             lblSmallBlindLabel.last!.hidden  = true;
@@ -473,9 +410,9 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
     
     func updateTimerLabel(){
         
-        lblTimer.first!.text       = Util.formatTimeString(sldrTimeSlider.first!.value) as? String;
+        lblTimer.first!.text       = Util.formatTimeString(sldrTimeSlider.first!.value) as String;
         lblTimer.last!.text = lblTimer.first!.text
-        lblElapsedTime.first!.text = Util.formatTimeString(Float(blindSet.elapsedSeconds+currentElapsedSeconds)) as? String;
+        lblElapsedTime.first!.text = Util.formatTimeString(Float(blindSet.elapsedSeconds+currentElapsedSeconds)) as String;
         lblElapsedTime.last!.text = lblElapsedTime.first!.text
         
         if( blindSet.nextBreakRemain == 0 ){
@@ -484,7 +421,7 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
             lblNextBreak.last!.text = lblNextBreak.first!.text
         }else{
             
-            lblNextBreak.first!.text = Util.formatTimeString(Float(blindSet.nextBreakRemain-currentElapsedSeconds)) as? String;
+            lblNextBreak.first!.text = Util.formatTimeString(Float(blindSet.nextBreakRemain-currentElapsedSeconds)) as String;
             lblNextBreak.last!.text = lblNextBreak.first!.text
         }
     }

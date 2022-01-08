@@ -29,7 +29,7 @@ class BlindSetEditorMasterViewController : UITableViewController, UITextFieldDel
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             blindSet = (parentViewController?.parentViewController as! iPad_BlindSetEditorViewController).blindSet;
         }else{
@@ -48,7 +48,7 @@ class BlindSetEditorMasterViewController : UITableViewController, UITextFieldDel
     
     override func supportedInterfaceOrientations() -> Int {
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             return Int(UIInterfaceOrientationMask.LandscapeLeft.rawValue) | Int(UIInterfaceOrientationMask.LandscapeRight.rawValue)
         }else{
@@ -141,15 +141,9 @@ class BlindSetEditorMasterViewController : UITableViewController, UITextFieldDel
     
     @IBAction func saveBlindSet(sender: AnyObject) {
         
-        if( blindSet.isNew && Constants.LITE_VERSION ){
-            
-            appDelegate.checkLiteVersion(NSLocalizedString("This version of iRank Timer only allow 3 blind sets. Would like to upgrade and create unlimited blind sets?", comment: ""))
-            return;
-        }
-        
         blindSet.blindSetName = txtBlindSetName.text;
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
 
             var blindSetEditorViewController : iPad_BlindSetEditorViewController = parentViewController?.parentViewController as! iPad_BlindSetEditorViewController;
             var detailsViewController = (blindSetEditorViewController.viewControllers.last as! UINavigationController).viewControllers.first as! BlindSetEditorDetailsViewController;

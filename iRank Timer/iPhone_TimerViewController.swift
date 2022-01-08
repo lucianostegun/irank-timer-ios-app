@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import iAd
 
 class iPhone_TimerViewController: TimerViewController {
     
@@ -32,74 +31,6 @@ class iPhone_TimerViewController: TimerViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("onDeviceOrientationDidChange:"), name: UIDeviceOrientationDidChangeNotification, object: nil);
     }
     
-    override func setupAdBanner(){
-        
-        if( appDelegate.bannerType == "apple" ){
-            
-            if( iAdBannerView != nil ){
-                
-                return;
-            }
-            
-            iAdBannerView = ADBannerView(adType: ADAdType.Banner);
-            iAdBannerView.delegate = self;
-            iAdBannerView.frame  = CGRectMake(0, 0, self.view.bounds.size.width, 50);
-            iAdBannerView.contentMode = UIViewContentMode.Center;
-//            iAdBannerView.hidden = true;
-            self.view.addSubview(iAdBannerView)
-        }else{
-            
-            if( gAdBannerView != nil ){
-                
-                return;
-            }
-            
-            gAdBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait);
-            gAdBannerView.adUnitID = Constants.kBannerUnitID;
-            gAdBannerView.rootViewController = self;
-            gAdBannerView.hidden = true;
-            gAdBannerView.delegate = self;
-            self.view.addSubview(gAdBannerView);
-            gAdBannerView.loadRequest(GADRequest());
-        }
-        
-        repositionViewsForAdBannerView();
-    }
-    
-    override func bannerViewDidLoadAd(banner: ADBannerView!) {
-        
-        super.bannerViewDidLoadAd(banner);
-    }
-    
-    override func adViewDidReceiveAd(view: GADBannerView!) {
-        
-        super.adViewDidReceiveAd(view);
-    }
-    
-    func repositionViewsForAdBannerView(){
-        
-//        lblTimer.first!.frame.origin.y         = lblTimer.first!.frame.origin.y + 10;
-//        btnPreviousLevel.first!.frame.origin.y = btnPreviousLevel.first!.frame.origin.y + 10;
-//        btnNextLevel.first!.frame.origin.y     = btnNextLevel.first!.frame.origin.y + 10;
-//
-//        lblTimer.last!.frame.size.height       = 60;
-//        btnTimer.last!.frame.size.height       = 60;
-//        lblTimer.last!.frame.origin.y          = lblTimer.last!.frame.origin.y + 40;
-//        btnTimer.last!.frame.origin.y          = btnTimer.last!.frame.origin.y + 40;
-//        sldrTimeSlider.last!.frame.origin.y    = sldrTimeSlider.last!.frame.origin.y + 15;
-
-        lblTimer.first!.frame.origin.y         = 30.0
-        btnPreviousLevel.first!.frame.origin.y = 30.0
-        btnNextLevel.first!.frame.origin.y     = 30.0
-        
-        lblTimer.last!.frame.size.height       = 60.0
-        btnTimer.last!.frame.size.height       = 60.0
-        
-        lblTimer.last!.frame.origin.y          = 54.0
-        btnTimer.last!.frame.origin.y          = 54.0
-        sldrTimeSlider.last!.frame.origin.y    = 120.0
-    }
-    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated);
         
@@ -110,7 +41,6 @@ class iPhone_TimerViewController: TimerViewController {
     }
     
     override func viewDidDisappear(animated: Bool) {
-
         super.viewDidDisappear(animated);
         
         MBProgressHUD.hideAllHUDsForView(self.view, animated: true);
@@ -135,39 +65,33 @@ class iPhone_TimerViewController: TimerViewController {
     func onDeviceOrientationDidChange(notifiction : NSNotification){
         
         switchOptionalLabels();
-
+//
+//        println("appDelegate.isPortrait(): \(appDelegate.isPortrait())");
+//        println("appDelegate.isLandscape(): \(appDelegate.isLandscape())");
+//        
         portraitView.hidden = appDelegate.isLandscape();
-        
-        if( Constants.LITE_VERSION ){
-            
-            var adSize : GADAdSize!;
-            var adFrame : CGRect!;
-            
-            if( appDelegate.isLandscape() ){
-                
-                adFrame = CGRectMake(0, 0, self.view.bounds.size.width, 32);
-                adSize  = kGADAdSizeSmartBannerLandscape;
-            }else{
-                
-                adFrame = CGRectMake(0, 0, self.view.bounds.size.width, 50);
-                adSize  = kGADAdSizeSmartBannerPortrait;
-            }
-            
-            if( iAdBannerView != nil ){
-                
-                iAdBannerView.frame  = adFrame;
-            }
-            
-            if( gAdBannerView != nil ){
-                
-                gAdBannerView.adSize = adSize;
-            }
-        }
+//        landscapeView.hidden = appDelegate.isPortrait();
+//        
+//        println("portraitView.hidden: \(portraitView.hidden) : \(portraitView.frame)");
+//        println("landscapeView.hidden: \(landscapeView.hidden) : \(landscapeView.frame)");
     }
+    
+//    override func didRotateFromInterfaceOrientation(fromInterfaceOrientation: UIInterfaceOrientation) {
+//        
+//        switchOptionalLabels();
+//        
+//        if( appDelegate.isLandscape() && (fromInterfaceOrientation == UIInterfaceOrientation.Portrait || fromInterfaceOrientation == UIInterfaceOrientation.PortraitUpsideDown) ){
+//
+//            portraitView.hidden  = true;
+//        }else if( appDelegate.isPortrait() && (fromInterfaceOrientation == UIInterfaceOrientation.LandscapeLeft || fromInterfaceOrientation == UIInterfaceOrientation.LandscapeRight) ){
+//            
+//            portraitView.hidden  = false;
+//        }
+//    }
     
     func switchOptionalLabels(){
         
-        if( !Constants.DeviceType.IS_IPHONE_6 && !Constants.DeviceType.IS_IPHONE_6P ){
+        if( !appDelegate.IS_IPHONE_6 && !appDelegate.IS_IPHONE_6P ){
             
             imgHorizontalLineLeft.first!.hidden = true;
             imgHorizontalLineLeft.last!.hidden = imgHorizontalLineLeft.first!.hidden
@@ -176,7 +100,7 @@ class iPhone_TimerViewController: TimerViewController {
             lblNextLevel.first!.hidden = true;
             lblNextLevel.last!.hidden = lblNextLevel.first!.hidden
             
-            var hideExtraLabels : Bool = Constants.DeviceType.IS_IPHONE_4_OR_LESS || appDelegate.isLandscape();
+            var hideExtraLabels : Bool = appDelegate.IS_IPHONE_4_OR_LESS || appDelegate.isLandscape();
             
                 lblNextSmallBlind.first!.hidden = hideExtraLabels;
                 lblNextSmallBlind.last!.hidden = lblNextSmallBlind.first!.hidden
@@ -252,6 +176,31 @@ class iPhone_TimerViewController: TimerViewController {
             vc.currentElapsedSeconds   = self.currentElapsedSeconds;
             vc.moveMainViewOnEdit      = self.moveMainViewOnEdit;
             vc.firstAnteNotified       = self.firstAnteNotified;
+            
+            //            vc.sldrTimeSlider.value     = self.sldrTimeSlider.value
+            //            vc.lblTimer.text            = self.lblTimer.text
+            //            vc.lblSmallBlind.text       = self.lblSmallBlind.text
+            //            vc.lblBigBlind.text         = self.lblBigBlind.text
+            //            vc.lblAnte.text             = self.lblAnte.text
+            //            vc.lblNextSmallBlind.text   = self.lblNextSmallBlind.text
+            //            vc.lblNextBigBlind.text     = self.lblNextBigBlind.text
+            //            vc.lblNextAnte.text         = self.lblNextAnte.text
+            //            vc.lblElapsedTime.text      = self.lblElapsedTime.text
+            //            vc.lblLevel.text            = self.lblLevel.text
+            //            vc.lblNextBreak.text        = self.lblNextBreak.text
+            //            vc.lblElapsedTimeLabel.text = self.lblElapsedTimeLabel.text
+            //            vc.lblLevelLabel.text       = self.lblLevelLabel.text
+            //            vc.lblNextBreakLabel.text   = self.lblNextBreakLabel.text
+            //            vc.lblNextLevel.text        = self.lblNextLevel.text
+            //            vc.lblSmallBlindLabel.text  = self.lblSmallBlindLabel.text
+            //            vc.lblBigBlindLabel.text    = self.lblBigBlindLabel.text
+            //            vc.lblAnteLabel.text        = self.lblAnteLabel.text
+            //            vc.lblCountDown.text        = self.lblCountDown.text
+            //
+            //            if( isRunning ){
+            //
+            //                vc.startTimer();
+            //            }
         }
     }
     

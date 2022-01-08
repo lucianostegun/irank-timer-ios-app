@@ -187,7 +187,7 @@ class BlindSet : NSObject, NSCoding {
         updateElapsedSeconds();
         updateNextBreak();
         
-        self.duration = Util.formatTimeString(Float(duration)) as! String;
+        self.duration = Util.formatTimeString(Float(duration)) as String;
     }
     
     func updateNextBreak(){
@@ -270,14 +270,14 @@ class BlindSet : NSObject, NSCoding {
 
         var blindSetListPath = "\(documentsDirectory)/customBlindSetList.data";
         
-//        println("blindSetListPath: \(blindSetListPath)");
+        println("blindSetListPath: \(blindSetListPath)");
         
         var manager : NSFileManager = NSFileManager.defaultManager();
         var fileExists = manager.fileExistsAtPath(blindSetListPath);
         
         if( !fileExists ){
             
-//            println("Arquivo não existe");
+            println("Arquivo não existe");
             return;
         }
         

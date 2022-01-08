@@ -24,7 +24,7 @@ class CreateMenuViewController : BackgroundViewController {
         
         super.viewDidLoad();
         
-        if( Constants.DeviceIdiom.IS_IPHONE ){
+        if( appDelegate.IS_IPHONE ){
             
             backgroundWidth  = 928
             backgroundHeight = 522;
@@ -52,7 +52,7 @@ class CreateMenuViewController : BackgroundViewController {
     
     @IBAction func loadBlindSetEditorStoryboard(sender: AnyObject) {
         
-        let iDevice    = Constants.DeviceIdiom.IS_IPAD ? "iPad" : "iPhone";
+        let iDevice    = appDelegate.IS_IPAD ? "iPad" : "iPhone";
         
         let storyboard = UIStoryboard(name: "\(iDevice)_BlindSetEditor", bundle: nil)
 
@@ -82,7 +82,7 @@ class CreateMenuViewController : BackgroundViewController {
         
         blindSet.blindLevelList.append(blindLevel);
         
-        if( Constants.DeviceIdiom.IS_IPAD ){
+        if( appDelegate.IS_IPAD ){
             
             let vc         = storyboard.instantiateInitialViewController() as! UINavigationController
             let svc = vc.viewControllers.first as! iPad_BlindSetEditorViewController;
@@ -106,7 +106,7 @@ class CreateMenuViewController : BackgroundViewController {
     
     @IBAction func loadPresetBlindSetsStoryboard(sender: AnyObject) {
         
-        let iDevice    = Constants.DeviceIdiom.IS_IPAD ? "iPad" : "iPhone";
+        let iDevice    = appDelegate.IS_IPAD ? "iPad" : "iPhone";
         let storyboard = UIStoryboard(name: "\(iDevice)_PresetBlindSets", bundle: nil)
         let vc         = storyboard.instantiateInitialViewController() as! UINavigationController
         let svc        = vc.viewControllers.first as! PresetBlindSetsViewController;

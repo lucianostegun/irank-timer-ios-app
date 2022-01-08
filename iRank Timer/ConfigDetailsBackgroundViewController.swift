@@ -118,12 +118,6 @@ class ConfigDetailsBackgroundViewController : UITableViewController, UINavigatio
                 useCustomImage = false;
             }else{
                 
-                if( !appDelegate.checkLiteVersion() ){
-                    
-                    tableView.reloadData();
-                    return;
-                }
-                
                 if( UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.SavedPhotosAlbum) ){
                     
                     imagePicker.delegate = self;

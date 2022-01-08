@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import iAd
 
 class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -28,107 +27,13 @@ class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITabl
     }
     
     override func viewDidAppear(animated: Bool) {
-        
         super.viewDidAppear(animated);
         
         self.menuView.frame = CGRectMake((self.menuView.frame.size.width * -1), 0, self.menuView.frame.size.width, self.menuView.frame.size.height);
+
         self.menuView.hidden = false;
     }
     
-    override func setupAdBanner(){
-        
-        if( appDelegate.bannerType == "apple" ){
-            
-            if( iAdBannerView != nil ){
-                
-                return;
-            }
-            
-            iAdBannerView = ADBannerView(adType: ADAdType.Banner);
-            iAdBannerView.delegate = self;
-            iAdBannerView.frame  = CGRectMake(0, 702, 1024, 60);
-            iAdBannerView.contentMode = UIViewContentMode.Center;
-            iAdBannerView.frame.origin.y = Util.getScreenHeight(self.view) - iAdBannerView.frame.size.height;
-            iAdBannerView.hidden = true;
-            self.view.addSubview(iAdBannerView);
-        }else{
-            
-            if( gAdBannerView != nil ){
-                
-                return;
-            }
-            
-            gAdBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerLandscape);
-            gAdBannerView.delegate = self;
-            gAdBannerView.adUnitID = Constants.kBannerUnitID;
-            gAdBannerView.rootViewController = self;
-            gAdBannerView.hidden = true;
-            self.view.addSubview(gAdBannerView);
-            gAdBannerView.loadRequest(GADRequest());
-            
-            gAdBannerView.frame.origin.y = Util.getScreenHeight(self.view) - gAdBannerView.frame.size.height;
-        }
-    }
-    
-    override func bannerViewDidLoadAd(banner: ADBannerView!) {
-        
-        super.bannerViewDidLoadAd(banner);
-        
-        repositionViewsForAdBannerView();
-    }
-    
-    override func adViewDidReceiveAd(view: GADBannerView!) {
-
-        super.adViewDidReceiveAd(view);
-        
-        repositionViewsForAdBannerView();
-    }
-    
-    func repositionViewsForAdBannerView(){
-        
-        var delta : CGFloat = (appDelegate.bannerType == "apple" ? 0 : 30);
-//
-//        lblSmallBlind.first!.frame.origin.y          = lblSmallBlind.first!.frame.origin.y - 66;
-//        lblBigBlind.first!.frame.origin.y            = lblBigBlind.first!.frame.origin.y - 66;
-//        lblAnte.first!.frame.origin.y                = lblAnte.first!.frame.origin.y - 66;
-//        lblNextSmallBlind.first!.frame.origin.y      = lblNextSmallBlind.first!.frame.origin.y - 66;
-//        lblNextBigBlind.first!.frame.origin.y        = lblNextBigBlind.first!.frame.origin.y - 66;
-//        lblNextAnte.first!.frame.origin.y            = lblNextAnte.first!.frame.origin.y - 66;
-//        lblNextLevel.first!.frame.origin.y           = lblNextLevel.first!.frame.origin.y - 66;
-//        imgHorizontalLineLeft.first!.frame.origin.y  = imgHorizontalLineLeft.first!.frame.origin.y - 66;
-//        imgHorizontalLineRight.first!.frame.origin.y = imgHorizontalLineRight.first!.frame.origin.y - 66;
-//        lblSmallBlindLabel.first!.frame.origin.y     = lblSmallBlindLabel.first!.frame.origin.y - 66;
-//        lblBigBlindLabel.first!.frame.origin.y       = lblBigBlindLabel.first!.frame.origin.y - 66;
-//        lblAnteLabel.first!.frame.origin.y           = lblAnteLabel.first!.frame.origin.y - 66;
-//        
-//        lblElapsedTime.first!.frame.origin.y         = lblElapsedTime.first!.frame.origin.y - delta;
-//        lblLevel.first!.frame.origin.y               = lblLevel.first!.frame.origin.y - delta;
-//        lblNextBreak.first!.frame.origin.y           = lblNextBreak.first!.frame.origin.y - delta;
-//        lblElapsedTimeLabel.first!.frame.origin.y    = lblElapsedTimeLabel.first!.frame.origin.y - delta;
-//        lblLevelLabel.first!.frame.origin.y          = lblLevelLabel.first!.frame.origin.y - delta;
-//        lblNextBreakLabel.first!.frame.origin.y      = lblNextBreakLabel.first!.frame.origin.y - delta;
-        
-        lblSmallBlind.first!.frame.origin.y          = 215.0;
-        lblBigBlind.first!.frame.origin.y            = 215.0;
-        lblAnte.first!.frame.origin.y                = 215.0;
-        lblNextSmallBlind.first!.frame.origin.y      = 446.0;
-        lblNextBigBlind.first!.frame.origin.y        = 446.0;
-        lblNextAnte.first!.frame.origin.y            = 446.0;
-        lblNextLevel.first!.frame.origin.y           = 403.0;
-        imgHorizontalLineLeft.first!.frame.origin.y  = 421.0;
-        imgHorizontalLineRight.first!.frame.origin.y = 421.0;
-        lblSmallBlindLabel.first!.frame.origin.y     = 353.0;
-        lblBigBlindLabel.first!.frame.origin.y       = 353.0;
-        lblAnteLabel.first!.frame.origin.y           = 353.0;
-
-        lblElapsedTime.first!.frame.origin.y         = 581.0 - delta;
-        lblLevel.first!.frame.origin.y               = 553.0 - delta;
-        lblNextBreak.first!.frame.origin.y           = 581.0 - delta;
-        lblElapsedTimeLabel.first!.frame.origin.y    = 659.0 - delta;
-        lblLevelLabel.first!.frame.origin.y          = 659.0 - delta;
-        lblNextBreakLabel.first!.frame.origin.y      = 659.0 - delta;
-    }
-        
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         
         return 1;
@@ -195,7 +100,7 @@ class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITabl
             appDelegate.needBackup = true;
             
             blindSetList.removeAtIndex(indexPath.row);
-            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as! [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
+            self.tableView.deleteRowsAtIndexPaths(NSArray(object: indexPath) as [AnyObject], withRowAnimation: UITableViewRowAnimation.Fade);
             
             var resetTimer = (indexPath.row == currentBlindSetIndex);
             
@@ -235,11 +140,6 @@ class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITabl
     }
     
     @IBAction func switchEditingBlindSetList(sender: AnyObject) {
-        
-        if( !appDelegate.checkLiteVersion() ){
-            
-            return;
-        }
         
         var btnEdit = sender as! UIBarButtonItem;
         
@@ -339,18 +239,7 @@ class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITabl
             }
             
             self.menuView.frame = CGRectMake(0, 0, self.menuView.frame.size.width, self.menuView.frame.size.height);
-            
-            if( Constants.LITE_VERSION ){
-                
-                if( self.appDelegate.bannerType == "apple" ){
-                    
-                    self.iAdBannerView.alpha = 0;
-                }else{
-                    
-                    self.gAdBannerView.alpha = 0;
-                }
-            }
-        }, completion: nil);
+            }, completion: nil);
         
         appDelegate.firstExecution = false;
     }
@@ -370,17 +259,6 @@ class iPad_TimerViewController: TimerViewController, UITableViewDelegate, UITabl
             }
             
             self.menuView.frame = CGRectMake((self.menuView.frame.size.width * -1), 0, self.menuView.frame.size.width, self.menuView.frame.size.height);
-            
-            if( Constants.LITE_VERSION ){
-                
-                if( self.appDelegate.bannerType == "apple" ){
-                    
-                    self.iAdBannerView.alpha = 1;
-                }else{
-                    
-                    self.gAdBannerView.alpha = 1;
-                }
-            }
-        }, completion: nil);
+            }, completion: nil);
     }
 }
