@@ -1,0 +1,112 @@
+/* TimerViewController */
+"ELAPSED" = "TEMPO DE JOGO";
+"NEXT BREAK" = "PRÓX INTERVALO";
+"NEXT LEVEL" = "PRÓX NIVEL";
+"LEVEL" = "NÍVEL";
+"DURATION" = "DURAÇÃO";
+"Previous" = "Anterior";
+"Next" = "Próximo";
+"START" = "INICIAR";
+"PAUSE" = "PAUSAR";
+"B R E A K" = "I N T E R V A L O";
+"BREAK" = "INTERVALO";
+"Select a different blind set will reset the current timer. Do you want to change?" = "Selecionar um jogo diferente irá reiniciar o jogo atual? Deseja trocar o jogo?";
+"Are you sure you want to reset the current timer?" = "Tem certeza que deseja reiniciar o jogo atual?";
+"CONFIRM" = "CONFIRMAR";
+"Cancel" = "Cancelar";
+"Reset Timer" = "Reiniciar";
+"TIMER IS PAUSED" = "JOGO PAUSADO";
+"Timer is paused for a long time.\nWould you like to resume timer now?" = "O jogo está pausado há muito tempo.\nDeseja retomar o jogo agora?";
+"NO" = "NÃO";
+"RESUME" = "RETOMAR";
+"level" = "nível";
+"levels" = "níveis";
+"break" = "intervalo";
+"breaks" = "intervalos";
+"No breaks menu" = "Sem interv.";
+"Blind Sets" = "Torneios";
+"Settings" = "Configurações";
+"Reset current timer" = "Reiniciar jogo atual";
+
+/* ConfigDetailViewController */
+"Blind change sounds" = "Sons de troca de nível";
+"1 minute left sounds" = "Alertas de 1 minuto";
+
+/* ConfigMasterViewController */
+"Sound settings" = "Ajustes de áudio";
+"General" = "Geral";
+"iRank Timer Config" = "Configurações";
+"Play sounds" = "Reproduzir sons";
+"Sounds" = "Sons";
+"Language" = "Idioma";
+"Five seconds alert" = "Tique de 5 segundos";
+"Inverse colors" = "Inverter cores";
+"Layout" = "Aparência";
+"Long pause alert" = "Alerta de pausa longa";
+"Short blind numbers" = "Abreviar números";
+"Prevent sleep" = "Prevenir bloqueio";
+"Run in background" = "Segundo plano";
+
+/* ConfigLanguageViewController */
+"Language has changed" = "O idioma mudou";
+"The new selected language will become active after app relaunch" = "O novo idioma será aplicado após o aplicativo ser reiniciado";
+
+/* AppDelegate */
+"Blind levels are on break now" = "O jogo entrou no intervalo";
+"New blind level" = "Novo nível de blinds";
+
+/* CreateMenuViewController */
+"Create a new blind set" = "Criar novo jogo";
+"intro" = "Selecione a melhor maneira para criar um novo jogo.\nTodos os jogos criados estarão disponíveis para edição posterior através do menu da tela principal.\n\nSe esta é a primeira vez que você cria um jogo, considere utilizar o Assistente de criação";
+"Blind set wizard" = "Assistente de criação";
+"The assistent will guide you to create a new blind set according of players, chips and game duration." = "O assistente irá guiá-lo na criação de no novo jogo a partir da duração dos blinds, fichas e jogadores.";
+"Preset blind sets" = "Jogos pré-definidos";
+"Choose one of the pre configured blind sets and edit for according your game players and duration." = "Escolha um dos jogos pré definidos e edite de acordo com a duração e intervalos desejados.";
+"Manual creation" = "Criar manualmente";
+"Create your own blind set and configure each level, break and sound settings." = "Crie seu próprio jogo configurando cada nível, intervalo e configurações de áudio individualmente.";
+"Micro stack" = "Fichas baixas";
+"Medium stack" = "Fichas médias";
+"Deep stack" = "Fichas altas";
+"Preset blind sets" = "Jogos pré definidos";
+
+
+/* TimerEditMasterViewController */
+"Blind Set Config" = "Opções de jogo";
+
+/* TimerPresetViewController */
+"No breaks" = "Sem intervalos";
+"breaks" = "intervalos";
+"Preset blind set" = "Jogos pré definidos";
+"chips" = "fichas";
+"%@ chips" = "Fichas %@";
+
+/* WizardViewController */
+"intro" = "Crie um novo jogo selecionando o número de jogadores, duração dos blinds e fichas disponíveis para jogar.";
+"Generate blind set" = "Gerar novo jogo";
+"players" = "jogadores";
+"minutes" = "minutos";
+"Play with ante" = "Jogar com ante";
+"Allow add on" = "Permitir add on";
+"Please select at least 4 different chips" = "Por favor, selecione ao menos 4 fichas diferentes";
+"Please select up to 5 different chips" = "Por favor, selecione até 5 fichas diferentes";
+"New custom blind set" = "Novo jogo personalizado";
+
+/* TimerEditMasterViewController */
+"doublePreviousFooter" = "Cria rapidamente um novo nível dobrando os valores do nível anterior";
+"Please set the blind set name" = "Por favor, insira um nome para o jogo";
+"The blind set total duration must be greater than 0" = "A duração total dos blinds deve ser maior que 0";
+"This blind set has no properly levels configured" = "O jogo precisa ter ao menos um nível com valores configurados";
+"Name" = "Nome";
+"Play sound" = "Reproduzir som";
+"1 minute alert" = "Alerta de 1 minuto";
+"Blind change alert" = "Alertar troca de blinds";
+"Double previous" = "Dobrar anterior";
+
+/* TimerEditDetailViewController */
+"New level" = "Novo nível";
+"header" = "         #          SB              BB           ANTE          DUR.                   INTERVALO";
+"header-ios7" = "                    #            SB                 BB               ANTE             DUR.                    INTERVALO";
+"No breaks" = "Sem intervalos";
+
+"New blind set" = "Novo jogo";
+"ERROR" = "ERRO";

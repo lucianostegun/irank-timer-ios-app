@@ -1,0 +1,26 @@
+/* Class = "UITextView"; text = "Choose one of the pre configured blind sets and edit for according your game players and duration."; ObjectID = "9wF-iG-Cmm"; */	
+"OrO-6s-sPR.text" = "Seleccione un juego predefinido eligiendo entre las opciones disponibles en diferentes combinaciones de los chips, el tiempo y los jugadores.";
+	
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Nio-bm-6be"; */	
+"Nio-bm-6be.title" = "Volver";
+	
+/* Class = "UINavigationItem"; title = "Create blind set"; ObjectID = "OIQ-d4-nzN"; */	
+"OIQ-d4-nzN.title" = "Crear nuevo juego";
+	
+/* Class = "UITextView"; text = "Select the best way to create a new blindset.\nAll created blindsets will be available to use at main menu and you will be able to edit them anytime.\n\nIf it's your very first time creating a new blind set consider using the Blind Set Wizard."; ObjectID = "XWH-GJ-PDE"; */	
+"wto-1N-a0E.text" = "Elegir la mejor manera de crear un nuevo juego.\nTodos los juegos estarán disponibles en el menú principal y se pueden editar en cualquier momento.\n\nSi está creando un juego por primera vez, puede utilizar el asistente de creación de juegos";
+	
+/* Class = "UILabel"; text = "Preset blind sets"; ObjectID = "nSQ-Kh-MoG"; */	
+"nSQ-Kh-MoG.text" = "Juegos predefinidos";
+	
+/* Class = "UITextView"; text = "The assistent will guide you to create a new blind set according of players, chips and game duration."; ObjectID = "pWJ-68-TmN"; */	
+"C6X-mV-yrP.text" = "El asistente le guiará en la creación de un nuevo juego de acuerdo con los jugadores, fichas e duración de los niveles.";
+	
+/* Class = "UITextView"; text = "Create your own blind set and configure each level, break and sound settings."; ObjectID = "y30-f2-LR4"; */	
+"TMj-Ti-BBI.text" = "Crea tu propio juego y el set cada nivel, rango y sonido opciones.";
+	
+/* Class = "UILabel"; text = "Manual creation"; ObjectID = "yyP-fr-Nkv"; */	
+"yyP-fr-Nkv.text" = "Creación manual";
+	
+/* Class = "UILabel"; text = "Blind set wizard"; ObjectID = "zVk-fu-Y5B"; */	
+"zVk-fu-Y5B.text" = "Asistente";

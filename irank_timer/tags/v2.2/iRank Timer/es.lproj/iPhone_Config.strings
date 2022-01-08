@@ -1,0 +1,62 @@
+/* Class = "UILabel"; text = "Run in background"; ObjectID = "0bd-Ta-vLX"; */	
+"0bd-Ta-vLX.text" = "Ejecutar en el fondo";
+	
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "3Tv-27-neA"; */	
+"3Tv-27-neA.title" = "Editar";
+	
+/* Class = "UITableViewSection"; headerTitle = "general"; ObjectID = "4Zl-cA-eC4"; */	
+"4Zl-cA-eC4.headerTitle" = "general";
+	
+/* Class = "UILabel"; text = "Sounds"; ObjectID = "EWn-zi-nZa"; */	
+"EWn-zi-nZa.text" = "Sons";
+	
+/* Class = "UILabel"; text = "Language"; ObjectID = "F8o-cJ-NAs"; */	
+"F8o-cJ-NAs.text" = "Idioma";
+	
+/* Class = "UILabel"; text = "Play sounds"; ObjectID = "GF5-m4-e0Z"; */	
+"GF5-m4-e0Z.text" = "Reproducir sonidos";
+	
+/* Class = "UILabel"; text = "Hide status bar"; ObjectID = "HMA-IQ-0pz"; */	
+"HMA-IQ-0pz.text" = "Ocultar barra de estado";
+	
+/* Class = "UILabel"; text = "Long pause alert"; ObjectID = "IC3-z8-E3g"; */	
+"IC3-z8-E3g.text" = "Alerta juego en pausa";
+	
+/* Class = "UILabel"; text = "English"; ObjectID = "LT6-1Q-pHv"; */	
+"LT6-1Q-pHv.text" = "Inglés";
+	
+/* Class = "UILabel"; text = "Prevent sleep"; ObjectID = "NLJ-li-3he"; */	
+"NLJ-li-3he.text" = "Evitar el bloqueo";
+	
+/* Class = "UINavigationItem"; title = "iRank Timer Config"; ObjectID = "NLn-mc-gua"; */	
+"NLn-mc-gua.title" = "Opciones Timer iRank";
+	
+/* Class = "UILabel"; text = "Short blind numbers"; ObjectID = "Xh8-N1-Ksu"; */	
+"Xh8-N1-Ksu.text" = "Acortar ciegas";
+	
+/* Class = "UILabel"; text = "Enable multipeer"; ObjectID = "ZM6-TP-5nt"; */	
+"ZM6-TP-5nt.text" = "Habilitar el control remoto";
+	
+/* Class = "UILabel"; text = "Inverse text color"; ObjectID = "ald-r2-DaZ"; */	
+"ald-r2-DaZ.text" = "Invertir colores";
+	
+/* Class = "UILabel"; text = "Detail"; ObjectID = "fk1-6v-O6F"; */	
+"fk1-6v-O6F.text" = "Detalles";
+	
+/* Class = "UITableViewSection"; headerTitle = "sound settings"; ObjectID = "iAB-aR-Wcm"; */	
+"iAB-aR-Wcm.headerTitle" = "Ajustes de sonido";
+	
+/* Class = "UILabel"; text = "Label"; ObjectID = "kwj-Ad-hGn"; */	
+"kwj-Ad-hGn.text" = "Etiqueta";
+	
+/* Class = "UILabel"; text = "iCloud backup"; ObjectID = "lmk-vo-OJQ"; */	
+"lmk-vo-OJQ.text" = "Copia de seguridad en iCloud";
+	
+/* Class = "UITableViewSection"; headerTitle = "layout"; ObjectID = "mRs-fY-P9G"; */	
+"mRs-fY-P9G.headerTitle" = "Apariencia";
+	
+/* Class = "UILabel"; text = "Disabled"; ObjectID = "wh6-Hu-Hgd"; */	
+"wh6-Hu-Hgd.text" = "Discapacitado";
+	
+/* Class = "UILabel"; text = "Background mode"; ObjectID = "yCO-li-zE2"; */	
+"yCO-li-zE2.text" = "Imagen de fondo";

@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0D12CB1818A8CB00E0720B /* startupBlindSets-lite.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD0D12CA1818A8CB00E0720B /* startupBlindSets-lite.xml */; };
+		DD148921181604AC00EB4D0F /* iphone-manual.png in Resources */ = {isa = PBXBuildFile; fileRef = DD14891F181604AC00EB4D0F /* iphone-manual.png */; };
+		DD148922181604AC00EB4D0F /* iphone-manual@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD148920181604AC00EB4D0F /* iphone-manual@2x.png */; };
+		DD148925181604DF00EB4D0F /* iphone-preset.png in Resources */ = {isa = PBXBuildFile; fileRef = DD148923181604DF00EB4D0F /* iphone-preset.png */; };
+		DD148926181604DF00EB4D0F /* iphone-preset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD148924181604DF00EB4D0F /* iphone-preset@2x.png */; };
+		DD14892918160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD14892818160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.m */; };
+		DD44E3C1181C18C900755216 /* iPhoneCreateMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD44E3C0181C18C900755216 /* iPhoneCreateMenuViewController.m */; };
+		DD8E5DBD1811E30F00C198D9 /* iPhone_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DBC1811E30F00C198D9 /* iPhone_Timer.storyboard */; };
+		DD8E5DDA18124AC200C198D9 /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DD818124AC200C198D9 /* AppIcon50x50.png */; };
+		DD8E5DDB18124AC200C198D9 /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DD918124AC200C198D9 /* AppIcon50x50@2x.png */; };
+		DD8E5DF31812500000C198D9 /* iphone-timer-blue-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DF11812500000C198D9 /* iphone-timer-blue-bg.png */; };
+		DD8E5DF41812500000C198D9 /* iphone-timer-blue-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DF21812500000C198D9 /* iphone-timer-blue-bg@2x.png */; };
+		DD8E5DF61812E7E600C198D9 /* blind-level-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DF51812E7E600C198D9 /* blind-level-bg@2x.png */; };
+		DD8E5DF81812E81500C198D9 /* blind-level-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DF71812E81500C198D9 /* blind-level-bg.png */; };
+		DD8E5DFB18136B6700C198D9 /* blind-time-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DF918136B6700C198D9 /* blind-time-bg.png */; };
+		DD8E5DFC18136B6700C198D9 /* blind-time-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DFA18136B6700C198D9 /* blind-time-bg@2x.png */; };
+		DD8E5DFF181381DB00C198D9 /* iphone-level-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DFD181381DB00C198D9 /* iphone-level-circle@2x.png */; };
+		DD8E5E00181381DB00C198D9 /* iphone-level-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5DFE181381DB00C198D9 /* iphone-level-circle.png */; };
+		DD8E5E031813877900C198D9 /* iphone-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5E011813877900C198D9 /* iphone-settings.png */; };
+		DD8E5E041813877900C198D9 /* iphone-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5E021813877900C198D9 /* iphone-settings@2x.png */; };
+		DD8E5E071813A79600C198D9 /* iphone-timer-blue-bg-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5E051813A79600C198D9 /* iphone-timer-blue-bg-portrait.png */; };
+		DD8E5E081813A79600C198D9 /* iphone-timer-blue-bg-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8E5E061813A79600C198D9 /* iphone-timer-blue-bg-portrait@2x.png */; };
+		DD8E5E0B1813B3B200C198D9 /* iPhoneTimerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8E5E0A1813B3B200C198D9 /* iPhoneTimerMenuViewController.m */; };
+		DDA2061F181F09C500B536DD /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA2061E181F09C500B536DD /* iRate.m */; };
+		DDA20621181F09E500B536DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA20620181F09E500B536DD /* StoreKit.framework */; };
+		DDA97626183D4BE300A0630E /* ante-notify1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDA97623183D4BE300A0630E /* ante-notify1.mp3 */; };
+		DDA97627183D4BE300A0630E /* ante-notify2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDA97624183D4BE300A0630E /* ante-notify2.mp3 */; };
+		DDA97628183D4BE300A0630E /* ante-notify3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDA97625183D4BE300A0630E /* ante-notify3.mp3 */; };
+		DDB796891819EA6A0001B02D /* iPhoneTimerEditDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB796881819EA6A0001B02D /* iPhoneTimerEditDetailViewController.m */; };
+		DDB7968D181A08780001B02D /* iPhoneBlindLevelEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB7968C181A08780001B02D /* iPhoneBlindLevelEditViewController.m */; };
+		DDD58B47181DDEF60090F626 /* iphone-timer-red-bg-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD58B43181DDEF60090F626 /* iphone-timer-red-bg-portrait.png */; };
+		DDD58B48181DDEF60090F626 /* iphone-timer-red-bg-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD58B44181DDEF60090F626 /* iphone-timer-red-bg-portrait@2x.png */; };
+		DDD58B49181DDEF60090F626 /* iphone-timer-red-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD58B45181DDEF60090F626 /* iphone-timer-red-bg.png */; };
+		DDD58B4A181DDEF60090F626 /* iphone-timer-red-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD58B46181DDEF60090F626 /* iphone-timer-red-bg@2x.png */; };
+		DDFC9F81180F4D4800BDFD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F80180F4D4800BDFD6E /* Foundation.framework */; };
+		DDFC9F83180F4D4800BDFD6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F82180F4D4800BDFD6E /* CoreGraphics.framework */; };
+		DDFC9F85180F4D4800BDFD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F84180F4D4800BDFD6E /* UIKit.framework */; };
+		DDFC9F8B180F4D4800BDFD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9F89180F4D4800BDFD6E /* InfoPlist.strings */; };
+		DDFC9F8D180F4D4800BDFD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC9F8C180F4D4800BDFD6E /* main.m */; };
+		DDFC9F91180F4D4800BDFD6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC9F90180F4D4800BDFD6E /* AppDelegate.m */; };
+		DDFC9F93180F4D4800BDFD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9F92180F4D4800BDFD6E /* Images.xcassets */; };
+		DDFC9F9A180F4D4800BDFD6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F99180F4D4800BDFD6E /* XCTest.framework */; };
+		DDFC9F9B180F4D4800BDFD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F80180F4D4800BDFD6E /* Foundation.framework */; };
+		DDFC9F9C180F4D4800BDFD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC9F84180F4D4800BDFD6E /* UIKit.framework */; };
+		DDFC9FD4180F4E8800BDFD6E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB3180F4E8800BDFD6E /* clock.png */; };
+		DDFC9FD5180F4E8800BDFD6E /* hand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB4180F4E8800BDFD6E /* hand@2x.png */; };
+		DDFC9FD6180F4E8800BDFD6E /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB5180F4E8800BDFD6E /* hand.png */; };
+		DDFC9FD7180F4E8800BDFD6E /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB6180F4E8800BDFD6E /* settings@2x.png */; };
+		DDFC9FD8180F4E8800BDFD6E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB7180F4E8800BDFD6E /* settings.png */; };
+		DDFC9FD9180F4E8800BDFD6E /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB8180F4E8800BDFD6E /* clock@2x.png */; };
+		DDFC9FDA180F4E8800BDFD6E /* irank-logo-single.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FB9180F4E8800BDFD6E /* irank-logo-single.png */; };
+		DDFC9FDB180F4E8800BDFD6E /* logo-irank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBA180F4E8800BDFD6E /* logo-irank@2x.png */; };
+		DDFC9FDC180F4E8800BDFD6E /* logo-irank.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBB180F4E8800BDFD6E /* logo-irank.png */; };
+		DDFC9FDD180F4E8800BDFD6E /* level-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBC180F4E8800BDFD6E /* level-circle.png */; };
+		DDFC9FDE180F4E8800BDFD6E /* level-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBD180F4E8800BDFD6E /* level-circle@2x.png */; };
+		DDFC9FDF180F4E8800BDFD6E /* level-circle-white.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBE180F4E8800BDFD6E /* level-circle-white.png */; };
+		DDFC9FE0180F4E8800BDFD6E /* level-circle-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FBF180F4E8800BDFD6E /* level-circle-white@2x.png */; };
+		DDFC9FE1180F4E8800BDFD6E /* main-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC0180F4E8800BDFD6E /* main-bg@2x.png */; };
+		DDFC9FE2180F4E8800BDFD6E /* main-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC1180F4E8800BDFD6E /* main-bg.png */; };
+		DDFC9FE3180F4E8800BDFD6E /* button-separator.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC2180F4E8800BDFD6E /* button-separator.png */; };
+		DDFC9FE4180F4E8800BDFD6E /* timer-clock-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC3180F4E8800BDFD6E /* timer-clock-bg.png */; };
+		DDFC9FE5180F4E8800BDFD6E /* timer-red-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC4180F4E8800BDFD6E /* timer-red-bg.png */; };
+		DDFC9FE6180F4E8800BDFD6E /* timer-red-white-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC5180F4E8800BDFD6E /* timer-red-white-bg.png */; };
+		DDFC9FE7180F4E8800BDFD6E /* timer-blue-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC6180F4E8800BDFD6E /* timer-blue-bg.png */; };
+		DDFC9FE8180F4E8800BDFD6E /* timer-white-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC7180F4E8800BDFD6E /* timer-white-bg.png */; };
+		DDFC9FE9180F4E8800BDFD6E /* white-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC8180F4E8800BDFD6E /* white-dot.png */; };
+		DDFC9FEA180F4E8800BDFD6E /* black-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FC9180F4E8800BDFD6E /* black-dot.png */; };
+		DDFC9FEB180F4E8800BDFD6E /* black-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCA180F4E8800BDFD6E /* black-bar.png */; };
+		DDFC9FEC180F4E8800BDFD6E /* gray-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCB180F4E8800BDFD6E /* gray-dot.png */; };
+		DDFC9FED180F4E8800BDFD6E /* cell-separator.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCC180F4E8800BDFD6E /* cell-separator.png */; };
+		DDFC9FEE180F4E8800BDFD6E /* cell-separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCD180F4E8800BDFD6E /* cell-separator@2x.png */; };
+		DDFC9FEF180F4E8800BDFD6E /* preset.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCE180F4E8800BDFD6E /* preset.png */; };
+		DDFC9FF0180F4E8800BDFD6E /* preset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FCF180F4E8800BDFD6E /* preset@2x.png */; };
+		DDFC9FF1180F4E8800BDFD6E /* wizard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FD0180F4E8800BDFD6E /* wizard@2x.png */; };
+		DDFC9FF2180F4E8800BDFD6E /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FD1180F4E8800BDFD6E /* wizard.png */; };
+		DDFC9FF3180F4E8800BDFD6E /* manual.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FD2180F4E8800BDFD6E /* manual.png */; };
+		DDFC9FF4180F4E8800BDFD6E /* manual@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FD3180F4E8800BDFD6E /* manual@2x.png */; };
+		DDFCA007180F4EA800BDFD6E /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FF6180F4EA800BDFD6E /* AppIcon29x29.png */; };
+		DDFCA008180F4EA800BDFD6E /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FF7180F4EA800BDFD6E /* AppIcon29x29@2x.png */; };
+		DDFCA009180F4EA800BDFD6E /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FF8180F4EA800BDFD6E /* AppIcon40x40.png */; };
+		DDFCA00A180F4EA800BDFD6E /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FF9180F4EA800BDFD6E /* AppIcon40x40@2x.png */; };
+		DDFCA00B180F4EA800BDFD6E /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFA180F4EA800BDFD6E /* AppIcon57x57.png */; };
+		DDFCA00C180F4EA800BDFD6E /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFB180F4EA800BDFD6E /* AppIcon57x57@2x.png */; };
+		DDFCA00D180F4EA800BDFD6E /* AppIcon58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFC180F4EA800BDFD6E /* AppIcon58x58.png */; };
+		DDFCA00E180F4EA800BDFD6E /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFD180F4EA800BDFD6E /* AppIcon60x60.png */; };
+		DDFCA00F180F4EA800BDFD6E /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFE180F4EA800BDFD6E /* AppIcon60x60@2x.png */; };
+		DDFCA010180F4EA800BDFD6E /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC9FFF180F4EA800BDFD6E /* AppIcon72x72.png */; };
+		DDFCA011180F4EA800BDFD6E /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA000180F4EA800BDFD6E /* AppIcon72x72@2x.png */; };
+		DDFCA012180F4EA800BDFD6E /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA001180F4EA800BDFD6E /* AppIcon76x76.png */; };
+		DDFCA013180F4EA800BDFD6E /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA002180F4EA800BDFD6E /* AppIcon76x76@2x.png */; };
+		DDFCA014180F4EA800BDFD6E /* AppIcon80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA003180F4EA800BDFD6E /* AppIcon80x80.png */; };
+		DDFCA015180F4EA800BDFD6E /* AppIcon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA004180F4EA800BDFD6E /* AppIcon120x120.png */; };
+		DDFCA016180F4EA800BDFD6E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA005180F4EA800BDFD6E /* iTunesArtwork.png */; };
+		DDFCA017180F4EA800BDFD6E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA006180F4EA800BDFD6E /* iTunesArtwork@2x.png */; };
+		DDFCA01B180F770500BDFD6E /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA01A180F770500BDFD6E /* TimerViewController.m */; };
+		DDFCA023180F772700BDFD6E /* BlindSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA01E180F772700BDFD6E /* BlindSet.m */; };
+		DDFCA024180F772700BDFD6E /* BlindLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA020180F772700BDFD6E /* BlindLevel.m */; };
+		DDFCA025180F772700BDFD6E /* XmlBlindSetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA022180F772700BDFD6E /* XmlBlindSetParser.m */; };
+		DDFCA02D180F773A00BDFD6E /* BlindLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA028180F773A00BDFD6E /* BlindLevelCell.m */; };
+		DDFCA02E180F773A00BDFD6E /* TimerLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA02A180F773A00BDFD6E /* TimerLevelCell.m */; };
+		DDFCA02F180F773A00BDFD6E /* TimerMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA02C180F773A00BDFD6E /* TimerMenuCell.m */; };
+		DDFCA03B180F77D000BDFD6E /* startupBlindSets.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA031180F77D000BDFD6E /* startupBlindSets.xml */; };
+		DDFCA03C180F77D000BDFD6E /* microStack.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA032180F77D000BDFD6E /* microStack.plist */; };
+		DDFCA03D180F77D000BDFD6E /* preset-microStack.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA033180F77D000BDFD6E /* preset-microStack.xml */; };
+		DDFCA03E180F77D000BDFD6E /* preset-deepStack.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA034180F77D000BDFD6E /* preset-deepStack.xml */; };
+		DDFCA03F180F77D000BDFD6E /* preset-regularStack.xml in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA035180F77D000BDFD6E /* preset-regularStack.xml */; };
+		DDFCA040180F77D000BDFD6E /* deepStack.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA036180F77D000BDFD6E /* deepStack.plist */; };
+		DDFCA041180F77D000BDFD6E /* regularStack.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA037180F77D000BDFD6E /* regularStack.plist */; };
+		DDFCA042180F77D000BDFD6E /* blindChangeSounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA038180F77D000BDFD6E /* blindChangeSounds.plist */; };
+		DDFCA043180F77D000BDFD6E /* minuteNofitySounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA039180F77D000BDFD6E /* minuteNofitySounds.plist */; };
+		DDFCA044180F77D000BDFD6E /* languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA03A180F77D000BDFD6E /* languages.plist */; };
+		DDFCA05A180F785600BDFD6E /* blackReflexButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA046180F785600BDFD6E /* blackReflexButton.png */; };
+		DDFCA05B180F785600BDFD6E /* blackReflexButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA047180F785600BDFD6E /* blackReflexButton@2x.png */; };
+		DDFCA05C180F785600BDFD6E /* blackReflexButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA048180F785600BDFD6E /* blackReflexButtonHighlight.png */; };
+		DDFCA05D180F785600BDFD6E /* blackReflexButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA049180F785600BDFD6E /* blackReflexButtonHighlight@2x.png */; };
+		DDFCA05E180F785600BDFD6E /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04A180F785600BDFD6E /* orangeButton@2x.png */; };
+		DDFCA05F180F785600BDFD6E /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04B180F785600BDFD6E /* orangeButtonHighlight.png */; };
+		DDFCA060180F785600BDFD6E /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04C180F785600BDFD6E /* orangeButtonHighlight@2x.png */; };
+		DDFCA061180F785600BDFD6E /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04D180F785600BDFD6E /* orangeButton.png */; };
+		DDFCA062180F785600BDFD6E /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04E180F785600BDFD6E /* blackButton.png */; };
+		DDFCA063180F785600BDFD6E /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA04F180F785600BDFD6E /* blackButton@2x.png */; };
+		DDFCA064180F785600BDFD6E /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA050180F785600BDFD6E /* blackButtonHighlight.png */; };
+		DDFCA065180F785600BDFD6E /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA051180F785600BDFD6E /* blackButtonHighlight@2x.png */; };
+		DDFCA066180F785600BDFD6E /* blackOpaqueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA052180F785600BDFD6E /* blackOpaqueButtonHighlight.png */; };
+		DDFCA067180F785600BDFD6E /* blackOpaqueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA053180F785600BDFD6E /* blackOpaqueButtonHighlight@2x.png */; };
+		DDFCA068180F785600BDFD6E /* blackOpaqueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA054180F785600BDFD6E /* blackOpaqueButton@2x.png */; };
+		DDFCA069180F785600BDFD6E /* blackOpaqueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA055180F785600BDFD6E /* blackOpaqueButton.png */; };
+		DDFCA06A180F785600BDFD6E /* whiteOpaqueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA056180F785600BDFD6E /* whiteOpaqueButton.png */; };
+		DDFCA06B180F785600BDFD6E /* whiteOpaqueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA057180F785600BDFD6E /* whiteOpaqueButton@2x.png */; };
+		DDFCA06C180F785600BDFD6E /* whiteOpaqueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA058180F785600BDFD6E /* whiteOpaqueButtonHighlight.png */; };
+		DDFCA06D180F785600BDFD6E /* whiteOpaqueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA059180F785600BDFD6E /* whiteOpaqueButtonHighlight@2x.png */; };
+		DDFCA07B180F787400BDFD6E /* chip1.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA06F180F787400BDFD6E /* chip1.png */; };
+		DDFCA07C180F787400BDFD6E /* players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA070180F787400BDFD6E /* players@2x.png */; };
+		DDFCA07D180F787400BDFD6E /* players.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA071180F787400BDFD6E /* players.png */; };
+		DDFCA07E180F787400BDFD6E /* chip5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA072180F787400BDFD6E /* chip5.png */; };
+		DDFCA07F180F787400BDFD6E /* chip10.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA073180F787400BDFD6E /* chip10.png */; };
+		DDFCA080180F787400BDFD6E /* chip25.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA074180F787400BDFD6E /* chip25.png */; };
+		DDFCA081180F787400BDFD6E /* chip50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA075180F787400BDFD6E /* chip50.png */; };
+		DDFCA082180F787400BDFD6E /* chip100.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA076180F787400BDFD6E /* chip100.png */; };
+		DDFCA083180F787400BDFD6E /* chip500.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA077180F787400BDFD6E /* chip500.png */; };
+		DDFCA084180F787400BDFD6E /* chip1000.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA078180F787400BDFD6E /* chip1000.png */; };
+		DDFCA085180F787400BDFD6E /* chip5000.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA079180F787400BDFD6E /* chip5000.png */; };
+		DDFCA086180F787400BDFD6E /* chip10000.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA07A180F787400BDFD6E /* chip10000.png */; };
+		DDFCA0A0180F78BC00BDFD6E /* iPadTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA089180F78BC00BDFD6E /* iPadTimerViewController.m */; };
+		DDFCA0A1180F78BC00BDFD6E /* iPhoneTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA08B180F78BC00BDFD6E /* iPhoneTimerViewController.m */; };
+		DDFCA0A2180F78BC00BDFD6E /* CreateMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA08D180F78BC00BDFD6E /* CreateMenuViewController.m */; };
+		DDFCA0A3180F78BC00BDFD6E /* TimerEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA08F180F78BC00BDFD6E /* TimerEditViewController.m */; };
+		DDFCA0A4180F78BC00BDFD6E /* TimerEditMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA091180F78BC00BDFD6E /* TimerEditMasterViewController.m */; };
+		DDFCA0A5180F78BC00BDFD6E /* TimerEditDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA093180F78BC00BDFD6E /* TimerEditDetailViewController.m */; };
+		DDFCA0A6180F78BC00BDFD6E /* TimerPresetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA095180F78BC00BDFD6E /* TimerPresetViewController.m */; };
+		DDFCA0A7180F78BC00BDFD6E /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA097180F78BC00BDFD6E /* ConfigViewController.m */; };
+		DDFCA0A8180F78BC00BDFD6E /* ConfigMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA099180F78BC00BDFD6E /* ConfigMasterViewController.m */; };
+		DDFCA0A9180F78BC00BDFD6E /* ConfigDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA09B180F78BC00BDFD6E /* ConfigDetailViewController.m */; };
+		DDFCA0AA180F78BC00BDFD6E /* ConfigLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA09D180F78BC00BDFD6E /* ConfigLanguageViewController.m */; };
+		DDFCA0AB180F78BC00BDFD6E /* WizardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA09F180F78BC00BDFD6E /* WizardViewController.m */; };
+		DDFCA0AF180F78DD00BDFD6E /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA0AE180F78DD00BDFD6E /* BSKeyboardControls.m */; };
+		DDFCA0C0180F78EE00BDFD6E /* minute-alert1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B1180F78EE00BDFD6E /* minute-alert1.mp3 */; };
+		DDFCA0C1180F78EE00BDFD6E /* minute-alert2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B2180F78EE00BDFD6E /* minute-alert2.mp3 */; };
+		DDFCA0C2180F78EE00BDFD6E /* minute-alert3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B3180F78EE00BDFD6E /* minute-alert3.mp3 */; };
+		DDFCA0C3180F78EE00BDFD6E /* minute-alert4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B4180F78EE00BDFD6E /* minute-alert4.mp3 */; };
+		DDFCA0C4180F78EE00BDFD6E /* minute-alert5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B5180F78EE00BDFD6E /* minute-alert5.mp3 */; };
+		DDFCA0C5180F78EE00BDFD6E /* clock-tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B6180F78EE00BDFD6E /* clock-tick.mp3 */; };
+		DDFCA0C6180F78EE00BDFD6E /* blind-change1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B7180F78EE00BDFD6E /* blind-change1.mp3 */; };
+		DDFCA0C7180F78EE00BDFD6E /* blind-change2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B8180F78EE00BDFD6E /* blind-change2.mp3 */; };
+		DDFCA0C8180F78EE00BDFD6E /* blind-change3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0B9180F78EE00BDFD6E /* blind-change3.mp3 */; };
+		DDFCA0C9180F78EE00BDFD6E /* blind-change4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BA180F78EE00BDFD6E /* blind-change4.mp3 */; };
+		DDFCA0CA180F78EE00BDFD6E /* blind-change5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BB180F78EE00BDFD6E /* blind-change5.mp3 */; };
+		DDFCA0CB180F78EE00BDFD6E /* blind-change6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BC180F78EE00BDFD6E /* blind-change6.mp3 */; };
+		DDFCA0CC180F78EE00BDFD6E /* blind-change7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BD180F78EE00BDFD6E /* blind-change7.mp3 */; };
+		DDFCA0CD180F78EE00BDFD6E /* blind-change8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BE180F78EE00BDFD6E /* blind-change8.mp3 */; };
+		DDFCA0CE180F78EE00BDFD6E /* pulse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0BF180F78EE00BDFD6E /* pulse.mp3 */; };
+		DDFCA0D4180F862300BDFD6E /* iPad_Timer_White.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0CF180F862300BDFD6E /* iPad_Timer_White.storyboard */; };
+		DDFCA0D5180F862300BDFD6E /* iPad_Create_Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0D0180F862300BDFD6E /* iPad_Create_Menu.storyboard */; };
+		DDFCA0D6180F862300BDFD6E /* iPad_Timer_Edit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0D1180F862300BDFD6E /* iPad_Timer_Edit.storyboard */; };
+		DDFCA0D7180F862300BDFD6E /* iPad_Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0D2180F862300BDFD6E /* iPad_Config.storyboard */; };
+		DDFCA0DA180F877100BDFD6E /* iPad_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0D9180F877100BDFD6E /* iPad_Timer.storyboard */; };
+		DDFCA0E1180F89C900BDFD6E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFCA0E3180F89C900BDFD6E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFC9F9D180F4D4800BDFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFC9F75180F4D4800BDFD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFC9F7C180F4D4800BDFD6E;
+			remoteInfo = "iRank Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0D12CA1818A8CB00E0720B /* startupBlindSets-lite.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "startupBlindSets-lite.xml"; sourceTree = "<group>"; };
+		DD14891F181604AC00EB4D0F /* iphone-manual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-manual.png"; sourceTree = "<group>"; };
+		DD148920181604AC00EB4D0F /* iphone-manual@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-manual@2x.png"; sourceTree = "<group>"; };
+		DD148923181604DF00EB4D0F /* iphone-preset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-preset.png"; sourceTree = "<group>"; };
+		DD148924181604DF00EB4D0F /* iphone-preset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-preset@2x.png"; sourceTree = "<group>"; };
+		DD14892718160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneTimerPresetMenuViewController.h; sourceTree = "<group>"; };
+		DD14892818160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneTimerPresetMenuViewController.m; sourceTree = "<group>"; };
+		DD44E3BF181C18C900755216 /* iPhoneCreateMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneCreateMenuViewController.h; sourceTree = "<group>"; };
+		DD44E3C0181C18C900755216 /* iPhoneCreateMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneCreateMenuViewController.m; sourceTree = "<group>"; };
+		DD56F35F180FA32400D8E80F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD56F360180FA32400D8E80F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD8E5DBC1811E30F00C198D9 /* iPhone_Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Timer.storyboard; sourceTree = "<group>"; };
+		DD8E5DD818124AC200C198D9 /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon50x50.png; sourceTree = "<group>"; };
+		DD8E5DD918124AC200C198D9 /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		DD8E5DF11812500000C198D9 /* iphone-timer-blue-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-blue-bg.png"; sourceTree = "<group>"; };
+		DD8E5DF21812500000C198D9 /* iphone-timer-blue-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-blue-bg@2x.png"; sourceTree = "<group>"; };
+		DD8E5DF51812E7E600C198D9 /* blind-level-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blind-level-bg@2x.png"; sourceTree = "<group>"; };
+		DD8E5DF71812E81500C198D9 /* blind-level-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blind-level-bg.png"; sourceTree = "<group>"; };
+		DD8E5DF918136B6700C198D9 /* blind-time-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blind-time-bg.png"; sourceTree = "<group>"; };
+		DD8E5DFA18136B6700C198D9 /* blind-time-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blind-time-bg@2x.png"; sourceTree = "<group>"; };
+		DD8E5DFD181381DB00C198D9 /* iphone-level-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-level-circle@2x.png"; sourceTree = "<group>"; };
+		DD8E5DFE181381DB00C198D9 /* iphone-level-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-level-circle.png"; sourceTree = "<group>"; };
+		DD8E5E011813877900C198D9 /* iphone-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-settings.png"; sourceTree = "<group>"; };
+		DD8E5E021813877900C198D9 /* iphone-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-settings@2x.png"; sourceTree = "<group>"; };
+		DD8E5E051813A79600C198D9 /* iphone-timer-blue-bg-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-blue-bg-portrait.png"; sourceTree = "<group>"; };
+		DD8E5E061813A79600C198D9 /* iphone-timer-blue-bg-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-blue-bg-portrait@2x.png"; sourceTree = "<group>"; };
+		DD8E5E091813B3B200C198D9 /* iPhoneTimerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneTimerMenuViewController.h; sourceTree = "<group>"; };
+		DD8E5E0A1813B3B200C198D9 /* iPhoneTimerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneTimerMenuViewController.m; sourceTree = "<group>"; };
+		DD9CAF7718108F7F004D08DF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DDA2061D181F09C500B536DD /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		DDA2061E181F09C500B536DD /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		DDA20620181F09E500B536DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDA97623183D4BE300A0630E /* ante-notify1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ante-notify1.mp3"; sourceTree = "<group>"; };
+		DDA97624183D4BE300A0630E /* ante-notify2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ante-notify2.mp3"; sourceTree = "<group>"; };
+		DDA97625183D4BE300A0630E /* ante-notify3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ante-notify3.mp3"; sourceTree = "<group>"; };
+		DDB74235181F6AC700954D02 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		DDB74236181F6AD900954D02 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		DDB74237181F6AEB00954D02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDB74239181F6B4500954D02 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		DDB7423A181F6C8000954D02 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		DDB7423B181F6CE700954D02 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		DDB7423C181F6CFD00954D02 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		DDB796871819EA6A0001B02D /* iPhoneTimerEditDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneTimerEditDetailViewController.h; sourceTree = "<group>"; };
+		DDB796881819EA6A0001B02D /* iPhoneTimerEditDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneTimerEditDetailViewController.m; sourceTree = "<group>"; };
+		DDB7968B181A08780001B02D /* iPhoneBlindLevelEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneBlindLevelEditViewController.h; sourceTree = "<group>"; };
+		DDB7968C181A08780001B02D /* iPhoneBlindLevelEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneBlindLevelEditViewController.m; sourceTree = "<group>"; };
+		DDD58B43181DDEF60090F626 /* iphone-timer-red-bg-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-red-bg-portrait.png"; sourceTree = "<group>"; };
+		DDD58B44181DDEF60090F626 /* iphone-timer-red-bg-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-red-bg-portrait@2x.png"; sourceTree = "<group>"; };
+		DDD58B45181DDEF60090F626 /* iphone-timer-red-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-red-bg.png"; sourceTree = "<group>"; };
+		DDD58B46181DDEF60090F626 /* iphone-timer-red-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-timer-red-bg@2x.png"; sourceTree = "<group>"; };
+		DDFC9F7D180F4D4800BDFD6E /* iRank Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRank Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC9F80180F4D4800BDFD6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDFC9F82180F4D4800BDFD6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDFC9F84180F4D4800BDFD6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDFC9F88180F4D4800BDFD6E /* iRank Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRank Timer-Info.plist"; sourceTree = "<group>"; };
+		DDFC9F8A180F4D4800BDFD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDFC9F8C180F4D4800BDFD6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDFC9F8E180F4D4800BDFD6E /* iRank Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRank Timer-Prefix.pch"; sourceTree = "<group>"; };
+		DDFC9F8F180F4D4800BDFD6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDFC9F90180F4D4800BDFD6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDFC9F92180F4D4800BDFD6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDFC9F98180F4D4800BDFD6E /* iRank TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRank TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC9F99180F4D4800BDFD6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDFC9FB3180F4E8800BDFD6E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		DDFC9FB4180F4E8800BDFD6E /* hand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand@2x.png"; sourceTree = "<group>"; };
+		DDFC9FB5180F4E8800BDFD6E /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		DDFC9FB6180F4E8800BDFD6E /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		DDFC9FB7180F4E8800BDFD6E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		DDFC9FB8180F4E8800BDFD6E /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		DDFC9FB9180F4E8800BDFD6E /* irank-logo-single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "irank-logo-single.png"; sourceTree = "<group>"; };
+		DDFC9FBA180F4E8800BDFD6E /* logo-irank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-irank@2x.png"; sourceTree = "<group>"; };
+		DDFC9FBB180F4E8800BDFD6E /* logo-irank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-irank.png"; sourceTree = "<group>"; };
+		DDFC9FBC180F4E8800BDFD6E /* level-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-circle.png"; sourceTree = "<group>"; };
+		DDFC9FBD180F4E8800BDFD6E /* level-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-circle@2x.png"; sourceTree = "<group>"; };
+		DDFC9FBE180F4E8800BDFD6E /* level-circle-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-circle-white.png"; sourceTree = "<group>"; };
+		DDFC9FBF180F4E8800BDFD6E /* level-circle-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level-circle-white@2x.png"; sourceTree = "<group>"; };
+		DDFC9FC0180F4E8800BDFD6E /* main-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bg@2x.png"; sourceTree = "<group>"; };
+		DDFC9FC1180F4E8800BDFD6E /* main-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC2180F4E8800BDFD6E /* button-separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-separator.png"; sourceTree = "<group>"; };
+		DDFC9FC3180F4E8800BDFD6E /* timer-clock-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-clock-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC4180F4E8800BDFD6E /* timer-red-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-red-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC5180F4E8800BDFD6E /* timer-red-white-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-red-white-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC6180F4E8800BDFD6E /* timer-blue-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-blue-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC7180F4E8800BDFD6E /* timer-white-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timer-white-bg.png"; sourceTree = "<group>"; };
+		DDFC9FC8180F4E8800BDFD6E /* white-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-dot.png"; sourceTree = "<group>"; };
+		DDFC9FC9180F4E8800BDFD6E /* black-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-dot.png"; sourceTree = "<group>"; };
+		DDFC9FCA180F4E8800BDFD6E /* black-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-bar.png"; sourceTree = "<group>"; };
+		DDFC9FCB180F4E8800BDFD6E /* gray-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-dot.png"; sourceTree = "<group>"; };
+		DDFC9FCC180F4E8800BDFD6E /* cell-separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-separator.png"; sourceTree = "<group>"; };
+		DDFC9FCD180F4E8800BDFD6E /* cell-separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-separator@2x.png"; sourceTree = "<group>"; };
+		DDFC9FCE180F4E8800BDFD6E /* preset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preset.png; sourceTree = "<group>"; };
+		DDFC9FCF180F4E8800BDFD6E /* preset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preset@2x.png"; sourceTree = "<group>"; };
+		DDFC9FD0180F4E8800BDFD6E /* wizard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wizard@2x.png"; sourceTree = "<group>"; };
+		DDFC9FD1180F4E8800BDFD6E /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
+		DDFC9FD2180F4E8800BDFD6E /* manual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manual.png; sourceTree = "<group>"; };
+		DDFC9FD3180F4E8800BDFD6E /* manual@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manual@2x.png"; sourceTree = "<group>"; };
+		DDFC9FF6180F4EA800BDFD6E /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		DDFC9FF7180F4EA800BDFD6E /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		DDFC9FF8180F4EA800BDFD6E /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		DDFC9FF9180F4EA800BDFD6E /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		DDFC9FFA180F4EA800BDFD6E /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		DDFC9FFB180F4EA800BDFD6E /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		DDFC9FFC180F4EA800BDFD6E /* AppIcon58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon58x58.png; sourceTree = "<group>"; };
+		DDFC9FFD180F4EA800BDFD6E /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		DDFC9FFE180F4EA800BDFD6E /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		DDFC9FFF180F4EA800BDFD6E /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		DDFCA000180F4EA800BDFD6E /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		DDFCA001180F4EA800BDFD6E /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		DDFCA002180F4EA800BDFD6E /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		DDFCA003180F4EA800BDFD6E /* AppIcon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon80x80.png; sourceTree = "<group>"; };
+		DDFCA004180F4EA800BDFD6E /* AppIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120x120.png; sourceTree = "<group>"; };
+		DDFCA005180F4EA800BDFD6E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		DDFCA006180F4EA800BDFD6E /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		DDFCA019180F770500BDFD6E /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		DDFCA01A180F770500BDFD6E /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		DDFCA01D180F772700BDFD6E /* BlindSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindSet.h; sourceTree = "<group>"; };
+		DDFCA01E180F772700BDFD6E /* BlindSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindSet.m; sourceTree = "<group>"; };
+		DDFCA01F180F772700BDFD6E /* BlindLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindLevel.h; sourceTree = "<group>"; };
+		DDFCA020180F772700BDFD6E /* BlindLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindLevel.m; sourceTree = "<group>"; };
+		DDFCA021180F772700BDFD6E /* XmlBlindSetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlBlindSetParser.h; sourceTree = "<group>"; };
+		DDFCA022180F772700BDFD6E /* XmlBlindSetParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlBlindSetParser.m; sourceTree = "<group>"; };
+		DDFCA027180F773A00BDFD6E /* BlindLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindLevelCell.h; sourceTree = "<group>"; };
+		DDFCA028180F773A00BDFD6E /* BlindLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindLevelCell.m; sourceTree = "<group>"; };
+		DDFCA029180F773A00BDFD6E /* TimerLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerLevelCell.h; sourceTree = "<group>"; };
+		DDFCA02A180F773A00BDFD6E /* TimerLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerLevelCell.m; sourceTree = "<group>"; };
+		DDFCA02B180F773A00BDFD6E /* TimerMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerMenuCell.h; sourceTree = "<group>"; };
+		DDFCA02C180F773A00BDFD6E /* TimerMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerMenuCell.m; sourceTree = "<group>"; };
+		DDFCA031180F77D000BDFD6E /* startupBlindSets.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = startupBlindSets.xml; sourceTree = "<group>"; };
+		DDFCA032180F77D000BDFD6E /* microStack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = microStack.plist; sourceTree = "<group>"; };
+		DDFCA033180F77D000BDFD6E /* preset-microStack.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "preset-microStack.xml"; sourceTree = "<group>"; };
+		DDFCA034180F77D000BDFD6E /* preset-deepStack.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "preset-deepStack.xml"; sourceTree = "<group>"; };
+		DDFCA035180F77D000BDFD6E /* preset-regularStack.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "preset-regularStack.xml"; sourceTree = "<group>"; };
+		DDFCA036180F77D000BDFD6E /* deepStack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deepStack.plist; sourceTree = "<group>"; };
+		DDFCA037180F77D000BDFD6E /* regularStack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regularStack.plist; sourceTree = "<group>"; };
+		DDFCA038180F77D000BDFD6E /* blindChangeSounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blindChangeSounds.plist; sourceTree = "<group>"; };
+		DDFCA039180F77D000BDFD6E /* minuteNofitySounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = minuteNofitySounds.plist; sourceTree = "<group>"; };
+		DDFCA03A180F77D000BDFD6E /* languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = languages.plist; sourceTree = "<group>"; };
+		DDFCA046180F785600BDFD6E /* blackReflexButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackReflexButton.png; sourceTree = "<group>"; };
+		DDFCA047180F785600BDFD6E /* blackReflexButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackReflexButton@2x.png"; sourceTree = "<group>"; };
+		DDFCA048180F785600BDFD6E /* blackReflexButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackReflexButtonHighlight.png; sourceTree = "<group>"; };
+		DDFCA049180F785600BDFD6E /* blackReflexButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackReflexButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DDFCA04A180F785600BDFD6E /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		DDFCA04B180F785600BDFD6E /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		DDFCA04C180F785600BDFD6E /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DDFCA04D180F785600BDFD6E /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		DDFCA04E180F785600BDFD6E /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		DDFCA04F180F785600BDFD6E /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		DDFCA050180F785600BDFD6E /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		DDFCA051180F785600BDFD6E /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DDFCA052180F785600BDFD6E /* blackOpaqueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackOpaqueButtonHighlight.png; sourceTree = "<group>"; };
+		DDFCA053180F785600BDFD6E /* blackOpaqueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackOpaqueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DDFCA054180F785600BDFD6E /* blackOpaqueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackOpaqueButton@2x.png"; sourceTree = "<group>"; };
+		DDFCA055180F785600BDFD6E /* blackOpaqueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackOpaqueButton.png; sourceTree = "<group>"; };
+		DDFCA056180F785600BDFD6E /* whiteOpaqueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteOpaqueButton.png; sourceTree = "<group>"; };
+		DDFCA057180F785600BDFD6E /* whiteOpaqueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteOpaqueButton@2x.png"; sourceTree = "<group>"; };
+		DDFCA058180F785600BDFD6E /* whiteOpaqueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteOpaqueButtonHighlight.png; sourceTree = "<group>"; };
+		DDFCA059180F785600BDFD6E /* whiteOpaqueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteOpaqueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DDFCA06F180F787400BDFD6E /* chip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip1.png; sourceTree = "<group>"; };
+		DDFCA070180F787400BDFD6E /* players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "players@2x.png"; sourceTree = "<group>"; };
+		DDFCA071180F787400BDFD6E /* players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = players.png; sourceTree = "<group>"; };
+		DDFCA072180F787400BDFD6E /* chip5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip5.png; sourceTree = "<group>"; };
+		DDFCA073180F787400BDFD6E /* chip10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip10.png; sourceTree = "<group>"; };
+		DDFCA074180F787400BDFD6E /* chip25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip25.png; sourceTree = "<group>"; };
+		DDFCA075180F787400BDFD6E /* chip50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip50.png; sourceTree = "<group>"; };
+		DDFCA076180F787400BDFD6E /* chip100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip100.png; sourceTree = "<group>"; };
+		DDFCA077180F787400BDFD6E /* chip500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip500.png; sourceTree = "<group>"; };
+		DDFCA078180F787400BDFD6E /* chip1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip1000.png; sourceTree = "<group>"; };
+		DDFCA079180F787400BDFD6E /* chip5000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip5000.png; sourceTree = "<group>"; };
+		DDFCA07A180F787400BDFD6E /* chip10000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip10000.png; sourceTree = "<group>"; };
+		DDFCA088180F78BC00BDFD6E /* iPadTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadTimerViewController.h; sourceTree = "<group>"; };
+		DDFCA089180F78BC00BDFD6E /* iPadTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadTimerViewController.m; sourceTree = "<group>"; };
+		DDFCA08A180F78BC00BDFD6E /* iPhoneTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneTimerViewController.h; sourceTree = "<group>"; };
+		DDFCA08B180F78BC00BDFD6E /* iPhoneTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneTimerViewController.m; sourceTree = "<group>"; };
+		DDFCA08C180F78BC00BDFD6E /* CreateMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMenuViewController.h; sourceTree = "<group>"; };
+		DDFCA08D180F78BC00BDFD6E /* CreateMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMenuViewController.m; sourceTree = "<group>"; };
+		DDFCA08E180F78BC00BDFD6E /* TimerEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerEditViewController.h; sourceTree = "<group>"; };
+		DDFCA08F180F78BC00BDFD6E /* TimerEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerEditViewController.m; sourceTree = "<group>"; };
+		DDFCA090180F78BC00BDFD6E /* TimerEditMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerEditMasterViewController.h; sourceTree = "<group>"; };
+		DDFCA091180F78BC00BDFD6E /* TimerEditMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerEditMasterViewController.m; sourceTree = "<group>"; };
+		DDFCA092180F78BC00BDFD6E /* TimerEditDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerEditDetailViewController.h; sourceTree = "<group>"; };
+		DDFCA093180F78BC00BDFD6E /* TimerEditDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerEditDetailViewController.m; sourceTree = "<group>"; };
+		DDFCA094180F78BC00BDFD6E /* TimerPresetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerPresetViewController.h; sourceTree = "<group>"; };
+		DDFCA095180F78BC00BDFD6E /* TimerPresetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerPresetViewController.m; sourceTree = "<group>"; };
+		DDFCA096180F78BC00BDFD6E /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		DDFCA097180F78BC00BDFD6E /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		DDFCA098180F78BC00BDFD6E /* ConfigMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigMasterViewController.h; sourceTree = "<group>"; };
+		DDFCA099180F78BC00BDFD6E /* ConfigMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigMasterViewController.m; sourceTree = "<group>"; };
+		DDFCA09A180F78BC00BDFD6E /* ConfigDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigDetailViewController.h; sourceTree = "<group>"; };
+		DDFCA09B180F78BC00BDFD6E /* ConfigDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigDetailViewController.m; sourceTree = "<group>"; };
+		DDFCA09C180F78BC00BDFD6E /* ConfigLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigLanguageViewController.h; sourceTree = "<group>"; };
+		DDFCA09D180F78BC00BDFD6E /* ConfigLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigLanguageViewController.m; sourceTree = "<group>"; };
+		DDFCA09E180F78BC00BDFD6E /* WizardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardViewController.h; sourceTree = "<group>"; };
+		DDFCA09F180F78BC00BDFD6E /* WizardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardViewController.m; sourceTree = "<group>"; };
+		DDFCA0AD180F78DD00BDFD6E /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		DDFCA0AE180F78DD00BDFD6E /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
+		DDFCA0B1180F78EE00BDFD6E /* minute-alert1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minute-alert1.mp3"; sourceTree = "<group>"; };
+		DDFCA0B2180F78EE00BDFD6E /* minute-alert2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minute-alert2.mp3"; sourceTree = "<group>"; };
+		DDFCA0B3180F78EE00BDFD6E /* minute-alert3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minute-alert3.mp3"; sourceTree = "<group>"; };
+		DDFCA0B4180F78EE00BDFD6E /* minute-alert4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minute-alert4.mp3"; sourceTree = "<group>"; };
+		DDFCA0B5180F78EE00BDFD6E /* minute-alert5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minute-alert5.mp3"; sourceTree = "<group>"; };
+		DDFCA0B6180F78EE00BDFD6E /* clock-tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clock-tick.mp3"; sourceTree = "<group>"; };
+		DDFCA0B7180F78EE00BDFD6E /* blind-change1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change1.mp3"; sourceTree = "<group>"; };
+		DDFCA0B8180F78EE00BDFD6E /* blind-change2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change2.mp3"; sourceTree = "<group>"; };
+		DDFCA0B9180F78EE00BDFD6E /* blind-change3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change3.mp3"; sourceTree = "<group>"; };
+		DDFCA0BA180F78EE00BDFD6E /* blind-change4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change4.mp3"; sourceTree = "<group>"; };
+		DDFCA0BB180F78EE00BDFD6E /* blind-change5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change5.mp3"; sourceTree = "<group>"; };
+		DDFCA0BC180F78EE00BDFD6E /* blind-change6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change6.mp3"; sourceTree = "<group>"; };
+		DDFCA0BD180F78EE00BDFD6E /* blind-change7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change7.mp3"; sourceTree = "<group>"; };
+		DDFCA0BE180F78EE00BDFD6E /* blind-change8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blind-change8.mp3"; sourceTree = "<group>"; };
+		DDFCA0BF180F78EE00BDFD6E /* pulse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pulse.mp3; sourceTree = "<group>"; };
+		DDFCA0CF180F862300BDFD6E /* iPad_Timer_White.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Timer_White.storyboard; sourceTree = "<group>"; };
+		DDFCA0D0180F862300BDFD6E /* iPad_Create_Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Create_Menu.storyboard; sourceTree = "<group>"; };
+		DDFCA0D1180F862300BDFD6E /* iPad_Timer_Edit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Timer_Edit.storyboard; sourceTree = "<group>"; };
+		DDFCA0D2180F862300BDFD6E /* iPad_Config.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Config.storyboard; sourceTree = "<group>"; };
+		DDFCA0D9180F877100BDFD6E /* iPad_Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Timer.storyboard; sourceTree = "<group>"; };
+		DDFCA0DB180F89A200BDFD6E /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDFCA0DD180F89AB00BDFD6E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDFCA0E2180F89C900BDFD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFC9F7A180F4D4800BDFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA20621181F09E500B536DD /* StoreKit.framework in Frameworks */,
+				DDFC9F83180F4D4800BDFD6E /* CoreGraphics.framework in Frameworks */,
+				DDFC9F85180F4D4800BDFD6E /* UIKit.framework in Frameworks */,
+				DDFC9F81180F4D4800BDFD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC9F95180F4D4800BDFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC9F9A180F4D4800BDFD6E /* XCTest.framework in Frameworks */,
+				DDFC9F9C180F4D4800BDFD6E /* UIKit.framework in Frameworks */,
+				DDFC9F9B180F4D4800BDFD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7378BB1811CFCC00327D95 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				DD8E5E051813A79600C198D9 /* iphone-timer-blue-bg-portrait.png */,
+				DD8E5E061813A79600C198D9 /* iphone-timer-blue-bg-portrait@2x.png */,
+				DD8E5DF11812500000C198D9 /* iphone-timer-blue-bg.png */,
+				DD8E5DF21812500000C198D9 /* iphone-timer-blue-bg@2x.png */,
+				DDD58B43181DDEF60090F626 /* iphone-timer-red-bg-portrait.png */,
+				DDD58B44181DDEF60090F626 /* iphone-timer-red-bg-portrait@2x.png */,
+				DDD58B45181DDEF60090F626 /* iphone-timer-red-bg.png */,
+				DDD58B46181DDEF60090F626 /* iphone-timer-red-bg@2x.png */,
+				DD8E5DF71812E81500C198D9 /* blind-level-bg.png */,
+				DD8E5DF51812E7E600C198D9 /* blind-level-bg@2x.png */,
+				DD8E5DF918136B6700C198D9 /* blind-time-bg.png */,
+				DD8E5DFA18136B6700C198D9 /* blind-time-bg@2x.png */,
+				DD8E5DFD181381DB00C198D9 /* iphone-level-circle@2x.png */,
+				DD8E5DFE181381DB00C198D9 /* iphone-level-circle.png */,
+				DD8E5E011813877900C198D9 /* iphone-settings.png */,
+				DD8E5E021813877900C198D9 /* iphone-settings@2x.png */,
+				DD14891F181604AC00EB4D0F /* iphone-manual.png */,
+				DD148920181604AC00EB4D0F /* iphone-manual@2x.png */,
+				DD148923181604DF00EB4D0F /* iphone-preset.png */,
+				DD148924181604DF00EB4D0F /* iphone-preset@2x.png */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
+		DDA2061C181F09BB00B536DD /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2061D181F09C500B536DD /* iRate.h */,
+				DDA2061E181F09C500B536DD /* iRate.m */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		DDB7968A1819EAB60001B02D /* iPhone Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA08A180F78BC00BDFD6E /* iPhoneTimerViewController.h */,
+				DDFCA08B180F78BC00BDFD6E /* iPhoneTimerViewController.m */,
+				DD44E3BF181C18C900755216 /* iPhoneCreateMenuViewController.h */,
+				DD44E3C0181C18C900755216 /* iPhoneCreateMenuViewController.m */,
+				DD14892718160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.h */,
+				DD14892818160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.m */,
+				DDB796871819EA6A0001B02D /* iPhoneTimerEditDetailViewController.h */,
+				DDB796881819EA6A0001B02D /* iPhoneTimerEditDetailViewController.m */,
+				DDB7968B181A08780001B02D /* iPhoneBlindLevelEditViewController.h */,
+				DDB7968C181A08780001B02D /* iPhoneBlindLevelEditViewController.m */,
+				DD8E5E091813B3B200C198D9 /* iPhoneTimerMenuViewController.h */,
+				DD8E5E0A1813B3B200C198D9 /* iPhoneTimerMenuViewController.m */,
+			);
+			name = "iPhone Controllers";
+			sourceTree = "<group>";
+		};
+		DDFC9F74180F4D4800BDFD6E = {
+			isa = PBXGroup;
+			children = (
+				DDB7423C181F6CFD00954D02 /* Default-Landscape@2x.png */,
+				DDB7423B181F6CE700954D02 /* Default~ipad.png */,
+				DDB7423A181F6C8000954D02 /* Default-Landscape~ipad.png */,
+				DDB74239181F6B4500954D02 /* Default-Landscape@2x~ipad.png */,
+				DDB74237181F6AEB00954D02 /* Default.png */,
+				DDB74236181F6AD900954D02 /* Default@2x~iphone.png */,
+				DDB74235181F6AC700954D02 /* Default~iphone.png */,
+				DDFC9F86180F4D4800BDFD6E /* iRank Timer */,
+				DDFC9F7F180F4D4800BDFD6E /* Frameworks */,
+				DDFC9F7E180F4D4800BDFD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFC9F7E180F4D4800BDFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC9F7D180F4D4800BDFD6E /* iRank Timer.app */,
+				DDFC9F98180F4D4800BDFD6E /* iRank TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFC9F7F180F4D4800BDFD6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA20620181F09E500B536DD /* StoreKit.framework */,
+				DDFC9F80180F4D4800BDFD6E /* Foundation.framework */,
+				DDFC9F82180F4D4800BDFD6E /* CoreGraphics.framework */,
+				DDFC9F84180F4D4800BDFD6E /* UIKit.framework */,
+				DDFC9F99180F4D4800BDFD6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDFC9F86180F4D4800BDFD6E /* iRank Timer */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2061C181F09BB00B536DD /* vendor */,
+				DD9CAF7718108F7F004D08DF /* Constants.h */,
+				DDFCA0AC180F78CD00BDFD6E /* BSKeyboardControls */,
+				DDFCA0B0180F78E600BDFD6E /* sounds */,
+				DDFC9FB2180F4E7200BDFD6E /* images */,
+				DDFC9F8F180F4D4800BDFD6E /* AppDelegate.h */,
+				DDFC9F90180F4D4800BDFD6E /* AppDelegate.m */,
+				DDFCA0D9180F877100BDFD6E /* iPad_Timer.storyboard */,
+				DDFCA0CF180F862300BDFD6E /* iPad_Timer_White.storyboard */,
+				DDFCA0D0180F862300BDFD6E /* iPad_Create_Menu.storyboard */,
+				DDFCA0D1180F862300BDFD6E /* iPad_Timer_Edit.storyboard */,
+				DDFCA0D2180F862300BDFD6E /* iPad_Config.storyboard */,
+				DD8E5DBC1811E30F00C198D9 /* iPhone_Timer.storyboard */,
+				DDFCA019180F770500BDFD6E /* TimerViewController.h */,
+				DDFCA01A180F770500BDFD6E /* TimerViewController.m */,
+				DDFCA088180F78BC00BDFD6E /* iPadTimerViewController.h */,
+				DDFCA089180F78BC00BDFD6E /* iPadTimerViewController.m */,
+				DDB7968A1819EAB60001B02D /* iPhone Controllers */,
+				DDFC9F92180F4D4800BDFD6E /* Images.xcassets */,
+				DDFCA087180F789C00BDFD6E /* Controllers */,
+				DDFCA030180F77C400BDFD6E /* Resources */,
+				DDFCA026180F772D00BDFD6E /* Custom cells */,
+				DDFCA01C180F771400BDFD6E /* Classes */,
+				DDFC9F87180F4D4800BDFD6E /* Supporting Files */,
+			);
+			path = "iRank Timer";
+			sourceTree = "<group>";
+		};
+		DDFC9F87180F4D4800BDFD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC9F88180F4D4800BDFD6E /* iRank Timer-Info.plist */,
+				DDFC9F89180F4D4800BDFD6E /* InfoPlist.strings */,
+				DDFC9F8C180F4D4800BDFD6E /* main.m */,
+				DDFC9F8E180F4D4800BDFD6E /* iRank Timer-Prefix.pch */,
+				DDFCA0E3180F89C900BDFD6E /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFC9FB2180F4E7200BDFD6E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DD7378BB1811CFCC00327D95 /* iphone */,
+				DDFCA06E180F786B00BDFD6E /* chips */,
+				DDFCA045180F784D00BDFD6E /* buttons */,
+				DDFC9FF5180F4E9800BDFD6E /* icon */,
+				DDFC9FB3180F4E8800BDFD6E /* clock.png */,
+				DDFC9FB4180F4E8800BDFD6E /* hand@2x.png */,
+				DDFC9FB5180F4E8800BDFD6E /* hand.png */,
+				DDFC9FB6180F4E8800BDFD6E /* settings@2x.png */,
+				DDFC9FB7180F4E8800BDFD6E /* settings.png */,
+				DDFC9FB8180F4E8800BDFD6E /* clock@2x.png */,
+				DDFC9FB9180F4E8800BDFD6E /* irank-logo-single.png */,
+				DDFC9FBA180F4E8800BDFD6E /* logo-irank@2x.png */,
+				DDFC9FBB180F4E8800BDFD6E /* logo-irank.png */,
+				DDFC9FBC180F4E8800BDFD6E /* level-circle.png */,
+				DDFC9FBD180F4E8800BDFD6E /* level-circle@2x.png */,
+				DDFC9FBE180F4E8800BDFD6E /* level-circle-white.png */,
+				DDFC9FBF180F4E8800BDFD6E /* level-circle-white@2x.png */,
+				DDFC9FC0180F4E8800BDFD6E /* main-bg@2x.png */,
+				DDFC9FC1180F4E8800BDFD6E /* main-bg.png */,
+				DDFC9FC2180F4E8800BDFD6E /* button-separator.png */,
+				DDFC9FC3180F4E8800BDFD6E /* timer-clock-bg.png */,
+				DDFC9FC4180F4E8800BDFD6E /* timer-red-bg.png */,
+				DDFC9FC5180F4E8800BDFD6E /* timer-red-white-bg.png */,
+				DDFC9FC6180F4E8800BDFD6E /* timer-blue-bg.png */,
+				DDFC9FC7180F4E8800BDFD6E /* timer-white-bg.png */,
+				DDFC9FC8180F4E8800BDFD6E /* white-dot.png */,
+				DDFC9FC9180F4E8800BDFD6E /* black-dot.png */,
+				DDFC9FCA180F4E8800BDFD6E /* black-bar.png */,
+				DDFC9FCB180F4E8800BDFD6E /* gray-dot.png */,
+				DDFC9FCC180F4E8800BDFD6E /* cell-separator.png */,
+				DDFC9FCD180F4E8800BDFD6E /* cell-separator@2x.png */,
+				DDFC9FCE180F4E8800BDFD6E /* preset.png */,
+				DDFC9FCF180F4E8800BDFD6E /* preset@2x.png */,
+				DDFC9FD0180F4E8800BDFD6E /* wizard@2x.png */,
+				DDFC9FD1180F4E8800BDFD6E /* wizard.png */,
+				DDFC9FD2180F4E8800BDFD6E /* manual.png */,
+				DDFC9FD3180F4E8800BDFD6E /* manual@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DDFC9FF5180F4E9800BDFD6E /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC9FF6180F4EA800BDFD6E /* AppIcon29x29.png */,
+				DDFC9FF7180F4EA800BDFD6E /* AppIcon29x29@2x.png */,
+				DDFC9FF8180F4EA800BDFD6E /* AppIcon40x40.png */,
+				DDFC9FF9180F4EA800BDFD6E /* AppIcon40x40@2x.png */,
+				DD8E5DD818124AC200C198D9 /* AppIcon50x50.png */,
+				DD8E5DD918124AC200C198D9 /* AppIcon50x50@2x.png */,
+				DDFC9FFA180F4EA800BDFD6E /* AppIcon57x57.png */,
+				DDFC9FFB180F4EA800BDFD6E /* AppIcon57x57@2x.png */,
+				DDFC9FFC180F4EA800BDFD6E /* AppIcon58x58.png */,
+				DDFC9FFD180F4EA800BDFD6E /* AppIcon60x60.png */,
+				DDFC9FFE180F4EA800BDFD6E /* AppIcon60x60@2x.png */,
+				DDFC9FFF180F4EA800BDFD6E /* AppIcon72x72.png */,
+				DDFCA000180F4EA800BDFD6E /* AppIcon72x72@2x.png */,
+				DDFCA001180F4EA800BDFD6E /* AppIcon76x76.png */,
+				DDFCA002180F4EA800BDFD6E /* AppIcon76x76@2x.png */,
+				DDFCA003180F4EA800BDFD6E /* AppIcon80x80.png */,
+				DDFCA004180F4EA800BDFD6E /* AppIcon120x120.png */,
+				DDFCA005180F4EA800BDFD6E /* iTunesArtwork.png */,
+				DDFCA006180F4EA800BDFD6E /* iTunesArtwork@2x.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		DDFCA01C180F771400BDFD6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA01D180F772700BDFD6E /* BlindSet.h */,
+				DDFCA01E180F772700BDFD6E /* BlindSet.m */,
+				DDFCA01F180F772700BDFD6E /* BlindLevel.h */,
+				DDFCA020180F772700BDFD6E /* BlindLevel.m */,
+				DDFCA021180F772700BDFD6E /* XmlBlindSetParser.h */,
+				DDFCA022180F772700BDFD6E /* XmlBlindSetParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DDFCA026180F772D00BDFD6E /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA027180F773A00BDFD6E /* BlindLevelCell.h */,
+				DDFCA028180F773A00BDFD6E /* BlindLevelCell.m */,
+				DDFCA029180F773A00BDFD6E /* TimerLevelCell.h */,
+				DDFCA02A180F773A00BDFD6E /* TimerLevelCell.m */,
+				DDFCA02B180F773A00BDFD6E /* TimerMenuCell.h */,
+				DDFCA02C180F773A00BDFD6E /* TimerMenuCell.m */,
+			);
+			name = "Custom cells";
+			sourceTree = "<group>";
+		};
+		DDFCA030180F77C400BDFD6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA031180F77D000BDFD6E /* startupBlindSets.xml */,
+				DD0D12CA1818A8CB00E0720B /* startupBlindSets-lite.xml */,
+				DDFCA032180F77D000BDFD6E /* microStack.plist */,
+				DDFCA033180F77D000BDFD6E /* preset-microStack.xml */,
+				DDFCA034180F77D000BDFD6E /* preset-deepStack.xml */,
+				DDFCA035180F77D000BDFD6E /* preset-regularStack.xml */,
+				DDFCA036180F77D000BDFD6E /* deepStack.plist */,
+				DDFCA037180F77D000BDFD6E /* regularStack.plist */,
+				DDFCA038180F77D000BDFD6E /* blindChangeSounds.plist */,
+				DDFCA039180F77D000BDFD6E /* minuteNofitySounds.plist */,
+				DDFCA03A180F77D000BDFD6E /* languages.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DDFCA045180F784D00BDFD6E /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA046180F785600BDFD6E /* blackReflexButton.png */,
+				DDFCA047180F785600BDFD6E /* blackReflexButton@2x.png */,
+				DDFCA048180F785600BDFD6E /* blackReflexButtonHighlight.png */,
+				DDFCA049180F785600BDFD6E /* blackReflexButtonHighlight@2x.png */,
+				DDFCA04A180F785600BDFD6E /* orangeButton@2x.png */,
+				DDFCA04B180F785600BDFD6E /* orangeButtonHighlight.png */,
+				DDFCA04C180F785600BDFD6E /* orangeButtonHighlight@2x.png */,
+				DDFCA04D180F785600BDFD6E /* orangeButton.png */,
+				DDFCA04E180F785600BDFD6E /* blackButton.png */,
+				DDFCA04F180F785600BDFD6E /* blackButton@2x.png */,
+				DDFCA050180F785600BDFD6E /* blackButtonHighlight.png */,
+				DDFCA051180F785600BDFD6E /* blackButtonHighlight@2x.png */,
+				DDFCA052180F785600BDFD6E /* blackOpaqueButtonHighlight.png */,
+				DDFCA053180F785600BDFD6E /* blackOpaqueButtonHighlight@2x.png */,
+				DDFCA054180F785600BDFD6E /* blackOpaqueButton@2x.png */,
+				DDFCA055180F785600BDFD6E /* blackOpaqueButton.png */,
+				DDFCA056180F785600BDFD6E /* whiteOpaqueButton.png */,
+				DDFCA057180F785600BDFD6E /* whiteOpaqueButton@2x.png */,
+				DDFCA058180F785600BDFD6E /* whiteOpaqueButtonHighlight.png */,
+				DDFCA059180F785600BDFD6E /* whiteOpaqueButtonHighlight@2x.png */,
+			);
+			name = buttons;
+			sourceTree = "<group>";
+		};
+		DDFCA06E180F786B00BDFD6E /* chips */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA06F180F787400BDFD6E /* chip1.png */,
+				DDFCA070180F787400BDFD6E /* players@2x.png */,
+				DDFCA071180F787400BDFD6E /* players.png */,
+				DDFCA072180F787400BDFD6E /* chip5.png */,
+				DDFCA073180F787400BDFD6E /* chip10.png */,
+				DDFCA074180F787400BDFD6E /* chip25.png */,
+				DDFCA075180F787400BDFD6E /* chip50.png */,
+				DDFCA076180F787400BDFD6E /* chip100.png */,
+				DDFCA077180F787400BDFD6E /* chip500.png */,
+				DDFCA078180F787400BDFD6E /* chip1000.png */,
+				DDFCA079180F787400BDFD6E /* chip5000.png */,
+				DDFCA07A180F787400BDFD6E /* chip10000.png */,
+			);
+			name = chips;
+			sourceTree = "<group>";
+		};
+		DDFCA087180F789C00BDFD6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA08C180F78BC00BDFD6E /* CreateMenuViewController.h */,
+				DDFCA08D180F78BC00BDFD6E /* CreateMenuViewController.m */,
+				DDFCA08E180F78BC00BDFD6E /* TimerEditViewController.h */,
+				DDFCA08F180F78BC00BDFD6E /* TimerEditViewController.m */,
+				DDFCA090180F78BC00BDFD6E /* TimerEditMasterViewController.h */,
+				DDFCA091180F78BC00BDFD6E /* TimerEditMasterViewController.m */,
+				DDFCA092180F78BC00BDFD6E /* TimerEditDetailViewController.h */,
+				DDFCA093180F78BC00BDFD6E /* TimerEditDetailViewController.m */,
+				DDFCA094180F78BC00BDFD6E /* TimerPresetViewController.h */,
+				DDFCA095180F78BC00BDFD6E /* TimerPresetViewController.m */,
+				DDFCA096180F78BC00BDFD6E /* ConfigViewController.h */,
+				DDFCA097180F78BC00BDFD6E /* ConfigViewController.m */,
+				DDFCA098180F78BC00BDFD6E /* ConfigMasterViewController.h */,
+				DDFCA099180F78BC00BDFD6E /* ConfigMasterViewController.m */,
+				DDFCA09A180F78BC00BDFD6E /* ConfigDetailViewController.h */,
+				DDFCA09B180F78BC00BDFD6E /* ConfigDetailViewController.m */,
+				DDFCA09C180F78BC00BDFD6E /* ConfigLanguageViewController.h */,
+				DDFCA09D180F78BC00BDFD6E /* ConfigLanguageViewController.m */,
+				DDFCA09E180F78BC00BDFD6E /* WizardViewController.h */,
+				DDFCA09F180F78BC00BDFD6E /* WizardViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DDFCA0AC180F78CD00BDFD6E /* BSKeyboardControls */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCA0AD180F78DD00BDFD6E /* BSKeyboardControls.h */,
+				DDFCA0AE180F78DD00BDFD6E /* BSKeyboardControls.m */,
+			);
+			name = BSKeyboardControls;
+			sourceTree = "<group>";
+		};
+		DDFCA0B0180F78E600BDFD6E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DDA97623183D4BE300A0630E /* ante-notify1.mp3 */,
+				DDA97624183D4BE300A0630E /* ante-notify2.mp3 */,
+				DDA97625183D4BE300A0630E /* ante-notify3.mp3 */,
+				DDFCA0B1180F78EE00BDFD6E /* minute-alert1.mp3 */,
+				DDFCA0B2180F78EE00BDFD6E /* minute-alert2.mp3 */,
+				DDFCA0B3180F78EE00BDFD6E /* minute-alert3.mp3 */,
+				DDFCA0B4180F78EE00BDFD6E /* minute-alert4.mp3 */,
+				DDFCA0B5180F78EE00BDFD6E /* minute-alert5.mp3 */,
+				DDFCA0B6180F78EE00BDFD6E /* clock-tick.mp3 */,
+				DDFCA0B7180F78EE00BDFD6E /* blind-change1.mp3 */,
+				DDFCA0B8180F78EE00BDFD6E /* blind-change2.mp3 */,
+				DDFCA0B9180F78EE00BDFD6E /* blind-change3.mp3 */,
+				DDFCA0BA180F78EE00BDFD6E /* blind-change4.mp3 */,
+				DDFCA0BB180F78EE00BDFD6E /* blind-change5.mp3 */,
+				DDFCA0BC180F78EE00BDFD6E /* blind-change6.mp3 */,
+				DDFCA0BD180F78EE00BDFD6E /* blind-change7.mp3 */,
+				DDFCA0BE180F78EE00BDFD6E /* blind-change8.mp3 */,
+				DDFCA0BF180F78EE00BDFD6E /* pulse.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFC9F7C180F4D4800BDFD6E /* iRank Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC9FA9180F4D4800BDFD6E /* Build configuration list for PBXNativeTarget "iRank Timer" */;
+			buildPhases = (
+				DDFC9F79180F4D4800BDFD6E /* Sources */,
+				DDFC9F7A180F4D4800BDFD6E /* Frameworks */,
+				DDFC9F7B180F4D4800BDFD6E /* Resources */,
+				DDFC9FAF180F4D9D00BDFD6E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRank Timer";
+			productName = "iRank Timer";
+			productReference = DDFC9F7D180F4D4800BDFD6E /* iRank Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFC9F97180F4D4800BDFD6E /* iRank TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC9FAC180F4D4800BDFD6E /* Build configuration list for PBXNativeTarget "iRank TimerTests" */;
+			buildPhases = (
+				DDFC9F94180F4D4800BDFD6E /* Sources */,
+				DDFC9F95180F4D4800BDFD6E /* Frameworks */,
+				DDFC9F96180F4D4800BDFD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFC9F9E180F4D4800BDFD6E /* PBXTargetDependency */,
+			);
+			name = "iRank TimerTests";
+			productName = "iRank TimerTests";
+			productReference = DDFC9F98180F4D4800BDFD6E /* iRank TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFC9F75180F4D4800BDFD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Stegun.com;
+				TargetAttributes = {
+					DDFC9F7C180F4D4800BDFD6E = {
+						DevelopmentTeam = CP356H356Z;
+					};
+					DDFC9F97180F4D4800BDFD6E = {
+						TestTargetID = DDFC9F7C180F4D4800BDFD6E;
+					};
+				};
+			};
+			buildConfigurationList = DDFC9F78180F4D4800BDFD6E /* Build configuration list for PBXProject "iRank Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pt,
+				es,
+			);
+			mainGroup = DDFC9F74180F4D4800BDFD6E;
+			productRefGroup = DDFC9F7E180F4D4800BDFD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFC9F7C180F4D4800BDFD6E /* iRank Timer */,
+				DDFC9F97180F4D4800BDFD6E /* iRank TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFC9F7B180F4D4800BDFD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFCA06A180F785600BDFD6E /* whiteOpaqueButton.png in Resources */,
+				DDFC9FDB180F4E8800BDFD6E /* logo-irank@2x.png in Resources */,
+				DDD58B47181DDEF60090F626 /* iphone-timer-red-bg-portrait.png in Resources */,
+				DDFCA0DA180F877100BDFD6E /* iPad_Timer.storyboard in Resources */,
+				DDFCA05B180F785600BDFD6E /* blackReflexButton@2x.png in Resources */,
+				DDFCA017180F4EA800BDFD6E /* iTunesArtwork@2x.png in Resources */,
+				DD8E5DDB18124AC200C198D9 /* AppIcon50x50@2x.png in Resources */,
+				DDFC9FD8180F4E8800BDFD6E /* settings.png in Resources */,
+				DDFCA011180F4EA800BDFD6E /* AppIcon72x72@2x.png in Resources */,
+				DDFCA03D180F77D000BDFD6E /* preset-microStack.xml in Resources */,
+				DDA97627183D4BE300A0630E /* ante-notify2.mp3 in Resources */,
+				DDFCA082180F787400BDFD6E /* chip100.png in Resources */,
+				DDFCA063180F785600BDFD6E /* blackButton@2x.png in Resources */,
+				DDFC9FE8180F4E8800BDFD6E /* timer-white-bg.png in Resources */,
+				DDFCA010180F4EA800BDFD6E /* AppIcon72x72.png in Resources */,
+				DD8E5DF81812E81500C198D9 /* blind-level-bg.png in Resources */,
+				DDFCA07F180F787400BDFD6E /* chip10.png in Resources */,
+				DDFC9FEB180F4E8800BDFD6E /* black-bar.png in Resources */,
+				DDFCA061180F785600BDFD6E /* orangeButton.png in Resources */,
+				DDFC9FD4180F4E8800BDFD6E /* clock.png in Resources */,
+				DD8E5E00181381DB00C198D9 /* iphone-level-circle.png in Resources */,
+				DDFCA0C4180F78EE00BDFD6E /* minute-alert5.mp3 in Resources */,
+				DDFCA0CE180F78EE00BDFD6E /* pulse.mp3 in Resources */,
+				DDD58B48181DDEF60090F626 /* iphone-timer-red-bg-portrait@2x.png in Resources */,
+				DD148926181604DF00EB4D0F /* iphone-preset@2x.png in Resources */,
+				DDD58B49181DDEF60090F626 /* iphone-timer-red-bg.png in Resources */,
+				DDFCA064180F785600BDFD6E /* blackButtonHighlight.png in Resources */,
+				DDFCA086180F787400BDFD6E /* chip10000.png in Resources */,
+				DDFCA066180F785600BDFD6E /* blackOpaqueButtonHighlight.png in Resources */,
+				DDFC9FE2180F4E8800BDFD6E /* main-bg.png in Resources */,
+				DD8E5DF41812500000C198D9 /* iphone-timer-blue-bg@2x.png in Resources */,
+				DDFCA0E1180F89C900BDFD6E /* Localizable.strings in Resources */,
+				DDFCA0C6180F78EE00BDFD6E /* blind-change1.mp3 in Resources */,
+				DD148921181604AC00EB4D0F /* iphone-manual.png in Resources */,
+				DDFC9FF3180F4E8800BDFD6E /* manual.png in Resources */,
+				DDFC9FEC180F4E8800BDFD6E /* gray-dot.png in Resources */,
+				DDFCA084180F787400BDFD6E /* chip1000.png in Resources */,
+				DDFCA03E180F77D000BDFD6E /* preset-deepStack.xml in Resources */,
+				DDFCA043180F77D000BDFD6E /* minuteNofitySounds.plist in Resources */,
+				DDFC9F8B180F4D4800BDFD6E /* InfoPlist.strings in Resources */,
+				DDFC9FF2180F4E8800BDFD6E /* wizard.png in Resources */,
+				DDFCA00F180F4EA800BDFD6E /* AppIcon60x60@2x.png in Resources */,
+				DDFCA062180F785600BDFD6E /* blackButton.png in Resources */,
+				DDFCA07C180F787400BDFD6E /* players@2x.png in Resources */,
+				DDFCA085180F787400BDFD6E /* chip5000.png in Resources */,
+				DDFCA06D180F785600BDFD6E /* whiteOpaqueButtonHighlight@2x.png in Resources */,
+				DDFC9FDC180F4E8800BDFD6E /* logo-irank.png in Resources */,
+				DDFCA0CA180F78EE00BDFD6E /* blind-change5.mp3 in Resources */,
+				DDFCA0C1180F78EE00BDFD6E /* minute-alert2.mp3 in Resources */,
+				DDFCA0C7180F78EE00BDFD6E /* blind-change2.mp3 in Resources */,
+				DDFCA080180F787400BDFD6E /* chip25.png in Resources */,
+				DDFCA044180F77D000BDFD6E /* languages.plist in Resources */,
+				DDFCA015180F4EA800BDFD6E /* AppIcon120x120.png in Resources */,
+				DDFC9FD7180F4E8800BDFD6E /* settings@2x.png in Resources */,
+				DDFCA012180F4EA800BDFD6E /* AppIcon76x76.png in Resources */,
+				DD8E5DFC18136B6700C198D9 /* blind-time-bg@2x.png in Resources */,
+				DDFC9FEE180F4E8800BDFD6E /* cell-separator@2x.png in Resources */,
+				DD8E5E031813877900C198D9 /* iphone-settings.png in Resources */,
+				DDFC9FD6180F4E8800BDFD6E /* hand.png in Resources */,
+				DDFC9FE5180F4E8800BDFD6E /* timer-red-bg.png in Resources */,
+				DDFC9FE7180F4E8800BDFD6E /* timer-blue-bg.png in Resources */,
+				DDFCA009180F4EA800BDFD6E /* AppIcon40x40.png in Resources */,
+				DDD58B4A181DDEF60090F626 /* iphone-timer-red-bg@2x.png in Resources */,
+				DDFCA040180F77D000BDFD6E /* deepStack.plist in Resources */,
+				DDFC9FED180F4E8800BDFD6E /* cell-separator.png in Resources */,
+				DDFC9FE4180F4E8800BDFD6E /* timer-clock-bg.png in Resources */,
+				DDFCA0D6180F862300BDFD6E /* iPad_Timer_Edit.storyboard in Resources */,
+				DDFC9FDA180F4E8800BDFD6E /* irank-logo-single.png in Resources */,
+				DDFCA00E180F4EA800BDFD6E /* AppIcon60x60.png in Resources */,
+				DDFCA042180F77D000BDFD6E /* blindChangeSounds.plist in Resources */,
+				DD8E5DF61812E7E600C198D9 /* blind-level-bg@2x.png in Resources */,
+				DDFCA0D5180F862300BDFD6E /* iPad_Create_Menu.storyboard in Resources */,
+				DDFCA03B180F77D000BDFD6E /* startupBlindSets.xml in Resources */,
+				DDFCA083180F787400BDFD6E /* chip500.png in Resources */,
+				DDFCA05E180F785600BDFD6E /* orangeButton@2x.png in Resources */,
+				DDFCA041180F77D000BDFD6E /* regularStack.plist in Resources */,
+				DDFC9FE6180F4E8800BDFD6E /* timer-red-white-bg.png in Resources */,
+				DDFCA03F180F77D000BDFD6E /* preset-regularStack.xml in Resources */,
+				DDFCA0C5180F78EE00BDFD6E /* clock-tick.mp3 in Resources */,
+				DD0D12CB1818A8CB00E0720B /* startupBlindSets-lite.xml in Resources */,
+				DD8E5DBD1811E30F00C198D9 /* iPhone_Timer.storyboard in Resources */,
+				DDFCA0D4180F862300BDFD6E /* iPad_Timer_White.storyboard in Resources */,
+				DDA97626183D4BE300A0630E /* ante-notify1.mp3 in Resources */,
+				DDFCA0C0180F78EE00BDFD6E /* minute-alert1.mp3 in Resources */,
+				DD8E5DDA18124AC200C198D9 /* AppIcon50x50.png in Resources */,
+				DDFCA05F180F785600BDFD6E /* orangeButtonHighlight.png in Resources */,
+				DD8E5E071813A79600C198D9 /* iphone-timer-blue-bg-portrait.png in Resources */,
+				DD8E5DFF181381DB00C198D9 /* iphone-level-circle@2x.png in Resources */,
+				DDFCA014180F4EA800BDFD6E /* AppIcon80x80.png in Resources */,
+				DD148925181604DF00EB4D0F /* iphone-preset.png in Resources */,
+				DDFCA0C2180F78EE00BDFD6E /* minute-alert3.mp3 in Resources */,
+				DDFCA05A180F785600BDFD6E /* blackReflexButton.png in Resources */,
+				DDFCA0CD180F78EE00BDFD6E /* blind-change8.mp3 in Resources */,
+				DDFCA065180F785600BDFD6E /* blackButtonHighlight@2x.png in Resources */,
+				DDFCA05D180F785600BDFD6E /* blackReflexButtonHighlight@2x.png in Resources */,
+				DDFC9FDE180F4E8800BDFD6E /* level-circle@2x.png in Resources */,
+				DDFCA07D180F787400BDFD6E /* players.png in Resources */,
+				DDFC9FE1180F4E8800BDFD6E /* main-bg@2x.png in Resources */,
+				DDFCA0C8180F78EE00BDFD6E /* blind-change3.mp3 in Resources */,
+				DDFCA00C180F4EA800BDFD6E /* AppIcon57x57@2x.png in Resources */,
+				DDFCA05C180F785600BDFD6E /* blackReflexButtonHighlight.png in Resources */,
+				DDFCA0CC180F78EE00BDFD6E /* blind-change7.mp3 in Resources */,
+				DDFCA0D7180F862300BDFD6E /* iPad_Config.storyboard in Resources */,
+				DDFC9FE3180F4E8800BDFD6E /* button-separator.png in Resources */,
+				DDFC9FE9180F4E8800BDFD6E /* white-dot.png in Resources */,
+				DD8E5DFB18136B6700C198D9 /* blind-time-bg.png in Resources */,
+				DD8E5E041813877900C198D9 /* iphone-settings@2x.png in Resources */,
+				DDA97628183D4BE300A0630E /* ante-notify3.mp3 in Resources */,
+				DDFCA00B180F4EA800BDFD6E /* AppIcon57x57.png in Resources */,
+				DDFCA060180F785600BDFD6E /* orangeButtonHighlight@2x.png in Resources */,
+				DDFCA00A180F4EA800BDFD6E /* AppIcon40x40@2x.png in Resources */,
+				DDFC9FD9180F4E8800BDFD6E /* clock@2x.png in Resources */,
+				DDFC9FE0180F4E8800BDFD6E /* level-circle-white@2x.png in Resources */,
+				DDFC9FD5180F4E8800BDFD6E /* hand@2x.png in Resources */,
+				DD148922181604AC00EB4D0F /* iphone-manual@2x.png in Resources */,
+				DDFC9FF1180F4E8800BDFD6E /* wizard@2x.png in Resources */,
+				DDFCA007180F4EA800BDFD6E /* AppIcon29x29.png in Resources */,
+				DDFC9FEF180F4E8800BDFD6E /* preset.png in Resources */,
+				DDFCA0C3180F78EE00BDFD6E /* minute-alert4.mp3 in Resources */,
+				DDFC9FDF180F4E8800BDFD6E /* level-circle-white.png in Resources */,
+				DDFCA008180F4EA800BDFD6E /* AppIcon29x29@2x.png in Resources */,
+				DDFCA07B180F787400BDFD6E /* chip1.png in Resources */,
+				DD8E5E081813A79600C198D9 /* iphone-timer-blue-bg-portrait@2x.png in Resources */,
+				DDFCA068180F785600BDFD6E /* blackOpaqueButton@2x.png in Resources */,
+				DDFC9F93180F4D4800BDFD6E /* Images.xcassets in Resources */,
+				DD8E5DF31812500000C198D9 /* iphone-timer-blue-bg.png in Resources */,
+				DDFCA03C180F77D000BDFD6E /* microStack.plist in Resources */,
+				DDFC9FF4180F4E8800BDFD6E /* manual@2x.png in Resources */,
+				DDFCA016180F4EA800BDFD6E /* iTunesArtwork.png in Resources */,
+				DDFCA06B180F785600BDFD6E /* whiteOpaqueButton@2x.png in Resources */,
+				DDFCA07E180F787400BDFD6E /* chip5.png in Resources */,
+				DDFC9FF0180F4E8800BDFD6E /* preset@2x.png in Resources */,
+				DDFCA067180F785600BDFD6E /* blackOpaqueButtonHighlight@2x.png in Resources */,
+				DDFC9FDD180F4E8800BDFD6E /* level-circle.png in Resources */,
+				DDFCA081180F787400BDFD6E /* chip50.png in Resources */,
+				DDFCA069180F785600BDFD6E /* blackOpaqueButton.png in Resources */,
+				DDFCA00D180F4EA800BDFD6E /* AppIcon58x58.png in Resources */,
+				DDFCA0C9180F78EE00BDFD6E /* blind-change4.mp3 in Resources */,
+				DDFCA013180F4EA800BDFD6E /* AppIcon76x76@2x.png in Resources */,
+				DDFC9FEA180F4E8800BDFD6E /* black-dot.png in Resources */,
+				DDFCA06C180F785600BDFD6E /* whiteOpaqueButtonHighlight.png in Resources */,
+				DDFCA0CB180F78EE00BDFD6E /* blind-change6.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC9F96180F4D4800BDFD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDFC9FAF180F4D9D00BDFD6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET=\"$PROJECT_DIR/iRank Timer/iRank Timer-Info.plist\"\n\necho $TARGET\nif [ ! -f \"$TARGET\" ]; then\necho \"missing file $TARGET\"\nexit 1;\nfi\n\n#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$TARGET\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$TARGET\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFC9F79180F4D4800BDFD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFCA02F180F773A00BDFD6E /* TimerMenuCell.m in Sources */,
+				DDFCA0A1180F78BC00BDFD6E /* iPhoneTimerViewController.m in Sources */,
+				DDFCA0A4180F78BC00BDFD6E /* TimerEditMasterViewController.m in Sources */,
+				DD14892918160EBF00EB4D0F /* iPhoneTimerPresetMenuViewController.m in Sources */,
+				DDFCA02D180F773A00BDFD6E /* BlindLevelCell.m in Sources */,
+				DDFCA01B180F770500BDFD6E /* TimerViewController.m in Sources */,
+				DDFCA024180F772700BDFD6E /* BlindLevel.m in Sources */,
+				DDFCA0A2180F78BC00BDFD6E /* CreateMenuViewController.m in Sources */,
+				DDFC9F91180F4D4800BDFD6E /* AppDelegate.m in Sources */,
+				DDFCA02E180F773A00BDFD6E /* TimerLevelCell.m in Sources */,
+				DDFCA0A9180F78BC00BDFD6E /* ConfigDetailViewController.m in Sources */,
+				DDB796891819EA6A0001B02D /* iPhoneTimerEditDetailViewController.m in Sources */,
+				DDFCA0AA180F78BC00BDFD6E /* ConfigLanguageViewController.m in Sources */,
+				DDFCA0A6180F78BC00BDFD6E /* TimerPresetViewController.m in Sources */,
+				DDFCA0A8180F78BC00BDFD6E /* ConfigMasterViewController.m in Sources */,
+				DDFCA025180F772700BDFD6E /* XmlBlindSetParser.m in Sources */,
+				DDFCA023180F772700BDFD6E /* BlindSet.m in Sources */,
+				DDFCA0A0180F78BC00BDFD6E /* iPadTimerViewController.m in Sources */,
+				DDFCA0A3180F78BC00BDFD6E /* TimerEditViewController.m in Sources */,
+				DDFCA0AF180F78DD00BDFD6E /* BSKeyboardControls.m in Sources */,
+				DD8E5E0B1813B3B200C198D9 /* iPhoneTimerMenuViewController.m in Sources */,
+				DDFCA0A5180F78BC00BDFD6E /* TimerEditDetailViewController.m in Sources */,
+				DDFCA0A7180F78BC00BDFD6E /* ConfigViewController.m in Sources */,
+				DDA2061F181F09C500B536DD /* iRate.m in Sources */,
+				DDFC9F8D180F4D4800BDFD6E /* main.m in Sources */,
+				DDB7968D181A08780001B02D /* iPhoneBlindLevelEditViewController.m in Sources */,
+				DDFCA0AB180F78BC00BDFD6E /* WizardViewController.m in Sources */,
+				DD44E3C1181C18C900755216 /* iPhoneCreateMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC9F94180F4D4800BDFD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFC9F9E180F4D4800BDFD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFC9F7C180F4D4800BDFD6E /* iRank Timer */;
+			targetProxy = DDFC9F9D180F4D4800BDFD6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFC9F89180F4D4800BDFD6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFC9F8A180F4D4800BDFD6E /* en */,
+				DDFCA0DB180F89A200BDFD6E /* pt */,
+				DDFCA0DD180F89AB00BDFD6E /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDFCA0E3180F89C900BDFD6E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFCA0E2180F89C900BDFD6E /* en */,
+				DD56F35F180FA32400D8E80F /* pt */,
+				DD56F360180FA32400D8E80F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFC9FA7180F4D4800BDFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DDFC9FA8180F4D4800BDFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFC9FAA180F4D4800BDFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRank Timer/iRank Timer-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = "iRank Timer/iRank Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDFC9FAB180F4D4800BDFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRank Timer/iRank Timer-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = "iRank Timer/iRank Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDFC9FAD180F4D4800BDFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRank Timer.app/iRank Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRank Timer/iRank Timer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iRank TimerTests/iRank TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDFC9FAE180F4D4800BDFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRank Timer.app/iRank Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRank Timer/iRank Timer-Prefix.pch";
+				INFOPLIST_FILE = "iRank TimerTests/iRank TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFC9F78180F4D4800BDFD6E /* Build configuration list for PBXProject "iRank Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC9FA7180F4D4800BDFD6E /* Debug */,
+				DDFC9FA8180F4D4800BDFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFC9FA9180F4D4800BDFD6E /* Build configuration list for PBXNativeTarget "iRank Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC9FAA180F4D4800BDFD6E /* Debug */,
+				DDFC9FAB180F4D4800BDFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFC9FAC180F4D4800BDFD6E /* Build configuration list for PBXNativeTarget "iRank TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC9FAD180F4D4800BDFD6E /* Debug */,
+				DDFC9FAE180F4D4800BDFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFC9F75180F4D4800BDFD6E /* Project object */;
+}

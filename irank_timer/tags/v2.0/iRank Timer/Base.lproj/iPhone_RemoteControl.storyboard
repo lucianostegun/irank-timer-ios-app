@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bxh-w2-9SS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--I Phone Remote Control Navigation Controller-->
+        <scene sceneID="ceM-X8-ydG">
+            <objects>
+                <navigationController useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" toolbarHidden="NO" id="bxh-w2-9SS" customClass="iPhone_RemoteControlNavigationController" customModule="iRank_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cEh-C5-htq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="JEl-Ry-LrI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Nhd-je-V7o" kind="relationship" relationship="rootViewController" id="ja7-Tx-ZJi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTW-0m-zu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472" y="1785.9999999999998"/>
+        </scene>
+        <!--I Phone Remote Control View Controller-->
+        <scene sceneID="XMa-g8-Yw0">
+            <objects>
+                <viewController id="Nhd-je-V7o" customClass="iPhone_RemoteControlViewController" customModule="iRank_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ONf-3h-QK9"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ZN-Pj-q9b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3si-Bk-ZA6">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-background-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EGd-LR-VNY" customClass="UIImageViewFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhn-M4-VoQ" customClass="UIButtonFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="16" y="315" width="704" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="8gp-Vn-uz9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0.0" height="4"/>
+                                <state key="normal" title="INICIAR CONTAGEM">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleCountdown:" destination="Nhd-je-V7o" eventType="touchUpInside" id="NT8-gL-ElB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYC-Pl-gu2" customClass="UILabelFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="16" y="286" width="704" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="5" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-Nd-XNf" customClass="UISliderFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="14" y="248" width="708" height="31"/>
+                                <color key="tintColor" red="0.4823529412" green="0.08235294118" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="minimumTrackTintColor" red="0.4823529412" green="0.08235294118" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="changeCountDownTimer:" destination="Nhd-je-V7o" eventType="valueChanged" id="oT7-DK-t1H"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGm-rs-EpL" customClass="UIButtonFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="704" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0.0" height="4"/>
+                                <state key="normal" title="START TIMER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleTimerState:" destination="Nhd-je-V7o" eventType="touchUpInside" id="uVZ-hK-vgJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.34999999403953552" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-a8-4Ed" customClass="UIButtonFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72" width="60" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="117-ez-DVv"/>
+                                    <constraint firstAttribute="width" constant="60" id="391-zr-NQC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DiwanMishafi" family="Mishafi" pointSize="100"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousLevel:" destination="Nhd-je-V7o" eventType="touchUpInside" id="gcp-HQ-jgf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.34999999403953552" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytz-rr-o1F" customClass="UIButtonFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="660" y="72" width="60" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="nR8-Gi-sq6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DiwanMishafi" family="Mishafi" pointSize="100"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextLevel:" destination="Nhd-je-V7o" eventType="touchUpInside" id="lwz-fS-snD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBX-tb-Ygd" customClass="UIButtonFlex" customModule="iRank_Timer" customModuleProvider="target">
+                                <rect key="frame" x="84" y="72" width="568" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="iSm-qZ-8y1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0.0" height="4"/>
+                                <state key="normal" title="RESET TIMER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTimer:" destination="Nhd-je-V7o" eventType="touchUpInside" id="U4v-h1-26u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ytz-rr-o1F" firstAttribute="firstBaseline" secondItem="HKB-a8-4Ed" secondAttribute="baseline" id="7Xv-kD-bE0"/>
+                            <constraint firstItem="dBX-tb-Ygd" firstAttribute="leading" secondItem="HKB-a8-4Ed" secondAttribute="trailing" constant="8" symbolic="YES" id="9fz-s2-bze"/>
+                            <constraint firstItem="EGd-LR-VNY" firstAttribute="leading" secondItem="3si-Bk-ZA6" secondAttribute="leadingMargin" constant="-16" id="Coa-oE-TQQ"/>
+                            <constraint firstItem="2ZN-Pj-q9b" firstAttribute="top" secondItem="EGm-rs-EpL" secondAttribute="bottom" constant="617" id="DUA-I5-vvH"/>
+                            <constraint firstItem="gYC-Pl-gu2" firstAttribute="trailing" secondItem="Qhn-M4-VoQ" secondAttribute="trailing" id="Enw-Xv-wU6"/>
+                            <constraint firstItem="Ytz-rr-o1F" firstAttribute="leading" secondItem="dBX-tb-Ygd" secondAttribute="trailing" constant="8" symbolic="YES" id="GTW-NT-gd5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EGd-LR-VNY" secondAttribute="trailing" constant="-16" id="Gqu-Fq-k9Y"/>
+                            <constraint firstItem="2ZN-Pj-q9b" firstAttribute="top" secondItem="Qhn-M4-VoQ" secondAttribute="bottom" constant="8" symbolic="YES" id="PHD-AX-E9c"/>
+                            <constraint firstItem="EGd-LR-VNY" firstAttribute="top" secondItem="3si-Bk-ZA6" secondAttribute="topMargin" id="PVl-TB-fob"/>
+                            <constraint firstItem="Ytz-rr-o1F" firstAttribute="baseline" secondItem="HKB-a8-4Ed" secondAttribute="firstBaseline" id="RLE-n0-XD8"/>
+                            <constraint firstItem="OdC-Nd-XNf" firstAttribute="trailing" secondItem="gYC-Pl-gu2" secondAttribute="trailing" id="Tji-Bx-miN"/>
+                            <constraint firstItem="Qhn-M4-VoQ" firstAttribute="top" secondItem="gYC-Pl-gu2" secondAttribute="bottom" constant="8" symbolic="YES" id="UuS-rR-sfz"/>
+                            <constraint firstItem="HKB-a8-4Ed" firstAttribute="top" secondItem="3si-Bk-ZA6" secondAttribute="top" constant="83" id="YDU-VW-BXN"/>
+                            <constraint firstItem="OdC-Nd-XNf" firstAttribute="leading" secondItem="gYC-Pl-gu2" secondAttribute="leading" id="aWu-Xw-n9M"/>
+                            <constraint firstItem="EGm-rs-EpL" firstAttribute="leading" secondItem="3si-Bk-ZA6" secondAttribute="leadingMargin" id="d10-lV-ZwE"/>
+                            <constraint firstItem="HKB-a8-4Ed" firstAttribute="leading" secondItem="EGm-rs-EpL" secondAttribute="leading" id="dMj-fb-N51"/>
+                            <constraint firstItem="EGm-rs-EpL" firstAttribute="top" secondItem="ONf-3h-QK9" secondAttribute="bottom" constant="8" id="dYT-4K-XwH"/>
+                            <constraint firstItem="Qhn-M4-VoQ" firstAttribute="trailing" secondItem="EGm-rs-EpL" secondAttribute="trailing" id="l3g-V7-d57"/>
+                            <constraint firstItem="EGm-rs-EpL" firstAttribute="trailing" secondItem="3si-Bk-ZA6" secondAttribute="trailingMargin" id="l9r-p9-I1N"/>
+                            <constraint firstItem="gYC-Pl-gu2" firstAttribute="leading" secondItem="Qhn-M4-VoQ" secondAttribute="leading" id="liA-2W-rDy"/>
+                            <constraint firstItem="HKB-a8-4Ed" firstAttribute="top" secondItem="EGm-rs-EpL" secondAttribute="bottom" constant="8" symbolic="YES" id="mAX-Og-iCs"/>
+                            <constraint firstItem="Qhn-M4-VoQ" firstAttribute="leading" secondItem="EGm-rs-EpL" secondAttribute="leading" id="pDh-pt-gYW"/>
+                            <constraint firstItem="EGd-LR-VNY" firstAttribute="bottom" secondItem="3si-Bk-ZA6" secondAttribute="bottomMargin" id="qym-Lq-9L3"/>
+                            <constraint firstItem="gYC-Pl-gu2" firstAttribute="top" secondItem="OdC-Nd-XNf" secondAttribute="bottom" constant="8" symbolic="YES" id="sqL-WR-3bq"/>
+                            <constraint firstItem="Ytz-rr-o1F" firstAttribute="trailing" secondItem="EGm-rs-EpL" secondAttribute="trailing" id="tGy-JJ-w9k"/>
+                            <constraint firstItem="dBX-tb-Ygd" firstAttribute="top" secondItem="HKB-a8-4Ed" secondAttribute="top" id="v6y-IM-IxR"/>
+                            <constraint firstItem="Ytz-rr-o1F" firstAttribute="top" secondItem="HKB-a8-4Ed" secondAttribute="top" id="zgV-cs-NPT"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Stop remote control mode" id="xZX-wf-pZ0">
+                            <connections>
+                                <action selector="stopRemotecontrolMode:" destination="Nhd-je-V7o" id="N7t-0J-8II"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="QAg-da-TVs"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="btnCountDown" destination="Qhn-M4-VoQ" id="JXF-My-yjM"/>
+                        <outlet property="btnNextLevel" destination="Ytz-rr-o1F" id="4oh-72-LqB"/>
+                        <outlet property="btnPreviousLevel" destination="HKB-a8-4Ed" id="cfI-Wf-3P4"/>
+                        <outlet property="btnTimer" destination="EGm-rs-EpL" id="p5A-kA-lgj"/>
+                        <outlet property="imgBackground" destination="EGd-LR-VNY" id="w9V-A7-rfs"/>
+                        <outlet property="lblCountDown" destination="gYC-Pl-gu2" id="BSv-ng-62m"/>
+                        <outlet property="sldrCountDown" destination="OdC-Nd-XNf" id="IO4-el-iw5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08W-SS-rBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363" y="1919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone-background-6.jpg" width="736" height="414"/>
+    </resources>
+    <color key="tintColor" red="0.80580204619999996" green="0.198720586" blue="0.14636524179999999" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Blinds: 5min."; ObjectID = "01d-vA-hUr"; */
+"01d-vA-hUr.text" = "Níveis: 5min.";
+
+/* Class = "UILabel"; text = "No breaks"; ObjectID = "5Xn-d4-QCU"; */
+"5Xn-d4-QCU.text" = "Sem intervalos";
+
+/* Class = "UILabel"; text = "01:00:00"; ObjectID = "AGJ-Lb-urW"; */
+"AGJ-Lb-urW.text" = "01:00:00";
+
+/* Class = "UILabel"; text = "Micro stack"; ObjectID = "Cfr-CH-YFn"; */
+"Cfr-CH-YFn.text" = "Micro stack";
+
+/* Class = "UINavigationItem"; title = "Preset blind sets"; ObjectID = "DTN-GL-u0G"; */
+"DTN-GL-u0G.title" = "Jogos pré-definidos";
+
+/* Class = "UILabel"; text = "01:00:00"; ObjectID = "ErW-BD-Gec"; */
+"ErW-BD-Gec.text" = "01:00:00";
+
+/* Class = "UILabel"; text = "18 levels"; ObjectID = "Ico-JA-6o6"; */
+"Ico-JA-6o6.text" = "18 níveis";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "OpD-Z5-JFB"; */
+"OpD-Z5-JFB.title" = "Back";
+
+/* Class = "UILabel"; text = "2-5 players"; ObjectID = "PXM-QZ-nLZ"; */
+"PXM-QZ-nLZ.text" = "2-5 jogadores";
+
+/* Class = "UILabel"; text = "Duration: 04:00:00"; ObjectID = "QBp-qt-My5"; */
+"QBp-qt-My5.text" = "Duration: 04:00:00";
+
+/* Class = "UILabel"; text = "Start stack: 5000 chips"; ObjectID = "V3S-ix-n33"; */
+"V3S-ix-n33.text" = "Start stack: 5000 chips";
+
+/* Class = "UINavigationItem"; title = "Preset blind sets"; ObjectID = "ZC5-KP-Jr0"; */
+"ZC5-KP-Jr0.title" = "Jogos pré-definidos";
+
+/* Class = "UILabel"; text = "01:00:00"; ObjectID = "ZNW-XE-SAk"; */
+"ZNW-XE-SAk.text" = "01:00:00";
+
+/* Class = "UILabel"; text = "18 levels"; ObjectID = "aAb-nb-zvW"; */
+"aAb-nb-zvW.text" = "18 levels";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bGX-JB-jTv"; */
+"bGX-JB-jTv.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bXX-7D-nRL"; */
+"bXX-7D-nRL.text" = "Title";
+
+/* Class = "UILabel"; text = "No breaks"; ObjectID = "bl1-Pz-TB1"; */
+"bl1-Pz-TB1.text" = "No breaks";
+
+/* Class = "UILabel"; text = "Deep stack"; ObjectID = "bw5-bn-c5F"; */
+"bw5-bn-c5F.text" = "Deep stack";
+
+/* Class = "UILabel"; text = "No breaks"; ObjectID = "cGN-Gu-4mx"; */
+"cGN-Gu-4mx.text" = "No breaks";
+
+/* Class = "UILabel"; text = "Medium stack"; ObjectID = "dBu-fW-WmR"; */
+"dBu-fW-WmR.text" = "Medium stack";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "h8E-4P-ADb"; */
+"h8E-4P-ADb.text" = "Title";
+
+/* Class = "UILabel"; text = "Chips: 100, 500, 1000, 5000, 10000"; ObjectID = "j9V-eB-g3s"; */
+"j9V-eB-g3s.text" = "Chips: 100, 500, 1000, 5000, 10000";
+
+/* Class = "UILabel"; text = "regular stack hyper turbo + ante"; ObjectID = "le8-p3-ggX"; */
+"le8-p3-ggX.text" = "regular stack hyper turbo + ante";
+
+/* Class = "UILabel"; text = "18 levels"; ObjectID = "oyY-lZ-kxm"; */
+"oyY-lZ-kxm.text" = "18 levels";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "p7D-2F-aZH"; */
+"p7D-2F-aZH.title" = "Back";
+
+/* Class = "UILabel"; text = "18 levels"; ObjectID = "rxa-zT-pB1"; */
+"rxa-zT-pB1.text" = "18 levels";
+
+/* Class = "UILabel"; text = "No breaks"; ObjectID = "zv6-Cy-8xW"; */
+"zv6-Cy-8xW.text" = "No breaks";

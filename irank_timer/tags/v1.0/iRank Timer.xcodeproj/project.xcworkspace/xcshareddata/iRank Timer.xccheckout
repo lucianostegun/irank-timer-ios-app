@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27EAAC8E-8181-48BA-860A-3596E2C3CA83</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iRank Timer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68F1E6C2-3E8F-4A02-BEC3-D4D6D0654C68</key>
+		<string>http://svn.stegun.com/ios/trunk/irank_timer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iRank Timer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68F1E6C2-3E8F-4A02-BEC3-D4D6D0654C68</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>68F1E6C2-3E8F-4A02-BEC3-D4D6D0654C68</key>
+		<string>http://svn.stegun.com/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.stegun.com/ios/trunk/irank_timer/iRank%20Timer.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68F1E6C2-3E8F-4A02-BEC3-D4D6D0654C68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68F1E6C2-3E8F-4A02-BEC3-D4D6D0654C68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iRank Timer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

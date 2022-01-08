@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iRank Timer Lite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>iRank Timer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DD010FB71AE6C826003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD0110A01AE6EB10003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD0111871AE6EB2F003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD01126E1AE6EB85003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD0113551AE6EB8B003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD01143C1AE6ECB6003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD0115231AE6EE6F003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD01160A1AE6EECF003967A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD1EF7981A9ED5CA00B745AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD1EF7AD1A9ED5CA00B745AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

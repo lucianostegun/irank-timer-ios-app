@@ -1,0 +1,32 @@
+/* Class = "UILabel"; text = "15 minutes"; ObjectID = "AbN-9h-SQr"; */	
+"AbN-9h-SQr.text" = "15 minutos";
+	
+/* Class = "UILabel"; text = "Duration"; ObjectID = "AgW-cL-z1T"; */	
+"AgW-cL-z1T.text" = "Duración";
+	
+/* Class = "UILabel"; text = "Field"; ObjectID = "CSD-H2-fKl"; */	
+"CSD-H2-fKl.text" = "Jugadores";
+	
+/* Class = "UILabel"; text = "5 players"; ObjectID = "HtE-2d-WZY"; */	
+"HtE-2d-WZY.text" = "5 jugadores";
+	
+/* Class = "UILabel"; text = "Options"; ObjectID = "KyL-ME-N5t"; */	
+"KyL-ME-N5t.text" = "Opciones";
+	
+/* Class = "UINavigationItem"; title = "Blind set wizard"; ObjectID = "MLo-sC-z3B"; */	
+"MLo-sC-z3B.title" = "Asistente de creación de juego";
+	
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Mbl-v5-QCt"; */	
+"Mbl-v5-QCt.title" = "Volver";
+	
+/* Class = "UILabel"; text = "Include break levels"; ObjectID = "q9T-dk-rcL"; */	
+"q9T-dk-rcL.text" = "Incluya intervalos";
+	
+/* Class = "UILabel"; text = "Chips available"; ObjectID = "wAK-97-aQi"; */	
+"wAK-97-aQi.text" = "Fichas disponibles";
+	
+/* Class = "UILabel"; text = "Play with ante"; ObjectID = "yT9-zb-U5m"; */	
+"yT9-zb-U5m.text" = "Jugar con ante";
+	
+/* Class = "UIBarButtonItem"; title = "GENERATE BLIND SET"; ObjectID = "zO5-pj-eZs"; */	
+"zO5-pj-eZs.title" = "CREAR JUEGO";

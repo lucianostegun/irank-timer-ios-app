@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27EAAC8E-8181-48BA-860A-3596E2C3CA83</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iRank Timer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++3847</key>
+		<string>http://svn.stegun.com/ios/tags/irank_timer/1.2</string>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
+		<string>http://svn.stegun.com/ios/trunk/irank_timer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iRank Timer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++3847</key>
+		<string>../..</string>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
+		<string>../../../iRank%20Timer</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++3847</key>
+		<string>http://svn.stegun.com/ios</string>
+		<key>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</key>
+		<string>http://svn.stegun.com/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.stegun.com/ios/tags/irank_timer/1.2/iRank%20Timer.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++3847</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++6137</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iRank%20Timer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>531c19ac-415f-4540-83aa-1ca632b0dbdf++3847</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iRank%20Timer%201.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

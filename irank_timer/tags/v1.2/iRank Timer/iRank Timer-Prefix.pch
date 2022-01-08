@@ -1,0 +1,29 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppDelegate.h"
+    #import "Constants.h"
+#endif
+
+#define appDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define darkRedColor [UIColor colorWithRed:0.278 green:0.047 blue:0.016 alpha:0.40]
+#define darkSilverColor [UIColor colorWithRed:0.178 green:0.178 blue:0.178 alpha:0.40]
+#define darkRed2Color [UIColor colorWithRed:0.7 green:0.165 blue:0.114 alpha:1]
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM()==(UIUserInterfaceIdiomPad))
+#define IS_4_INCHES ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568.0)

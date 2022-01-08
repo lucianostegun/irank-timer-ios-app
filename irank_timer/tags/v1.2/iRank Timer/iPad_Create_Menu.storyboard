@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="4YE-XK-774">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--Create Menu View Controller - Create a new blind set-->
+        <scene sceneID="6hf-Gh-hFB">
+            <objects>
+                <viewController id="vv8-N6-J0K" customClass="CreateMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ds5-va-D9n">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="main-bg.png" id="PVX-GD-zn6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Preset blind sets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cze-EL-RqT">
+                                <rect key="frame" x="388" y="531" width="248" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Manual creation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aRN-SR-Ath">
+                                <rect key="frame" x="679" y="530" width="248" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Y5-hA-bOh">
+                                <rect key="frame" x="97" y="221" width="250" height="250"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" image="wizard.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="q7U-e6-YkB" kind="push" id="UAc-Su-VI3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Nu-Rj-fkA">
+                                <rect key="frame" x="388" y="220" width="250" height="250"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="preset.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5Ow-fc-cPk" kind="push" id="Dnh-Iq-5uY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aSY-Br-ecA">
+                                <rect key="frame" x="679" y="221" width="250" height="250"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="manual.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createManualTimer:" destination="vv8-N6-J0K" eventType="touchUpInside" id="i7c-7M-iJf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Blind set wizard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wP1-kI-Ljq">
+                                <rect key="frame" x="97" y="530" width="248" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="The assistent will guide you to create a new blind set according of players, chips and game duration." textAlignment="center" id="gZh-DP-yAN">
+                                <rect key="frame" x="97" y="568" width="248" height="89"/>
+                                <color key="textColor" red="0.89101385749999995" green="0.89101385749999995" blue="0.89101385749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="Choose one of the pre configured blind sets and edit for according your game players and duration." textAlignment="center" id="nUz-ta-c6M">
+                                <rect key="frame" x="388" y="568" width="248" height="89"/>
+                                <color key="textColor" red="0.89101385749999995" green="0.89101385749999995" blue="0.89101385749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="Create your own blind set and configure each level, break and sound settings." textAlignment="center" id="IJS-im-lH6">
+                                <rect key="frame" x="679" y="568" width="248" height="89"/>
+                                <color key="textColor" red="0.89101385749999995" green="0.89101385749999995" blue="0.89101385749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" id="YnL-gv-82w">
+                                <rect key="frame" x="20" y="100" width="887" height="50"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="50" maxX="0.0" maxY="-50"/>
+                                <string key="text">Select the best way to create a new blindset.
+All created blindsets will be available to use at main menu and you will be able to edit them anytime.
+
+If it's your very first time creating a new blind set consider using the Blind Set Wizard.</string>
+                                <color key="textColor" red="0.89101385749999995" green="0.89101385749999995" blue="0.89101385749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create a new blind set" id="cpf-cI-FcZ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="QJ3-O5-6Ea">
+                            <connections>
+                                <action selector="dismiss:" destination="vv8-N6-J0K" id="VLN-e0-Gzx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="btnManual" destination="aSY-Br-ecA" id="4uy-5O-eIC"/>
+                        <outlet property="btnPreset" destination="9Nu-Rj-fkA" id="ava-dg-njW"/>
+                        <outlet property="btnWizard" destination="7Y5-hA-bOh" id="3qc-et-Pad"/>
+                        <outlet property="lblIntro" destination="YnL-gv-82w" id="3ZU-li-j51"/>
+                        <outlet property="lblManual" destination="aRN-SR-Ath" id="vg6-ZX-AJu"/>
+                        <outlet property="lblManualInfo" destination="IJS-im-lH6" id="r15-HP-Blm"/>
+                        <outlet property="lblPreset" destination="Cze-EL-RqT" id="MWa-Mv-LiP"/>
+                        <outlet property="lblPresetInfo" destination="nUz-ta-c6M" id="Nb6-dW-sFK"/>
+                        <outlet property="lblWizard" destination="wP1-kI-Ljq" id="nmv-Yp-o4i"/>
+                        <outlet property="lblWizardInfo" destination="gZh-DP-yAN" id="yFg-7H-hd3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nsl-nM-1wd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1210" y="281"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fs1-eP-GU5">
+            <objects>
+                <navigationController storyboardIdentifier="CreateMenuViewController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4YE-XK-774" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="SAh-wh-EcQ">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dOh-7F-wSU">
+                        <rect key="frame" x="0.0" y="960" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="vv8-N6-J0K" kind="relationship" relationship="rootViewController" id="eHq-fp-CB0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1H3-rg-0IY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-869" y="-819"/>
+        </scene>
+        <!--Wizard View Controller - Blind set wizard-->
+        <scene sceneID="AvD-Pp-zYI">
+            <objects>
+                <viewController id="q7U-e6-YkB" customClass="WizardViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vza-qY-WUk">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="main-bg.png" id="st0-Xu-WQf">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" text="Create a new blind set choosing the number of players, blind duration and chips you have available to play" id="lqJ-NQ-1cl">
+                                <rect key="frame" x="20" y="100" width="887" height="50"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="50" maxX="0.0" maxY="-50"/>
+                                <color key="textColor" red="0.89101385749999995" green="0.89101385749999995" blue="0.89101385749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MVv-gn-YiD">
+                                <rect key="frame" x="387" y="345" width="251" height="77"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Generate blind set">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateBlindSet:" destination="q7U-e6-YkB" eventType="touchUpInside" id="FdG-AQ-OVn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="Hxe-I4-TGi">
+                                <rect key="frame" x="121" y="470" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip1.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="VJz-ZA-xYA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="fUF-Oe-OW2">
+                                <rect key="frame" x="279" y="470" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip5.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="8nc-t6-Yfp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="TTD-hp-mOB">
+                                <rect key="frame" x="437" y="470" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip10.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="DNb-yy-NiE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="EOi-Kl-QBK">
+                                <rect key="frame" x="595" y="470" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip25.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="vfs-cf-aGH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="MIK-eR-6mA">
+                                <rect key="frame" x="763" y="470" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip50.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="2zV-eT-OQC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="6cF-IE-QEj">
+                                <rect key="frame" x="121" y="618" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip100.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="p7H-TP-Iil"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="500" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="2dc-dh-rfF">
+                                <rect key="frame" x="279" y="618" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip500.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="iIu-Mg-Dg1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="ISB-Qv-cAF">
+                                <rect key="frame" x="437" y="618" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip1000.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="Coy-Y7-mvx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="5000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="dJd-Cb-D0i">
+                                <rect key="frame" x="595" y="618" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip5000.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="ZHf-6s-GWk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.20000000000000015" tag="10000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="FaB-43-yRe">
+                                <rect key="frame" x="763" y="618" width="150" height="130"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="chip10000.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleChip:" destination="q7U-e6-YkB" eventType="touchUpInside" id="pM1-dY-bLq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" image="players.png" id="WY0-wu-o31">
+                                <rect key="frame" x="132" y="158" width="128" height="100"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="clock.png" id="ymb-v0-sCg">
+                                <rect key="frame" x="448" y="158" width="128" height="100"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7" minValue="5" maxValue="20" id="5u1-AO-wDX">
+                                <rect key="frame" x="92" y="266" width="208" height="34"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <connections>
+                                    <action selector="changePlayers:" destination="q7U-e6-YkB" eventType="valueChanged" id="0eb-pf-J53"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="5" maxValue="60" id="Zbv-pi-Ogv">
+                                <rect key="frame" x="408" y="266" width="208" height="34"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <connections>
+                                    <action selector="changeDuration:" destination="q7U-e6-YkB" eventType="valueChanged" id="VMZ-Vc-ZMP"/>
+                                </connections>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="IQu-vz-WSM">
+                                <rect key="frame" x="774" y="162" width="51" height="31"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="jds-km-k3u">
+                                <rect key="frame" x="774" y="223" width="51" height="31"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Play with ante" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NU5-1U-g60">
+                                <rect key="frame" x="838" y="167" width="166" height="22"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Allow add on" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q7N-DN-lAF">
+                                <rect key="frame" x="838" y="228" width="166" height="22"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="30 minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TZP-ag-WYN">
+                                <rect key="frame" x="429" y="307" width="166" height="22"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="6 players" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s3G-AS-Y59">
+                                <rect key="frame" x="113" y="307" width="166" height="22"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blind set wizard" id="ws2-a8-av2"/>
+                    <connections>
+                        <outlet property="btnBuildBlindSet" destination="MVv-gn-YiD" id="x8I-er-Zm9"/>
+                        <outlet property="lblAllowAddon" destination="Q7N-DN-lAF" id="IVG-BE-981"/>
+                        <outlet property="lblDuration" destination="TZP-ag-WYN" id="4ef-t9-Jn3"/>
+                        <outlet property="lblIntro" destination="lqJ-NQ-1cl" id="kio-GJ-IGA"/>
+                        <outlet property="lblPlayWithAnte" destination="NU5-1U-g60" id="1ex-SP-mQJ"/>
+                        <outlet property="lblPlayers" destination="s3G-AS-Y59" id="ApU-AS-U9M"/>
+                        <outlet property="sliderDuration" destination="Zbv-pi-Ogv" id="uJO-xp-2gI"/>
+                        <outlet property="sliderPlayers" destination="5u1-AO-wDX" id="Q6v-cf-1lI"/>
+                        <outlet property="switchAllowAddon" destination="jds-km-k3u" id="WCy-T0-RgL"/>
+                        <outlet property="switchUseAnte" destination="IQu-vz-WSM" id="83t-Ak-F03"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bma-Xo-REM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491" y="281"/>
+        </scene>
+        <!--Timer Preset View Controller - Preset blind sets-->
+        <scene sceneID="mwK-OE-bcr">
+            <objects>
+                <viewController id="5Ow-fc-cPk" customClass="TimerPresetViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xyq-aD-kXp">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000013" contentMode="scaleToFill" image="main-bg.png" id="fl7-nI-LHb">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ovi-Ce-hUF">
+                                <rect key="frame" x="362" y="146" width="300" height="602"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BlindSetCell" id="2VI-w9-IvD" customClass="TimerMenuCell">
+                                        <rect key="frame" x="0.0" y="55" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2VI-w9-IvD" id="AWc-iv-VV9">
+                                            <rect key="frame" x="0.0" y="0.0" width="267" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uOP-ll-P2Y">
+                                                    <rect key="frame" x="20" y="1" width="247" height="22"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="10 levels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fVh-Bl-bYs">
+                                                    <rect key="frame" x="21" y="24" width="60" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="No breaks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cb4-JT-d38">
+                                                    <rect key="frame" x="89" y="24" width="102" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="00:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L7V-tQ-4zF">
+                                                    <rect key="frame" x="199" y="24" width="65" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.80919471153846156" green="0.80919471153846156" blue="0.80919471153846156" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="lblBlindSetName" destination="uOP-ll-P2Y" id="s9h-Ly-93l"/>
+                                            <outlet property="lblBreaks" destination="Cb4-JT-d38" id="Crw-7Y-BHo"/>
+                                            <outlet property="lblDuration" destination="L7V-tQ-4zF" id="rtr-ET-Kgc"/>
+                                            <outlet property="lblLevels" destination="fVh-Bl-bYs" id="5dl-7A-YoW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5Ow-fc-cPk" id="P2j-wt-td7"/>
+                                    <outlet property="delegate" destination="5Ow-fc-cPk" id="0Ob-ly-Geu"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Rm2-RX-JLK">
+                                <rect key="frame" x="20" y="146" width="299" height="602"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BlindSetCell" id="hAx-ka-1aF" customClass="TimerMenuCell">
+                                        <rect key="frame" x="0.0" y="55" width="299" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hAx-ka-1aF" id="SO2-Rp-d6f">
+                                            <rect key="frame" x="0.0" y="0.0" width="266" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="my3-xs-L2r">
+                                                    <rect key="frame" x="20" y="3" width="246" height="22"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="10 levels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ntx-OR-mly">
+                                                    <rect key="frame" x="21" y="24" width="60" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="No breaks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YY5-kz-Kww">
+                                                    <rect key="frame" x="89" y="24" width="102" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="00:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jxa-8A-cxa">
+                                                    <rect key="frame" x="199" y="24" width="65" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.8091947115" green="0.8091947115" blue="0.8091947115" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="lblBlindSetName" destination="my3-xs-L2r" id="xQH-Wp-UEE"/>
+                                            <outlet property="lblBreaks" destination="YY5-kz-Kww" id="vsQ-yx-yMk"/>
+                                            <outlet property="lblDuration" destination="Jxa-8A-cxa" id="at5-iv-AYZ"/>
+                                            <outlet property="lblLevels" destination="Ntx-OR-mly" id="nb4-UG-EQi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5Ow-fc-cPk" id="Ug7-Qp-ru7"/>
+                                    <outlet property="delegate" destination="5Ow-fc-cPk" id="Lap-yC-PRv"/>
+                                </connections>
+                            </tableView>
+                            <tableView clipsSubviews="YES" tag="2" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="lOF-CE-gXa">
+                                <rect key="frame" x="704" y="146" width="300" height="602"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BlindSetCell" id="Iqc-7F-csi" customClass="TimerMenuCell">
+                                        <rect key="frame" x="0.0" y="55" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Iqc-7F-csi" id="Pcq-jP-r54">
+                                            <rect key="frame" x="0.0" y="0.0" width="267" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fsU-K4-Icg">
+                                                    <rect key="frame" x="20" y="3" width="247" height="22"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="10 levels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="raF-zJ-c41">
+                                                    <rect key="frame" x="21" y="24" width="60" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="No breaks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G4e-bc-sqE">
+                                                    <rect key="frame" x="89" y="24" width="102" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="00:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ag4-Av-SPp">
+                                                    <rect key="frame" x="199" y="24" width="65" height="17"/>
+                                                    <inset key="insetFor6xAndEarlier" minX="10" minY="-1" maxX="-10" maxY="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.8091947115" green="0.8091947115" blue="0.8091947115" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="lblBlindSetName" destination="fsU-K4-Icg" id="Wti-Ed-GfR"/>
+                                            <outlet property="lblBreaks" destination="G4e-bc-sqE" id="daL-FL-d1u"/>
+                                            <outlet property="lblDuration" destination="Ag4-Av-SPp" id="Apa-uo-CE3"/>
+                                            <outlet property="lblLevels" destination="raF-zJ-c41" id="5YR-nL-33c"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5Ow-fc-cPk" id="Hte-wz-WeW"/>
+                                    <outlet property="delegate" destination="5Ow-fc-cPk" id="FAm-hd-22D"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Micro stack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ggd-SY-pvL">
+                                <rect key="frame" x="26" y="120" width="299" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="90" maxX="0.0" maxY="-90"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Medium stack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMA-e6-hOg">
+                                <rect key="frame" x="362" y="120" width="300" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="90" maxX="0.0" maxY="-90"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Deep stack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bv2-g7-NUm">
+                                <rect key="frame" x="704" y="120" width="300" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="90" maxX="0.0" maxY="-90"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Preset blind sets" id="mM4-eP-u15"/>
+                    <connections>
+                        <outlet property="deepStackTableView" destination="lOF-CE-gXa" id="1pv-uZ-t6M"/>
+                        <outlet property="lblDeepStack" destination="bv2-g7-NUm" id="zIQ-yi-mfl"/>
+                        <outlet property="lblMediumStack" destination="DMA-e6-hOg" id="2sJ-iD-Wts"/>
+                        <outlet property="lblMicroStack" destination="ggd-SY-pvL" id="coC-FG-TLZ"/>
+                        <outlet property="microStackTableView" destination="Rm2-RX-JLK" id="pNm-s0-pJd"/>
+                        <outlet property="regularStackTableView" destination="ovi-Ce-hUF" id="1oR-oo-TME"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jwg-ey-JPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491" y="1136"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chip1.png" width="130" height="130"/>
+        <image name="chip10.png" width="130" height="130"/>
+        <image name="chip100.png" width="130" height="130"/>
+        <image name="chip1000.png" width="130" height="130"/>
+        <image name="chip10000.png" width="130" height="130"/>
+        <image name="chip25.png" width="130" height="130"/>
+        <image name="chip5.png" width="130" height="130"/>
+        <image name="chip50.png" width="130" height="130"/>
+        <image name="chip500.png" width="130" height="130"/>
+        <image name="chip5000.png" width="130" height="130"/>
+        <image name="clock.png" width="96" height="96"/>
+        <image name="main-bg.png" width="1024" height="1024"/>
+        <image name="manual.png" width="128" height="128"/>
+        <image name="players.png" width="128" height="128"/>
+        <image name="preset.png" width="128" height="128"/>
+        <image name="wizard.png" width="128" height="128"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.16084982789999999" blue="0.093770066080000006" alpha="1" colorSpace="calibratedRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

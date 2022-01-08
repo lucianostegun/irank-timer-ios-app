@@ -1,0 +1,136 @@
+/* TimerViewController */
+"ELAPSED" = "TIEMPO DE JUEGO";
+"NEXT BREAK" = "PAUSA SIGUIENTE";
+"NEXT LEVEL" = "NIVEL SIGUIENTE";
+"LEVEL" = "NIVEL";
+"DURATION" = "DURACIÓN";
+"Previous" = "Anterior";
+"Next" = "Siguiente";
+"START" = "INICIO";
+"PAUSE" = "PAUSA";
+"B R E A K" = "P A U S A";
+"BREAK" = "PAUSA";
+"Select a different blind set will reset the current timer. Do you want to change?" = "Al seleccionar un juego diferente, se reiniciará el juego actual? ¿Quiere cambiar el juego?";
+"Are you sure you want to reset the current timer?" = "¿Está seguro de que desea reiniciar el juego actual?";
+"CONFIRM" = "CONFIRMAR";
+"Cancel" = "Cancelar";
+"Reset Timer" = "Reanudar";
+"TIMER IS PAUSED" = "JUEGO EN PAUSA";
+"Timer is paused for a long time.\nWould you like to resume timer now?" = "El juego se detuvo por un largo tiempo.\n¿Desea reanudar el juego ahora?";
+"NO" = "NO";
+"YES" = "SI";
+"RESUME" = "RESUME";
+"level" = "nivel";
+"levels" = "niveles";
+"break" = "pausa";
+"breaks" = "pausas";
+"No breaks menu" = "Sin pausa";
+"Blind Sets" = "Torneos";
+"Settings" = "Configuración";
+"Reset current timer" = "Reinicie el juego actual";
+"SMALL BLIND" = "CIEGA PEQUEÑA";
+"BIG BLIND" = "CIEGA GRANDE";
+
+
+/* ConfigDetailViewController */
+"Blind change sounds" = "Sonido de cambio de nivel";
+"1 minute left sounds" = "Alertas de 1 minuto";
+
+/* ConfigMasterViewController */
+"Sound settings" = "Ajustes de audio";
+"General" = "General";
+"iRank Timer Config" = "Configuración";
+"Play sounds" = "Reproducir sonidos";
+"Sounds" = "Sonidos";
+"Language" = "Idioma";
+"Five seconds alert" = "Tic 5 segundos";
+"Inverse colors" = "Invertir colores";
+"Layout" = "Aparencia";
+"Long pause alert" = "Alerta de larga pausa";
+"Notify first ante" = "Alertar primero ante";
+"Short blind numbers" = "Abreviar números";
+"Prevent sleep" = "Evitar bloqueo";
+"Run in background" = "Segundo plano";
+
+/* ConfigLanguageViewController */
+"Language has changed" = "El lenguaje ha cambiado";
+"The new selected language will become active after app relaunch" = "El nuevo idioma seleccionado se activará después de aplicación relanzamiento";
+
+/* AppDelegate */
+"Blind levels are on break now" = "El juego entró en el intervalo";
+"New blind level" = "Nuevo nivel de ciegas";
+
+/* CreateMenuViewController */
+"Create a new blind set" = "Crear nuevo juego";
+"intro" = "Seleccione la mejor manera de crear un nuevo juego.\nLos juegos creadas estarán disponibles para usar en el menú principal y podrá modificarlos en cualquier momento.\n\nSi es tu primera vez la creación de un nuevo juego considerar el uso de el asistente.";
+"intro-iphone" = "Seleccione la mejor manera de crear un nuevo juego.\nLos juegos creadas estarán disponibles para usar en el menú principal y podrá modificarlos en cualquier momento.";
+"Blind set wizard" = "Asistente para la creación";
+"The assistent will guide you to create a new blind set according of players, chips and game duration." = "El Asistente le guiará para crear un nuevo juego acuerdo de jugadores, fichas y la duración del juego.";
+"Preset blind sets" = "Juegos predefinidos";
+"Choose one of the pre configured blind sets and edit for according your game players and duration." = "Elija uno de los juegos pre-definidos y editar según la duración y los intervalos deseados.";
+"Manual creation" = "Crear manualmente";
+"Create your own blind set and configure each level, break and sound settings." = "Crea tu propio juego ajustando cada ciega, las pausas y la configuración de audio de forma individual.";
+"Micro stack" = "Fichas menores";
+"Medium stack" = "Fichas medio";
+"Deep stack" = "Fichas altas";
+"Preset blind sets" = "Juegos predefinidos";
+"This feature is not enabled in lite version of this app. Would you like to download the full version at App Store?" = "Esta función no está habilitada en la versión gratuita de esta aplicación. ¿Quieres descargar la versión completa en el App Store?";
+"Not now" = "Ahora no";
+
+
+/* TimerEditMasterViewController */
+"Blind Set Config" = "Opciones de Juego";
+
+/* TimerPresetViewController */
+"No breaks" = "Sin pausas";
+"breaks" = "pausas";
+"Preset blind set" = "Juegos predefinidos";
+"chips" = "fichas";
+"%@ chips" = "Fichas %@";
+
+/* WizardViewController */
+"wizard-intro" = "Crear un nuevo juego al seleccionar el número de jugadores, la duración de los niveles y fichas disponibles para jugar.";
+"Generate blind set" = "Generar nuevo juego";
+"players" = "jugadores";
+"minutes" = "minutos";
+"Play with ante" = "Jugar com ante";
+"Allow add on" = "Permitir add on";
+"Please select at least 4 different chips" = "Por favor, seleccione al menos 4 tipos de fichas diferentes";
+"Please select up to 5 different chips" = "Por favor, seleccione un máximo de 5 fichas diferentes";
+"New custom blind set" = "Nuevo juego personalizado";
+
+/* TimerEditMasterViewController */
+"doublePreviousFooter" = "Crear rápidamente un nuevo nivel con la duplicación de los valores del nivel anterior";
+"Please set the blind set name" = "Por favor, introduzca un nombre para el juego";
+"The blind set total duration must be greater than 0" = "La duración total de las ciegas debe ser mayor que 0";
+"This blind set has no properly levels configured" = "El juego debe tener al menos un nivel con valores ajustados";
+"Name" = "Nombre";
+"Play sound" = "Reproducir sonido";
+"1 minute alert" = "Alerta 1 minuto";
+"Blind change alert" = "Alerta de cambio de ciegas";
+"Double previous" = "Duplicar anterior";
+"Levels" = "Níveles";
+
+/* TimerEditDetailViewController */
+"New level" = "Nuevo nivel";
+"header" = "         #          CP              CG           ANTE          DUR.                     PAUSA";
+"header-ios7" = "                         #                CP                 CG               ANTE             DUR.                      PAUSA";
+"No breaks" = "Sin pausas";
+
+"New blind set" = "Nuevo juego";
+"ERROR" = "ERROR";
+"The lite version of this app allows you add up to 15 levels. Download the full version at App Store and get unlimited levels." = "La versión gratuita de esta aplicación le permite añadir hasta 15 niveles. Descargue la versión completa en el App Store y obtener niveles ilimitados.";
+"DOWNLOAD" = "DESCARGAR";
+
+/* iPhoneBlindLevelEditViewController */
+"minutes" = "minutos";
+"Is break" = "Pausa";
+"Level number" = "Nível";
+"Small blind" = "Ciegas pequeña";
+"Big blind" = "Ciegas grande";
+"Duration" = "Duración";
+"Total duration" = "Duración total";
+"minutes" = "minutos";
+
+/* iPhoneTimerPresetMenuViewController */
+"Select the proper king of blind set you want to create" = "Seleccione el rey adecuado de conjunto ciega que desea crear";
