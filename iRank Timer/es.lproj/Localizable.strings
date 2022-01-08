@@ -1,0 +1,347 @@
+/* TimerViewController */	
+"TimerViewController.Done" = "BUENO";
+	
+/* TimerViewController */	
+"Edit" = "Editar";
+	
+/* TimerViewController */	
+"TimerViewController.Long pause alert" = "Salir del juego";
+	
+/* ConfigDetailsSoundViewController */	
+"ConfigDetailsSoundViewController.Blind change alert" = "Nivel de alerta nivel";
+	
+/* ConfigDetailsSoundViewController */	
+"ConfigDetailsSoundViewController.Last minute alert" = "Alerta de última hora";
+	
+/* ConfigDetailsSoundViewController */	
+"ConfigDetailsSoundViewController.First level with ante" = "Primer nivel con ante";
+	
+/* No comment provided by engineer. */	
+"14 to 21 players" = "14-21 jugadores";
+	
+/* No comment provided by engineer. */	
+"2 to 7 players" = "2 a 7 jugadores";
+	
+/* No comment provided by engineer. */	
+"8 to 13 players" = "8-13 jugadores";
+	
+/* No comment provided by engineer. */	
+"All data will be lost!" = "Todos los datos se perderán!";
+	
+/* No comment provided by engineer. */	
+"An error occurred while loading backup file! Please, try again." = "Se ha producido un error al cargar el archivo de copia de seguridad! \nPor favor, inténtelo de nuevo.";
+	
+/* No comment provided by engineer. */	
+"Are you sure you want to replaces all blind sets for those in this backup?" = "¿Seguro que desea reemplazar todos los juegos para los que están en esta copia de seguridad?";
+	
+/* No comment provided by engineer. */	
+"Available chips" = "Fichass disponibles";
+	
+/* No comment provided by engineer. */	
+"Background #" = "Imagen #";
+	
+/* No comment provided by engineer. */	
+"Background Image" = "Imagen de fondo";
+	
+/* No comment provided by engineer. */	
+"Background mode" = "Modo en segundo plano";
+	
+/* No comment provided by engineer. */	
+"Background mode settings" = "Configuración de fondo";
+	
+/* No comment provided by engineer. */	
+"Backup file was successfuly load for this device!" = "Archivo de copia de seguridad ha cargado correctamente en este equipo!";
+	
+/* No comment provided by engineer. */	
+"Blind change alert" = "Persianas de cambio Alerta";
+	
+/* No comment provided by engineer. */	
+"Blind levels are now on break" = "Torneo de entrada en gama";
+	
+/* No comment provided by engineer. */	
+"blind set" = "juego";
+	
+/* No comment provided by engineer. */	
+"blind sets" = "juegos";
+	
+/* No comment provided by engineer. */	
+"Blinds: " = "Niveles:";
+	
+/* No comment provided by engineer. */	
+"BREAK" = "INTERVALO";
+	
+/* No comment provided by engineer. */	
+"break" = "intervalo";
+	
+/* No comment provided by engineer. */	
+"breaks" = "intervalos";
+	
+/* No comment provided by engineer. */	
+"Cancel without saving?" = "Cancelar sin guardar?";
+	
+/* No comment provided by engineer. */	
+"Chips: " = "Valores:";
+	
+/* No comment provided by engineer. */	
+"Classic background" = "Imagen de fondo clásico";
+	
+/* No comment provided by engineer. */	
+"Confirm replace blind sets" = "Confirmar el reemplazo";
+	
+/* No comment provided by engineer. */	
+"copy" = "copia";
+	
+/* No comment provided by engineer. */	
+"Deep stack" = "Deep stack";
+	
+/* No comment provided by engineer. */	
+"device" = "aparato";
+	
+/* No comment provided by engineer. */	
+"devices" = "accesorios";
+	
+/* No comment provided by engineer. */	
+"Disabled" = "Discapacitado";
+	
+/* No comment provided by engineer. */	
+"Do you want to reset timer and load the first level of this blind set?" = "Realmente restablecer el tiempo y volver al primer nivel?";
+	
+/* No comment provided by engineer. */	
+"Done" = "Guardar";
+	
+/* No comment provided by engineer. */	
+"Duration: " = "Duración:";
+	
+/* No comment provided by engineer. */	
+"Dynamic" = "Dinámica";
+	
+/* No comment provided by engineer. */	
+"Edit" = "Editar";
+	
+/* No comment provided by engineer. */	
+"Elapsed time:" = "Tiempo de juego:";
+	
+/* No comment provided by engineer. */	
+"Enable iCloud backup" = "Activar copia de seguridad de iCloud";
+	
+/* No comment provided by engineer. */	
+"Enabled" = "Capaz";
+	
+/* No comment provided by engineer. */	
+"ERROR" = "ERROR";
+	
+/* No comment provided by engineer. */	
+"file found" = "archivo encontrado";
+	
+/* No comment provided by engineer. */	
+"files found" = "archivos encontrados";
+	
+/* No comment provided by engineer. */	
+"First level with ante" = "Primer nivel con ante";
+	
+/* No comment provided by engineer. */	
+"found" = "encontrado";
+	
+/* No comment provided by engineer. */	
+"foundPlural" = "encontrados";
+	
+/* No comment provided by engineer. */	
+"Heads Up" = "Aviso";
+	
+/* No comment provided by engineer. */	
+"Hyper turbo" = "Super rapido";
+	
+/* No comment provided by engineer. */	
+"iCloud backup settings" = "Configuración de copia de seguridad en iCloud";
+	
+/* No comment provided by engineer. */	
+"It seems your iCloud backup is not enabled for this device.\nGo to Settings > iCloud > Storage to enable backups." = "Parece que los documentos de copia de seguridad no está habilitada en este sistema.\nGo a Ajustes> iCloud> Almacenamiento para permitir las copias de seguridad.";
+	
+/* No comment provided by engineer. */	
+"Language settings" = "Ajustes de idioma";
+	
+/* No comment provided by engineer. */	
+"Last minute alert" = "Alerta de última hora";
+	
+/* No comment provided by engineer. */	
+"level" = "nivel";
+	
+/* No comment provided by engineer. */	
+"LEVEL #" = "NIVEL #";
+	
+/* No comment provided by engineer. */	
+"levels" = "niveles";
+	
+/* No comment provided by engineer. */	
+"Long pause alert" = "Alerta juego en pausa";
+	
+/* No comment provided by engineer. */	
+"Long pause alert settings" = "Pausa Configuración de alertas";
+	
+/* No comment provided by engineer. */	
+"Micro stack" = "Micro pila";
+	
+/* No comment provided by engineer. */	
+"min." = "min.";
+	
+/* No comment provided by engineer. */	
+"minute" = "minuto";
+	
+/* No comment provided by engineer. */	
+"minutes" = "minutos";
+	
+/* No comment provided by engineer. */	
+"Multi table (10+)" = "Mesas múltiples (10+)";
+	
+/* No comment provided by engineer. */	
+"Multipeer connection settings" = "La configuración del dispositivo Multi (beta)";
+	
+/* No comment provided by engineer. */	
+"New blind level: #" = "Nuevo nivel de ciegas: #";
+	
+/* No comment provided by engineer. */	
+"New blind set" = "Nuevo juego";
+	
+/* No comment provided by engineer. */	
+"New level" = "Nuevo nivel";
+	
+/* No comment provided by engineer. */	
+"Next level" = "Siguiente";
+	
+/* No comment provided by engineer. */	
+"NO" = "NO";
+	
+/* No comment provided by engineer. */	
+"No breaks" = "Sin pausas";
+	
+/* No comment provided by engineer. */	
+"No device" = "No";
+	
+/* No comment provided by engineer. */	
+"No device found, still searching..." = "No hay ningún dispositivo encontrado, sigue buscando ...";
+	
+/* No comment provided by engineer. */	
+"ConfigDetailsMultipeerViewController.help" = "El dispositivo de conexión múltiple le permite controlar el tiempo de forma remota a través de un iPhone o iPod touch, tiempo de arranque / pausa, cambiar los niveles y comenzando una época secundaria para tomar medidas.";
+	
+/* No comment provided by engineer. */	
+"Normal" = "Normal";
+	
+/* No comment provided by engineer. */	
+"OK" = "BUENO";
+	
+/* No comment provided by engineer. */	
+"Other" = "Otro";
+	
+/* No comment provided by engineer. */	
+"Players" = "Jugadores";
+	
+/* No comment provided by engineer. */	
+"players" = "jugadores";
+	
+/* No comment provided by engineer. */	
+"Regular stack" = "Pila Regular";
+	
+/* No comment provided by engineer. */	
+"Reset timer" = "Tiempo de restablecimiento";
+	
+/* No comment provided by engineer. */	
+"Select image from photo library" = "Seleccionar foto";
+	
+/* No comment provided by engineer. */	
+"Slow" = "Lento";
+	
+/* No comment provided by engineer. */	
+"Sound settings" = "Ajustes de sonido";
+	
+/* No comment provided by engineer. */	
+"Speed" = "Velocidad";
+	
+/* No comment provided by engineer. */	
+"Stack" = "Fichas";
+	
+/* No comment provided by engineer. */	
+"Stack: " = "Fichas:";
+	
+/* No comment provided by engineer. */	
+"Static" = "Estático";
+	
+/* No comment provided by engineer. */	
+"SUCCESS" = "ÉXITO";
+	
+/* No comment provided by engineer. */	
+"total" = "total";
+	
+/* No comment provided by engineer. */	
+"Turbo" = "Rapido";
+	
+/* No comment provided by engineer. */	
+"With ante" = "Apuesta inicial";
+	
+/* No comment provided by engineer. */	
+"With breaks" = "Con intervalos";
+	
+/* No comment provided by engineer. */	
+"YES" = "SÍ";
+	
+/* No comment provided by engineer. */	
+"You have no backup files on your iCloud account" = "No hay archivos de copia de seguridad en su cuenta";
+	
+/* No comment provided by engineer. */	
+"You may need to restart application in order to load a new language" = "Usted debe reiniciar la aplicación para cargar el nuevo idioma";
+	
+/* No comment provided by engineer. */	
+"Your timer is paused for a long time. Do yout want to resume?" = "Su juego se detiene por mucho tiempo. ¿Te gustaría reanudar?";
+	
+/* No comment provided by engineer. */	
+"TIME OUT" = "SE ACABÓ EL TIEMPO";
+	
+/* No comment provided by engineer. */	
+"Loading remote control" = "Cargando control remoto";
+	
+/* No comment provided by engineer. */	
+"Connecting to" = "Conexión con";
+	
+/* No comment provided by engineer. */	
+"START COUNTDOWN" = "EMPEZAR DE CUENTA REGRESIVA";
+	
+/* No comment provided by engineer. */	
+"STOP COUNTDOWN" = "PARADA DE CUENTA REGRESIVA";
+	
+/* No comment provided by engineer. */	
+"START TIMER" = "EMPEZAR JUEGO";
+	
+/* No comment provided by engineer. */	
+"PAUSE TIMER" = "PAUSA JUEGO";
+	
+/* No comment provided by engineer. */	
+"seconds" = "la segunda";
+	
+	
+	
+/* No comment provided by engineer. */	
+"Filter" = "Filtro";
+	
+/* No comment provided by engineer. */	
+"Back" = "Volver";
+
+/* No comment provided by engineer. */	
+"with" = "con";
+
+/* No comment provided by engineer. */
+"replicate" = "replicar";
+
+
+/* No comment provided by engineer. */
+"Feature unavailable" = "No disponible";
+
+/* No comment provided by engineer. */
+"This feature is only available in the full version of the app.\nWould you like to upgrade now?" = "Esta función sólo está disponible en la versión completa de la aplicación.\n¿Quieres actualizar ahora?";
+
+/* No comment provided by engineer. */
+"This version of iRank Timer only allow 3 blind sets. Would like to upgrade and create unlimited blind sets?" = "Esta versión sólo permite el uso de 3 juegos predefinidos. ¿Quieres actualizar y crear juegos sin límite?";
+
+/* No comment provided by engineer. */
+"Upgrade" = "Actualizar";
+
+/* No comment provided by engineer. */
+"Not now" = "Ahora no";

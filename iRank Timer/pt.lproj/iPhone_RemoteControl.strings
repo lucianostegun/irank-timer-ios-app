@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "START/PAUSE TIMER"; ObjectID = "EGm-rs-EpL"; */
+"EGm-rs-EpL.normalTitle" = "INICIAR JOGO";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "HKB-a8-4Ed"; */
+"HKB-a8-4Ed.normalTitle" = "<";
+
+/* Class = "UIButton"; normalTitle = "START COUNTDOWN"; ObjectID = "Qhn-M4-VoQ"; */
+"Qhn-M4-VoQ.normalTitle" = "INICIAR CONTAGEM DE AÇÃO";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "Ytz-rr-o1F"; */
+"Ytz-rr-o1F.normalTitle" = ">";
+
+/* Class = "UILabel"; text = "15 seconds"; ObjectID = "gYC-Pl-gu2"; */
+"gYC-Pl-gu2.text" = "15 segundos";
+
+/* Class = "UIBarButtonItem"; title = "Stop remote control mode"; ObjectID = "xZX-wf-pZ0"; */
+"xZX-wf-pZ0.title" = "Parar modo controle remoto";
+
+/* Class = "UIBarButtonItem"; title = "Stop remote control mode"; ObjectID = "xZX-wf-pZ0"; */
+"dBX-tb-Ygd.title" = "REINICIAR";

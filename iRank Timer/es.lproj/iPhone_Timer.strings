@@ -1,0 +1,47 @@
+/* Class = "UILabel"; text = "BIG BLIND"; ObjectID = "EDq-o1-K77"; */	
+"EDq-o1-K77.text" = "CIEGA GRANDE";
+	
+/* Class = "UILabel"; text = "ANTE"; ObjectID = "Len-lQ-jxr"; */	
+"Len-lQ-jxr.text" = "ANTE";
+	
+/* Class = "UILabel"; text = "ANTE"; ObjectID = "QQQ-QZ-8xB"; */	
+"QQQ-QZ-8xB.text" = "ANTE";
+	
+/* Class = "UILabel"; text = "ELAPSED TIME"; ObjectID = "QrZ-pc-yQV"; */	
+"QrZ-pc-yQV.text" = "TIEMPO DE JUEGO";
+	
+/* Class = "UILabel"; text = "ELAPSED TIME"; ObjectID = "UWc-n0-Jzu"; */	
+"UWc-n0-Jzu.text" = "TIEMPO DE JUEGO";
+	
+/* Class = "UILabel"; text = "NEXT BREAK"; ObjectID = "VVE-ny-dgV"; */	
+"VVE-ny-dgV.text" = "PROXIMA PAUSA";
+	
+/* Class = "UIBarButtonItem"; title = "RESET TIMER"; ObjectID = "WHE-YL-W9e"; */	
+"WHE-YL-W9e.title" = "REINICIO";
+	
+/* Class = "UILabel"; text = "SMALL BLIND"; ObjectID = "cMe-WI-8pi"; */	
+"cMe-WI-8pi.text" = "CIEGA PEQUEÑA";
+	
+/* Class = "UILabel"; text = "BIG BLIND"; ObjectID = "eAM-fD-sWp"; */	
+"eAM-fD-sWp.text" = "CIEGA GRANDE";
+	
+/* Class = "UILabel"; text = "SMALL BLIND"; ObjectID = "gNl-6l-9Yn"; */	
+"gNl-6l-9Yn.text" = "CIEGA PEQUEÑA";
+	
+/* Class = "UILabel"; text = "LEVEL"; ObjectID = "gq4-OZ-gNC"; */	
+"gq4-OZ-gNC.text" = "NIVEL";
+	
+/* Class = "UILabel"; text = "NEXT BREAK"; ObjectID = "tXe-xe-VKl"; */	
+"tXe-xe-VKl.text" = "PROXIMA PAUSA";
+	
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "vlf-RD-xTy"; */	
+"vlf-RD-xTy.title" = "Ajustes";
+	
+/* Class = "UILabel"; text = "next level"; ObjectID = "yna-2U-KvI"; */	
+"yna-2U-KvI.text" = "siguiente";
+	
+/* Class = "UILabel"; text = "LEVEL"; ObjectID = "zhE-ot-Aki"; */	
+"zhE-ot-Aki.text" = "NIVEL";
+
+/* Class = "UINavigationItem"; title = "Blind sets"; ObjectID = "DNA-bt-3fN"; */
+"DNA-bt-3fN.title" = "Juegos";
