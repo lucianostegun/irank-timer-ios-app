@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD1EF7981A9ED5CA00B745AA"
+               BlueprintIdentifier = "DDFC9F7C180F4D4800BDFD6E"
                BuildableName = "iRank Timer.app"
                BlueprintName = "iRank Timer"
-               ReferencedContainer = "container:iRank Timer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD1EF7AD1A9ED5CA00B745AA"
-               BuildableName = "iRank TimerTests.xctest"
-               BlueprintName = "iRank TimerTests"
                ReferencedContainer = "container:iRank Timer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD1EF7AD1A9ED5CA00B745AA"
+               BlueprintIdentifier = "DDFC9F97180F4D4800BDFD6E"
                BuildableName = "iRank TimerTests.xctest"
                BlueprintName = "iRank TimerTests"
                ReferencedContainer = "container:iRank Timer.xcodeproj">
@@ -56,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD1EF7981A9ED5CA00B745AA"
+            BlueprintIdentifier = "DDFC9F7C180F4D4800BDFD6E"
             BuildableName = "iRank Timer.app"
             BlueprintName = "iRank Timer"
             ReferencedContainer = "container:iRank Timer.xcodeproj">
@@ -72,11 +58,10 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD1EF7981A9ED5CA00B745AA"
+            BlueprintIdentifier = "DDFC9F7C180F4D4800BDFD6E"
             BuildableName = "iRank Timer.app"
             BlueprintName = "iRank Timer"
             ReferencedContainer = "container:iRank Timer.xcodeproj">
@@ -91,11 +76,10 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD1EF7981A9ED5CA00B745AA"
+            BlueprintIdentifier = "DDFC9F7C180F4D4800BDFD6E"
             BuildableName = "iRank Timer.app"
             BlueprintName = "iRank Timer"
             ReferencedContainer = "container:iRank Timer.xcodeproj">

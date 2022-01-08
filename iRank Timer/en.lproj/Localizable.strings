@@ -1,0 +1,16 @@
+"No breaks menu" = "No breaks";
+
+/* CreateMenuViewController */
+"intro" = "Select the best way to create a new blindset.\nAll created blindsets will be available to use at main menu and you will be able to edit them anytime.\n\nIf it's your very first time creating a new blind set consider using the Blind Set Wizard.";
+"intro-iphone" = "Select the best way to create a new blindset.\nAll created blindsets will be available to use at main menu and you will be able to edit them anytime.";
+
+
+/* WizardViewController */
+"wizard-intro" = "Create a new blind set choosing the number of players, blind duration and chips you have available to play";
+
+/* TimerEditMasterViewController */
+"doublePreviousFooter" = "Quickly create a new blind level by doubling the previous level values";
+
+/* TimerEditDetailsViewController */
+"header" = "         #          SB              BB           ANTE          DUR.                      BREAK";
+"header-ios7" = "                         #                SB                 BB               ANTE             DUR.                      BREAK";

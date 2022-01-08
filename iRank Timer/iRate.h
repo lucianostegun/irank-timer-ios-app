@@ -1,7 +1,7 @@
 //
 //  iRate.h
 //
-//  Version 1.11.3
+//  Version 1.8
 //
 //  Created by Nick Lockwood on 26/01/2011.
 //  Copyright 2011 Charcoal Design
@@ -31,10 +31,6 @@
 //
 
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wobjc-missing-property-synthesis"
-
-
 #import <Availability.h>
 #undef weak_delegate
 #if __has_feature(objc_arc_weak) && \
@@ -45,45 +41,38 @@
 #endif
 
 
-#import <TargetConditionals.h>
 #if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
-#define IRATE_EXTERN UIKIT_EXTERN
 #else
 #import <Cocoa/Cocoa.h>
-#define IRATE_EXTERN APPKIT_EXTERN
 #endif
 
 
-IRATE_EXTERN NSUInteger const iRateAppStoreGameGenreID;
-IRATE_EXTERN NSString *const iRateErrorDomain;
+#if IRATE_USE_STOREKIT
+#import <StoreKit/StoreKit.h>
+#endif
+
+
+extern NSUInteger const iRateAppStoreGameGenreID;
+extern NSString *const iRateErrorDomain;
+
 
 //localisation string keys
-IRATE_EXTERN NSString *const iRateMessageTitleKey; //iRateMessageTitle
-IRATE_EXTERN NSString *const iRateAppMessageKey; //iRateAppMessage
-IRATE_EXTERN NSString *const iRateGameMessageKey; //iRateGameMessage
-IRATE_EXTERN NSString *const iRateUpdateMessageKey; //iRateUpdateMessage
-IRATE_EXTERN NSString *const iRateCancelButtonKey; //iRateCancelButton
-IRATE_EXTERN NSString *const iRateRemindButtonKey; //iRateRemindButton
-IRATE_EXTERN NSString *const iRateRateButtonKey; //iRateRateButton
-
-//notification keys
-IRATE_EXTERN NSString *const iRateCouldNotConnectToAppStore;
-IRATE_EXTERN NSString *const iRateDidDetectAppUpdate;
-IRATE_EXTERN NSString *const iRateDidPromptForRating;
-IRATE_EXTERN NSString *const iRateUserDidAttemptToRateApp;
-IRATE_EXTERN NSString *const iRateUserDidDeclineToRateApp;
-IRATE_EXTERN NSString *const iRateUserDidRequestReminderToRateApp;
-IRATE_EXTERN NSString *const iRateDidOpenAppStore;
+static NSString *const iRateMessageTitleKey = @"iRateMessageTitle";
+static NSString *const iRateAppMessageKey = @"iRateAppMessage";
+static NSString *const iRateGameMessageKey = @"iRateGameMessage";
+static NSString *const iRateCancelButtonKey = @"iRateCancelButton";
+static NSString *const iRateRemindButtonKey = @"iRateRemindButton";
+static NSString *const iRateRateButtonKey = @"iRateRateButton";
 
 
-typedef NS_ENUM(NSUInteger, iRateErrorCode)
+typedef enum
 {
     iRateErrorBundleIdDoesNotMatchAppStore = 1,
     iRateErrorApplicationNotFoundOnAppStore,
-    iRateErrorApplicationIsNotLatestVersion,
-    iRateErrorCouldNotOpenRatingPageURL
-};
+    iRateErrorApplicationIsNotLatestVersion
+}
+iRateErrorCode;
 
 
 @protocol iRateDelegate <NSObject>
@@ -97,7 +86,8 @@ typedef NS_ENUM(NSUInteger, iRateErrorCode)
 - (void)iRateUserDidDeclineToRateApp;
 - (void)iRateUserDidRequestReminderToRateApp;
 - (BOOL)iRateShouldOpenAppStore;
-- (void)iRateDidOpenAppStore;
+- (void)iRateDidPresentStoreKitModal;
+- (void)iRateDidDismissStoreKitModal;
 
 @end
 
@@ -127,15 +117,13 @@ typedef NS_ENUM(NSUInteger, iRateErrorCode)
 //message text, you may wish to customise these
 @property (nonatomic, copy) NSString *messageTitle;
 @property (nonatomic, copy) NSString *message;
-@property (nonatomic, copy) NSString *updateMessage;
 @property (nonatomic, copy) NSString *cancelButtonLabel;
 @property (nonatomic, copy) NSString *remindButtonLabel;
 @property (nonatomic, copy) NSString *rateButtonLabel;
 
 //debugging and prompt overrides
-@property (nonatomic, assign) BOOL useUIAlertControllerIfAvailable;
 @property (nonatomic, assign) BOOL useAllAvailableLanguages;
-@property (nonatomic, assign) BOOL promptForNewVersionIfUserRated;
+@property (nonatomic, assign) BOOL promptAgainForEachNewVersion;
 @property (nonatomic, assign) BOOL onlyPromptIfLatestVersion;
 @property (nonatomic, assign) BOOL onlyPromptIfMainWindowIsAvailable;
 @property (nonatomic, assign) BOOL promptAtLaunch;
@@ -159,11 +147,7 @@ typedef NS_ENUM(NSUInteger, iRateErrorCode)
 - (BOOL)shouldPromptForRating;
 - (void)promptForRating;
 - (void)promptIfNetworkAvailable;
-- (void)promptIfAllCriteriaMet;
-- (void)openRatingsPageInAppStore;
+- (BOOL)openRatingsPageInAppStore;
 - (void)logEvent:(BOOL)deferPrompt;
 
 @end
-
-
-#pragma clang diagnostic pop

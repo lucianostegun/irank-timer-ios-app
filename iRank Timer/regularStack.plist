@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>blindSetName</key><string>Regular 10min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 15min</string>
+            <key>levels</key><string>15</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 20min slow</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>04:00:00</string>
+        </dict>
+        
+        <dict>
+            <key>blindSetName</key><string>Regular 10min turbo</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>02:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 8min hyper turbo</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>02:24:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 20min slow</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>04:00:00</string>
+        </dict>
+        
+        
+        <dict>
+            <key>blindSetName</key><string>Regular 10min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 15min + ante</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Regular 20min slow</string>
+            <key>levels</key><string>15</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>05:00:00</string>
+        </dict>
+    </array>
+</plist>

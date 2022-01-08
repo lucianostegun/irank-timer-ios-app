@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blindSets>
-    <blindSet id="1" name="Deep Stack 10min" levels="19" duration="03:30:00" durationSeconds="11400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
-        <blindLevel levelNumber="1" elapsedTime="00:10:00" smallBlind="50" bigBlind="100" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="2" elapsedTime="00:20:00" smallBlind="100" bigBlind="200" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="3" elapsedTime="00:30:00" smallBlind="150" bigBlind="300" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="4" elapsedTime="00:40:00" smallBlind="200" bigBlind="400" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="5" elapsedTime="00:50:00" smallBlind="250" bigBlind="500" ante="0" duration="10" isBreak="0" ></blindLevel>
-        <blindLevel levelNumber="6" elapsedTime="01:00:00" smallBlind="300" bigBlind="600" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel duration="10" elapsedTime="01:10:00" isBreak="1"></blindLevel>
-        <blindLevel levelNumber="7" elapsedTime="01:20:00" smallBlind="400" bigBlind="800" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="8" elapsedTime="01:30:00" smallBlind="600" bigBlind="1200" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="9" elapsedTime="01:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="10" elapsedTime="01:50:00" smallBlind="1500" bigBlind="3000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="11" elapsedTime="02:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel isBreak="1" elapsedTime="02:10:00" duration="3"></blindLevel>
-        <blindLevel levelNumber="12" elapsedTime="02:20:00" smallBlind="4000" bigBlind="8000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="13" elapsedTime="02:30:00" smallBlind="6000" bigBlind="12000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="14" elapsedTime="02:40:00" smallBlind="10000" bigBlind="20000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="15" elapsedTime="02:50:00" smallBlind="15000" bigBlind="30000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="16" elapsedTime="02:00:00" smallBlind="20000" bigBlind="40000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="17" elapsedTime="02:10:00" smallBlind="30000" bigBlind="60000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="18" elapsedTime="02:20:00" smallBlind="40000" bigBlind="80000" ante="0" duration="10" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="19" elapsedTime="02:30:00" smallBlind="50000" bigBlind="100000" ante="0" duration="10" isBreak="0"></blindLevel>
+    <blindSet id="1" name="Deep Stack 10min" levels="19" duration="03:30:00" durationSeconds="11400" playSound="1" blindChangeAlert="1" minuteAlert="0" doublePrevious="1">
+        <blindLevel levelNumber="1" elapsed="00:10:00" smallBlind="50" bigBlind="100" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="2" elapsed="00:20:00" smallBlind="100" bigBlind="200" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="3" elapsed="00:30:00" smallBlind="150" bigBlind="300" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="4" elapsed="00:40:00" smallBlind="200" bigBlind="400" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="5" elapsed="00:50:00" smallBlind="250" bigBlind="500" ante="0" duration="10" isBreak="0" ></blindLevel>
+        <blindLevel levelNumber="6" elapsed="01:00:00" smallBlind="300" bigBlind="600" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel duration="10" elapsed="01:10:00" isBreak="1"></blindLevel>
+        <blindLevel levelNumber="7" elapsed="01:20:00" smallBlind="400" bigBlind="800" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="8" elapsed="01:30:00" smallBlind="600" bigBlind="1200" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="9" elapsed="01:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="10" elapsed="01:50:00" smallBlind="1500" bigBlind="3000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="11" elapsed="02:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel isBreak="1" elapsed="02:10:00" duration="3"></blindLevel>
+        <blindLevel levelNumber="12" elapsed="02:20:00" smallBlind="4000" bigBlind="8000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="13" elapsed="02:30:00" smallBlind="6000" bigBlind="12000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="14" elapsed="02:40:00" smallBlind="10000" bigBlind="20000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="15" elapsed="02:50:00" smallBlind="15000" bigBlind="30000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="16" elapsed="02:00:00" smallBlind="20000" bigBlind="40000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="17" elapsed="02:10:00" smallBlind="30000" bigBlind="60000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="18" elapsed="02:20:00" smallBlind="40000" bigBlind="80000" ante="0" duration="10" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="19" elapsed="02:30:00" smallBlind="50000" bigBlind="100000" ante="0" duration="10" isBreak="0"></blindLevel>
     </blindSet>
     
-    <blindSet id="2" name="Deep Stack 15min + ante" levels="19" duration="03:30:00" durationSeconds="11400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
-        <blindLevel levelNumber="1" elapsedTime="00:15:00" smallBlind="50" bigBlind="100" ante="0" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="2" elapsedTime="00:30:00" smallBlind="100" bigBlind="200" ante="0" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="3" elapsedTime="00:45:00" smallBlind="150" bigBlind="300" ante="0" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="4" elapsedTime="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="5" elapsedTime="01:15:00" smallBlind="250" bigBlind="500" ante="50" duration="15" isBreak="0" ></blindLevel>
-        <blindLevel levelNumber="6" elapsedTime="01:30:00" smallBlind="300" bigBlind="600" ante="50" duration="15" isBreak="0"></blindLevel>
-        <blindLevel duration="10" elapsedTime="01:40:00" isBreak="1"></blindLevel>
-        <blindLevel levelNumber="7" elapsedTime="01:55:00" smallBlind="400" bigBlind="800" ante="100" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="8" elapsedTime="02:10:00" smallBlind="600" bigBlind="1200" ante="100" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="9" elapsedTime="02:25:00" smallBlind="1000" bigBlind="2000" ante="200" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="10" elapsedTime="02:40:00" smallBlind="1500" bigBlind="3000" ante="300" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="11" elapsedTime="02:55:00" smallBlind="2000" bigBlind="4000" ante="400" duration="15" isBreak="0"></blindLevel>
-        <blindLevel isBreak="1" elapsedTime="03:00:00" duration="5"></blindLevel>
-        <blindLevel levelNumber="12" elapsedTime="03:15:00" smallBlind="4000" bigBlind="8000" ante="500" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="13" elapsedTime="03:30:00" smallBlind="6000" bigBlind="12000" ante="500" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="14" elapsedTime="03:45:00" smallBlind="10000" bigBlind="20000" ante="1000" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="15" elapsedTime="04:00:00" smallBlind="15000" bigBlind="30000" ante="1000" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="16" elapsedTime="04:15:00" smallBlind="20000" bigBlind="40000" ante="2000" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="17" elapsedTime="04:30:00" smallBlind="30000" bigBlind="60000" ante="3000" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="18" elapsedTime="04:45:00" smallBlind="40000" bigBlind="80000" ante="4000" duration="15" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="19" elapsedTime="05:00:00" smallBlind="50000" bigBlind="100000" ante="5000" duration="15" isBreak="0"></blindLevel>
+    <blindSet id="2" name="Deep Stack 15min + ante" levels="19" duration="03:30:00" durationSeconds="11400" playSound="1" blindChangeAlert="1" minuteAlert="0" doublePrevious="1">
+        <blindLevel levelNumber="1" elapsed="00:15:00" smallBlind="50" bigBlind="100" ante="0" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="2" elapsed="00:30:00" smallBlind="100" bigBlind="200" ante="0" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="3" elapsed="00:45:00" smallBlind="150" bigBlind="300" ante="0" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="4" elapsed="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="5" elapsed="01:15:00" smallBlind="250" bigBlind="500" ante="50" duration="15" isBreak="0" ></blindLevel>
+        <blindLevel levelNumber="6" elapsed="01:30:00" smallBlind="300" bigBlind="600" ante="50" duration="15" isBreak="0"></blindLevel>
+        <blindLevel duration="10" elapsed="01:40:00" isBreak="1"></blindLevel>
+        <blindLevel levelNumber="7" elapsed="01:55:00" smallBlind="400" bigBlind="800" ante="100" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="8" elapsed="02:10:00" smallBlind="600" bigBlind="1200" ante="100" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="9" elapsed="02:25:00" smallBlind="1000" bigBlind="2000" ante="200" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="10" elapsed="02:40:00" smallBlind="1500" bigBlind="3000" ante="300" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="11" elapsed="02:55:00" smallBlind="2000" bigBlind="4000" ante="400" duration="15" isBreak="0"></blindLevel>
+        <blindLevel isBreak="1" elapsed="03:00:00" duration="5"></blindLevel>
+        <blindLevel levelNumber="12" elapsed="03:15:00" smallBlind="4000" bigBlind="8000" ante="500" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="13" elapsed="03:30:00" smallBlind="6000" bigBlind="12000" ante="500" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="14" elapsed="03:45:00" smallBlind="10000" bigBlind="20000" ante="1000" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="15" elapsed="04:00:00" smallBlind="15000" bigBlind="30000" ante="1000" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="16" elapsed="04:15:00" smallBlind="20000" bigBlind="40000" ante="2000" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="17" elapsed="04:30:00" smallBlind="30000" bigBlind="60000" ante="3000" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="18" elapsed="04:45:00" smallBlind="40000" bigBlind="80000" ante="4000" duration="15" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="19" elapsed="05:00:00" smallBlind="50000" bigBlind="100000" ante="5000" duration="15" isBreak="0"></blindLevel>
     </blindSet>
     
-    <blindSet id="3" name="Turbo 5min" levels="23" duration="02:00:00" durationSeconds="7200" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
-        <blindLevel levelNumber="1" elapsedTime="00:05:00" smallBlind="5" bigBlind="10" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="2" elapsedTime="00:10:00" smallBlind="10" bigBlind="20" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="3" elapsedTime="00:15:00" smallBlind="15" bigBlind="30" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="4" elapsedTime="00:20:00" smallBlind="20" bigBlind="40" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="5" elapsedTime="00:25:00" smallBlind="25" bigBlind="50" ante="0" duration="5" isBreak="0" ></blindLevel>
-        <blindLevel levelNumber="6" elapsedTime="00:30:00" smallBlind="30" bigBlind="60" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="7" elapsedTime="00:35:00" smallBlind="40" bigBlind="80" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="8" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="9" elapsedTime="00:45:00" smallBlind="100" bigBlind="200" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="10" elapsedTime="00:50:00" smallBlind="150" bigBlind="300" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="11" elapsedTime="00:55:00" smallBlind="200" bigBlind="400" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="12" elapsedTime="01:00:00" smallBlind="400" bigBlind="800" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="13" elapsedTime="01:05:00" smallBlind="500" bigBlind="1000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="14" elapsedTime="01:10:00" smallBlind="600" bigBlind="1200" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="15" elapsedTime="01:15:00" smallBlind="800" bigBlind="1600" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="16" elapsedTime="01:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="17" elapsedTime="01:25:00" smallBlind="1500" bigBlind="3000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="18" elapsedTime="01:30:00" smallBlind="2000" bigBlind="4000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="19" elapsedTime="01:35:00" smallBlind="2500" bigBlind="5000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="20" elapsedTime="01:45:00" smallBlind="3000" bigBlind="6000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="21" elapsedTime="01:50:00" smallBlind="3500" bigBlind="7000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="22" elapsedTime="01:55:00" smallBlind="4000" bigBlind="8000" ante="0" duration="5" isBreak="0"></blindLevel>
-        <blindLevel levelNumber="23" elapsedTime="02:00:00" smallBlind="5000" bigBlind="10000" ante="0" duration="5" isBreak="0"></blindLevel>
+    <blindSet id="3" name="Turbo 5min" levels="23" duration="02:00:00" durationSeconds="7200" playSound="1" blindChangeAlert="1" minuteAlert="0" doublePrevious="1">
+        <blindLevel levelNumber="1" elapsed="00:05:00" smallBlind="5" bigBlind="10" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="2" elapsed="00:10:00" smallBlind="10" bigBlind="20" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="3" elapsed="00:15:00" smallBlind="15" bigBlind="30" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="4" elapsed="00:20:00" smallBlind="20" bigBlind="40" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="5" elapsed="00:25:00" smallBlind="25" bigBlind="50" ante="0" duration="5" isBreak="0" ></blindLevel>
+        <blindLevel levelNumber="6" elapsed="00:30:00" smallBlind="30" bigBlind="60" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="7" elapsed="00:35:00" smallBlind="40" bigBlind="80" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="8" elapsed="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="9" elapsed="00:45:00" smallBlind="100" bigBlind="200" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="10" elapsed="00:50:00" smallBlind="150" bigBlind="300" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="11" elapsed="00:55:00" smallBlind="200" bigBlind="400" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="12" elapsed="01:00:00" smallBlind="400" bigBlind="800" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="13" elapsed="01:05:00" smallBlind="500" bigBlind="1000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="14" elapsed="01:10:00" smallBlind="600" bigBlind="1200" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="15" elapsed="01:15:00" smallBlind="800" bigBlind="1600" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="16" elapsed="01:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="17" elapsed="01:25:00" smallBlind="1500" bigBlind="3000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="18" elapsed="01:30:00" smallBlind="2000" bigBlind="4000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="19" elapsed="01:35:00" smallBlind="2500" bigBlind="5000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="20" elapsed="01:45:00" smallBlind="3000" bigBlind="6000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="21" elapsed="01:50:00" smallBlind="3500" bigBlind="7000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="22" elapsed="01:55:00" smallBlind="4000" bigBlind="8000" ante="0" duration="5" isBreak="0"></blindLevel>
+        <blindLevel levelNumber="23" elapsed="02:00:00" smallBlind="5000" bigBlind="10000" ante="0" duration="5" isBreak="0"></blindLevel>
     </blindSet>
 </blindSets>
