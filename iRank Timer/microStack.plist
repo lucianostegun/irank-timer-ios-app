@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <!-- FICHAS 1, 2, 5, 10 -->
+        <dict>
+            <key>blindSetName</key><string>Micro stack 5min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>01:30:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro stack 10min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro stack 15min</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        
+        
+        <dict>
+            <key>blindSetName</key><string>Micro stack 10min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro stack turbo + ante</string>
+            <key>levels</key><string>19</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>02:32:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro stack + ante</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        
+        <dict>
+            <key>blindSetName</key><string>Micro 15min + ante</string>
+            <key>levels</key><string>12</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro turbo + ante</string>
+            <key>levels</key><string>19</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:10:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Micro hyper turbo + ante</string>
+            <key>levels</key><string>22</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>02:56:00</string>
+        </dict>
+    </array>
+</plist>

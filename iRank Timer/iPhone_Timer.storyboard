@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ca4-lN-Yoj">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--I Phone Timer View Controller-->
+        <scene sceneID="Ttk-we-5ri">
+            <objects>
+                <viewController id="ca4-lN-Yoj" customClass="iPhoneTimerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rd4-IJ-nmS"/>
+                        <viewControllerLayoutGuide type="bottom" id="GtT-zX-4Py"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nS9-MQ-xf3">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iphone-timer-bg-blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="L8s-6R-hlt">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waO-S2-cUf">
+                                <rect key="frame" x="148" y="8" width="273" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mY-nj-k2E">
+                                <rect key="frame" x="96" y="145" width="376" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t0M-sT-oCW">
+                                <rect key="frame" x="20" y="145" width="150" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SMALL BLIND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FX-zX-hnc">
+                                <rect key="frame" x="20" y="196" width="150" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cod-O4-SyI">
+                                <rect key="frame" x="24" y="244" width="176" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ELAPSED TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INd-IF-lG3">
+                                <rect key="frame" x="37" y="287" width="150" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri4-M3-lhp">
+                                <rect key="frame" x="373" y="244" width="176" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT BREAK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzX-OT-IzI">
+                                <rect key="frame" x="386" y="287" width="150" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="BIG BLIND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goi-lc-85X">
+                                <rect key="frame" x="225" y="196" width="119" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4i-q6-B68">
+                                <rect key="frame" x="398" y="196" width="150" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-Xi-rti">
+                                <rect key="frame" x="18" y="90" width="532" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="changeCurrentTime:" destination="ca4-lN-Yoj" eventType="valueChanged" id="mXF-Yh-8Fb"/>
+                                </connections>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iphone-level-circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dyV-r3-EG9">
+                                <rect key="frame" x="20" y="20" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9y-uS-WBj">
+                                <rect key="frame" x="24" y="31" width="62" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zjj-ZH-pLP">
+                                <rect key="frame" x="407" y="145" width="142" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="kQY-rh-FoK">
+                                <rect key="frame" x="0.0" y="320" width="568" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Pevious" id="ATK-JA-OCW">
+                                        <connections>
+                                            <action selector="previousLevel:" destination="ca4-lN-Yoj" id="LDB-wP-b3R"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gNo-nF-JHy"/>
+                                    <barButtonItem title="START" id="8ir-4j-F1u">
+                                        <connections>
+                                            <action selector="playLevelNotify:" destination="ca4-lN-Yoj" id="9pf-Pl-LJ7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="f92-5W-O7y"/>
+                                    <barButtonItem title="Next" id="1uX-S1-pWO">
+                                        <connections>
+                                            <action selector="nextLevel:" destination="ca4-lN-Yoj" id="maB-Qb-8E7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.77444499430000002" green="0.1225870327" blue="0.07307707427" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="L8s-6R-hlt" firstAttribute="leading" secondItem="nS9-MQ-xf3" secondAttribute="leading" id="H0c-Bo-hls"/>
+                            <constraint firstAttribute="centerX" secondItem="waO-S2-cUf" secondAttribute="centerX" id="Mtb-yX-heU"/>
+                            <constraint firstAttribute="trailing" secondItem="L8s-6R-hlt" secondAttribute="trailing" id="OSf-oP-sv6"/>
+                            <constraint firstItem="dyV-r3-EG9" firstAttribute="leading" secondItem="nS9-MQ-xf3" secondAttribute="leading" constant="20" id="QNy-DO-Nzs"/>
+                            <constraint firstItem="2mY-nj-k2E" firstAttribute="leading" secondItem="nS9-MQ-xf3" secondAttribute="leading" constant="96" id="RXN-pL-2fF"/>
+                            <constraint firstItem="2mY-nj-k2E" firstAttribute="centerX" secondItem="Goi-lc-85X" secondAttribute="centerX" id="TlH-1T-lFB"/>
+                            <constraint firstItem="FSw-Xi-rti" firstAttribute="top" secondItem="waO-S2-cUf" secondAttribute="bottom" id="bCC-qV-hsC"/>
+                            <constraint firstAttribute="trailing" secondItem="Zjj-ZH-pLP" secondAttribute="trailing" constant="20" id="dHO-AF-McT"/>
+                            <constraint firstAttribute="trailing" secondItem="FSw-Xi-rti" secondAttribute="trailing" constant="20" id="dL7-oT-8ge"/>
+                            <constraint firstAttribute="trailing" secondItem="2mY-nj-k2E" secondAttribute="trailing" constant="96" id="ejJ-M5-1YD"/>
+                            <constraint firstItem="FSw-Xi-rti" firstAttribute="leading" secondItem="nS9-MQ-xf3" secondAttribute="leading" constant="20" id="fVR-sW-iD8"/>
+                            <constraint firstAttribute="centerX" secondItem="2mY-nj-k2E" secondAttribute="centerX" id="nwf-5t-DjG"/>
+                            <constraint firstAttribute="centerX" secondItem="FSw-Xi-rti" secondAttribute="centerX" id="vVf-yq-vI6"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="lblAnte" destination="Zjj-ZH-pLP" id="oYm-CI-jhA"/>
+                        <outlet property="lblBigBlind" destination="2mY-nj-k2E" id="uDL-85-tNe"/>
+                        <outlet property="lblCurrentLevel" destination="K9y-uS-WBj" id="xxV-Y6-ZZh"/>
+                        <outlet property="lblElapsedLabel" destination="INd-IF-lG3" id="adn-uz-nCl"/>
+                        <outlet property="lblElapsedTime" destination="Cod-O4-SyI" id="KjK-R2-JRA"/>
+                        <outlet property="lblNextBreak" destination="Ri4-M3-lhp" id="4R0-0Z-MOP"/>
+                        <outlet property="lblNextBreakLabel" destination="SzX-OT-IzI" id="fXr-iU-ALj"/>
+                        <outlet property="lblSmallBlind" destination="t0M-sT-oCW" id="4Nw-Tr-Tsp"/>
+                        <outlet property="lblTimer" destination="waO-S2-cUf" id="SGs-Vo-Y1o"/>
+                        <outlet property="menuToolbar" destination="kQY-rh-FoK" id="nPe-2R-QSt"/>
+                        <outlet property="timerSlider" destination="FSw-Xi-rti" id="j4O-JM-9QM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1uT-Gj-Oen" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-206" y="588"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone-level-circle.png" width="70" height="70"/>
+        <image name="iphone-timer-bg-blue.png" width="568" height="320"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>fileName</key><string>blind-change1</string>
+            <key>soundName</key><string>Airport</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change2</string>
+            <key>soundName</key><string>Future</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change3</string>
+            <key>soundName</key><string>Ufo</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change4</string>
+            <key>soundName</key><string>Chord</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change5</string>
+            <key>soundName</key><string>Alarm</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change6</string>
+            <key>soundName</key><string>Sirene</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change7</string>
+            <key>soundName</key><string>Awesome</string>
+        </dict>
+        <dict>
+            <key>fileName</key><string>blind-change8</string>
+            <key>soundName</key><string>Echo</string>
+        </dict>
+    </array>
+</plist>

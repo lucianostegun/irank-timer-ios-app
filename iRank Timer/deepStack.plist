@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>blindSetName</key><string>Deep Stack 10min</string>
+            <key>levels</key><string>19</string>
+            <key>breaks</key><string>2</string>
+            <key>duration</key><string>02:30:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep Stack 10min + ante</string>
+            <key>levels</key><string>19</string>
+            <key>breaks</key><string>2</string>
+            <key>duration</key><string>02:30:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Hyper turbo 5min</string>
+            <key>levels</key><string>23</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>02:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 12 min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>03:36:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 15 min</string>
+            <key>levels</key><string>16</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>04:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 20 min</string>
+            <key>levels</key><string>18</string>
+            <key>breaks</key><string>0</string>
+            <key>duration</key><string>06:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 10 min</string>
+            <key>levels</key><string>23</string>
+            <key>breaks</key><string>1</string>
+            <key>duration</key><string>04:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 15 min + ante</string>
+            <key>levels</key><string>19</string>
+            <key>breaks</key><string>1</string>
+            <key>duration</key><string>05:00:00</string>
+        </dict>
+        <dict>
+            <key>blindSetName</key><string>Deep stack 20 min + ante</string>
+            <key>levels</key><string>23</string>
+            <key>breaks</key><string>1</string>
+            <key>duration</key><string>08:00:00</string>
+        </dict>
+    </array>
+</plist>
