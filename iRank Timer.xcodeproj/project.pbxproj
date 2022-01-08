@@ -7,6 +7,229 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD010FB41AE6A634003967A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD010FB31AE6A634003967A2 /* Constants.swift */; };
+		DD01160C1AE6EECF003967A2 /* iPhone_CreateMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0230141AACD1BE00ED0D39 /* iPhone_CreateMenuViewController.swift */; };
+		DD01160D1AE6EECF003967A2 /* iPhone_TimerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ACC691AA3F3A900D7EC05 /* iPhone_TimerMenuViewController.swift */; };
+		DD01160E1AE6EECF003967A2 /* BlindSetWizardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C41A9ED72A00B745AA /* BlindSetWizardViewController.swift */; };
+		DD01160F1AE6EECF003967A2 /* BlindLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8151A9ED84100B745AA /* BlindLevel.swift */; };
+		DD0116101AE6EECF003967A2 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8271A9ED85500B745AA /* MPCManager.swift */; };
+		DD0116111AE6EECF003967A2 /* iPhone_CreateMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0230161AAD06FD00ED0D39 /* iPhone_CreateMenuNavigationController.swift */; };
+		DD0116121AE6EECF003967A2 /* BlindSetEditorMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C61A9ED72A00B745AA /* BlindSetEditorMasterViewController.swift */; };
+		DD0116131AE6EECF003967A2 /* BlindLevelEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C81A9ED72A00B745AA /* BlindLevelEditorViewController.swift */; };
+		DD0116141AE6EECF003967A2 /* iPhone_RemoteControlNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD022FE91AABF1E400ED0D39 /* iPhone_RemoteControlNavigationController.swift */; };
+		DD0116151AE6EECF003967A2 /* ConfigDetailsLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CF1A9ED72A00B745AA /* ConfigDetailsLanguageViewController.swift */; };
+		DD0116161AE6EECF003967A2 /* PresetBlindSetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C31A9ED72A00B745AA /* PresetBlindSetsViewController.swift */; };
+		DD0116171AE6EECF003967A2 /* XmlBlindSetParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF81B1A9ED84100B745AA /* XmlBlindSetParser.swift */; };
+		DD0116181AE6EECF003967A2 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C11A9ED72A00B745AA /* TimerViewController.swift */; };
+		DD0116191AE6EECF003967A2 /* BackgroundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF81A1A9ED84100B745AA /* BackgroundCell.swift */; };
+		DD01161A1AE6EECF003967A2 /* ConfigDetailsLongPauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CC1A9ED72A00B745AA /* ConfigDetailsLongPauseViewController.swift */; };
+		DD01161B1AE6EECF003967A2 /* CreateMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C21A9ED72A00B745AA /* CreateMenuViewController.swift */; };
+		DD01161C1AE6EECF003967A2 /* iPhone_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ACC6E1AA4099600D7EC05 /* iPhone_NavigationController.swift */; };
+		DD01161D1AE6EECF003967A2 /* BlindSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8141A9ED84100B745AA /* BlindSet.swift */; };
+		DD01161E1AE6EECF003967A2 /* ConfigDetailsBackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7D01A9ED72A00B745AA /* ConfigDetailsBackupViewController.swift */; };
+		DD01161F1AE6EECF003967A2 /* iPad_TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B8ED11AA2A15500AD993E /* iPad_TimerViewController.swift */; };
+		DD0116201AE6EECF003967A2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8181A9ED84100B745AA /* Util.swift */; };
+		DD0116211AE6EECF003967A2 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF81C1A9ED84100B745AA /* TutorialView.swift */; };
+		DD0116221AE6EECF003967A2 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8191A9ED84100B745AA /* Regex.swift */; };
+		DD0116231AE6EECF003967A2 /* BlindSetEditorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C71A9ED72A00B745AA /* BlindSetEditorDetailsViewController.swift */; };
+		DD0116241AE6EECF003967A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD010FB31AE6A634003967A2 /* Constants.swift */; };
+		DD0116251AE6EECF003967A2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD022FE61AABDC3C00ED0D39 /* MBProgressHUD.m */; };
+		DD0116261AE6EECF003967A2 /* iPhone_BlindSetEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12433D1AA7D4F30061832B /* iPhone_BlindSetEditorViewController.swift */; };
+		DD0116271AE6EECF003967A2 /* iPhone_BlindLevelEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F58401AAB75FD004AC8DD /* iPhone_BlindLevelEditorViewController.swift */; };
+		DD0116281AE6EECF003967A2 /* iPad_BlindSetEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C51A9ED72A00B745AA /* iPad_BlindSetEditorViewController.swift */; };
+		DD0116291AE6EECF003967A2 /* ConfigMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CA1A9ED72A00B745AA /* ConfigMasterViewController.swift */; };
+		DD01162A1AE6EECF003967A2 /* iPhone_RemoteControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ACC721AA411AE00D7EC05 /* iPhone_RemoteControlViewController.swift */; };
+		DD01162B1AE6EECF003967A2 /* ConfigDetailsSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CB1A9ED72A00B745AA /* ConfigDetailsSoundViewController.swift */; };
+		DD01162C1AE6EECF003967A2 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6DFA511AB51FAF00B5A15C /* iRate.m */; };
+		DD01162D1AE6EECF003967A2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C91A9ED72A00B745AA /* ConfigViewController.swift */; };
+		DD01162E1AE6EECF003967A2 /* iPhone_TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B8ECF1AA29FD100AD993E /* iPhone_TimerViewController.swift */; };
+		DD01162F1AE6EECF003967A2 /* BlindLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8161A9ED84100B745AA /* BlindLevelCell.swift */; };
+		DD0116301AE6EECF003967A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7C01A9ED72A00B745AA /* AppDelegate.swift */; };
+		DD0116311AE6EECF003967A2 /* ConfigDetailsMultipeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CE1A9ED72A00B745AA /* ConfigDetailsMultipeerViewController.swift */; };
+		DD0116321AE6EECF003967A2 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ACC741AA4127400D7EC05 /* BackgroundViewController.swift */; };
+		DD0116331AE6EECF003967A2 /* PresetBlindSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF8171A9ED84100B745AA /* PresetBlindSetCell.swift */; };
+		DD0116341AE6EECF003967A2 /* ConfigDetailsBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF7CD1A9ED72A00B745AA /* ConfigDetailsBackgroundViewController.swift */; };
+		DD0116371AE6EECF003967A2 /* logo-irank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8721A9ED8B300B745AA /* logo-irank@2x.png */; };
+		DD0116381AE6EECF003967A2 /* blind-change-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85A1A9ED89600B745AA /* blind-change-11.mp3 */; };
+		DD0116391AE6EECF003967A2 /* background-10-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9211A9ED8FF00B745AA /* background-10-thumb@2x.jpg */; };
+		DD01163A1AE6EECF003967A2 /* background-1-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF90E1A9ED8FF00B745AA /* background-1-thumb.jpg */; };
+		DD01163B1AE6EECF003967A2 /* table-5-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B11A9ED8E500B745AA /* table-5-players@2x.png */; };
+		DD01163C1AE6EECF003967A2 /* iPhone_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4CEE1AB14449002A7F43 /* iPhone_Timer.storyboard */; };
+		DD01163D1AE6EECF003967A2 /* table-10-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8BB1A9ED8E500B745AA /* table-10-players@2x.png */; };
+		DD01163E1AE6EECF003967A2 /* table-6-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B21A9ED8E500B745AA /* table-6-players.png */; };
+		DD01163F1AE6EECF003967A2 /* chip10000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A91A9ED8E500B745AA /* chip10000@2x.png */; };
+		DD0116401AE6EECF003967A2 /* pulse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF83B1A9ED88600B745AA /* pulse.mp3 */; };
+		DD0116411AE6EECF003967A2 /* iphone-background-3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAC1AA2959A00AD993E /* iphone-background-3@2x.jpg */; };
+		DD0116421AE6EECF003967A2 /* background-2-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9111A9ED8FF00B745AA /* background-2-thumb@2x.jpg */; };
+		DD0116431AE6EECF003967A2 /* background-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9241A9ED8FF00B745AA /* background-3.jpg */; };
+		DD0116441AE6EECF003967A2 /* iPad_CreateMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D211AB154B6002A7F43 /* iPad_CreateMenu.storyboard */; };
+		DD0116451AE6EECF003967A2 /* blindChangeSoundList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F31A9ED74400B745AA /* blindChangeSoundList.plist */; };
+		DD0116461AE6EECF003967A2 /* background-8-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91D1A9ED8FF00B745AA /* background-8-thumb@2x.jpg */; };
+		DD0116471AE6EECF003967A2 /* iphone-background-5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB01AA2959A00AD993E /* iphone-background-5@2x.jpg */; };
+		DD0116481AE6EECF003967A2 /* background-9-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91F1A9ED8FF00B745AA /* background-9-thumb@2x.jpg */; };
+		DD0116491AE6EECF003967A2 /* background-1-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF90F1A9ED8FF00B745AA /* background-1-thumb@2x.jpg */; };
+		DD01164A1AE6EECF003967A2 /* lastMinuteSoundList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F21A9ED74400B745AA /* lastMinuteSoundList.plist */; };
+		DD01164B1AE6EECF003967A2 /* background-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92A1A9ED8FF00B745AA /* background-9.jpg */; };
+		DD01164C1AE6EECF003967A2 /* background-4-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9151A9ED8FF00B745AA /* background-4-thumb@2x.jpg */; };
+		DD01164D1AE6EECF003967A2 /* languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F01A9ED74400B745AA /* languages.plist */; };
+		DD01164E1AE6EECF003967A2 /* background-3-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9131A9ED8FF00B745AA /* background-3-thumb@2x.jpg */; };
+		DD01164F1AE6EECF003967A2 /* iphone-background-6@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB21AA2959A00AD993E /* iphone-background-6@2x.jpg */; };
+		DD0116501AE6EECF003967A2 /* iPad_BlindSetWizard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D171AB154A3002A7F43 /* iPad_BlindSetWizard.storyboard */; };
+		DD0116511AE6EECF003967A2 /* iPad_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */; };
+		DD0116521AE6EECF003967A2 /* chip25.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89C1A9ED8E500B745AA /* chip25.png */; };
+		DD0116531AE6EECF003967A2 /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8581A9ED89600B745AA /* twinkle.mp3 */; };
+		DD0116541AE6EECF003967A2 /* iphone-background-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB71AA2959A00AD993E /* iphone-background-9.jpg */; };
+		DD0116551AE6EECF003967A2 /* preset-deep-normal.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F61A9ED74400B745AA /* preset-deep-normal.xml */; };
+		DD0116561AE6EECF003967A2 /* background-10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92D1A9ED8FF00B745AA /* background-10@2x.jpg */; };
+		DD0116571AE6EECF003967A2 /* preset-micro-turbo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FC1A9ED74400B745AA /* preset-micro-turbo.xml */; };
+		DD0116581AE6EECF003967A2 /* blind-change-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8311A9ED88600B745AA /* blind-change-5.mp3 */; };
+		DD0116591AE6EECF003967A2 /* background-4-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9141A9ED8FF00B745AA /* background-4-thumb.jpg */; };
+		DD01165A1AE6EECF003967A2 /* iphone-background-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EA91AA2959A00AD993E /* iphone-background-2.jpg */; };
+		DD01165B1AE6EECF003967A2 /* table-9-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B91A9ED8E500B745AA /* table-9-players@2x.png */; };
+		DD01165C1AE6EECF003967A2 /* minute-alert-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8591A9ED89600B745AA /* minute-alert-8.mp3 */; };
+		DD01165D1AE6EECF003967A2 /* background-2-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9101A9ED8FF00B745AA /* background-2-thumb.jpg */; };
+		DD01165E1AE6EECF003967A2 /* iphone-background-2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAA1AA2959A00AD993E /* iphone-background-2@2x.jpg */; };
+		DD01165F1AE6EECF003967A2 /* background-9-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91E1A9ED8FF00B745AA /* background-9-thumb.jpg */; };
+		DD0116601AE6EECF003967A2 /* level-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87F1A9ED8B300B745AA /* level-bg@2x.png */; };
+		DD0116611AE6EECF003967A2 /* preset-regular-hyper.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FD1A9ED74400B745AA /* preset-regular-hyper.xml */; };
+		DD0116621AE6EECF003967A2 /* clock-tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8351A9ED88600B745AA /* clock-tick.mp3 */; };
+		DD0116631AE6EECF003967A2 /* iPhone_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5BC4A71AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard */; };
+		DD0116641AE6EECF003967A2 /* chip10000.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A81A9ED8E500B745AA /* chip10000.png */; };
+		DD0116651AE6EECF003967A2 /* chip500@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A31A9ED8E500B745AA /* chip500@2x.png */; };
+		DD0116661AE6EECF003967A2 /* minute-alert-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8551A9ED89600B745AA /* minute-alert-7.mp3 */; };
+		DD0116671AE6EECF003967A2 /* preset-regular-slow.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FF1A9ED74400B745AA /* preset-regular-slow.xml */; };
+		DD0116681AE6EECF003967A2 /* first-ante-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82A1A9ED88600B745AA /* first-ante-1.mp3 */; };
+		DD0116691AE6EECF003967A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7D71A9ED72A00B745AA /* Images.xcassets */; };
+		DD01166A1AE6EECF003967A2 /* table-3-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AD1A9ED8E500B745AA /* table-3-players@2x.png */; };
+		DD01166B1AE6EECF003967A2 /* table-4-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AF1A9ED8E500B745AA /* table-4-players@2x.png */; };
+		DD01166C1AE6EECF003967A2 /* table-7-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B41A9ED8E500B745AA /* table-7-players.png */; };
+		DD01166D1AE6EECF003967A2 /* background-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9261A9ED8FF00B745AA /* background-5.jpg */; };
+		DD01166E1AE6EECF003967A2 /* table-8-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B71A9ED8E500B745AA /* table-8-players@2x.png */; };
+		DD01166F1AE6EECF003967A2 /* chip1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8961A9ED8E500B745AA /* chip1.png */; };
+		DD0116701AE6EECF003967A2 /* iphone-background-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAB1AA2959A00AD993E /* iphone-background-3.jpg */; };
+		DD0116711AE6EECF003967A2 /* minute-alert-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF83A1A9ED88600B745AA /* minute-alert-5.mp3 */; };
+		DD0116721AE6EECF003967A2 /* countdown-timeout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF83D1A9ED88600B745AA /* countdown-timeout.mp3 */; };
+		DD0116731AE6EECF003967A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D541AB27495002A7F43 /* Localizable.strings */; };
+		DD0116741AE6EECF003967A2 /* gray-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87D1A9ED8B300B745AA /* gray-dot.png */; };
+		DD0116751AE6EECF003967A2 /* manual@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8781A9ED8B300B745AA /* manual@2x.png */; };
+		DD0116761AE6EECF003967A2 /* background-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9291A9ED8FF00B745AA /* background-8.jpg */; };
+		DD0116771AE6EECF003967A2 /* iPhone_Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4CFD1AB14485002A7F43 /* iPhone_Config.storyboard */; };
+		DD0116781AE6EECF003967A2 /* iPhone_BlindSetEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D021AB14495002A7F43 /* iPhone_BlindSetEditor.storyboard */; };
+		DD0116791AE6EECF003967A2 /* first-ante-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85D1A9ED89600B745AA /* first-ante-5.mp3 */; };
+		DD01167A1AE6EECF003967A2 /* preset-micro-normal.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FA1A9ED74400B745AA /* preset-micro-normal.xml */; };
+		DD01167B1AE6EECF003967A2 /* minute-alert-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8381A9ED88600B745AA /* minute-alert-3.mp3 */; };
+		DD01167C1AE6EECF003967A2 /* table-6-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B31A9ED8E500B745AA /* table-6-players@2x.png */; };
+		DD01167D1AE6EECF003967A2 /* clock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8BC1A9ED8E500B745AA /* clock-icon.png */; };
+		DD01167E1AE6EECF003967A2 /* background-3-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9121A9ED8FF00B745AA /* background-3-thumb.jpg */; };
+		DD01167F1AE6EECF003967A2 /* iphone-background-8@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB61AA2959A00AD993E /* iphone-background-8@2x.jpg */; };
+		DD0116801AE6EECF003967A2 /* minute-alert-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8361A9ED88600B745AA /* minute-alert-1.mp3 */; };
+		DD0116811AE6EECF003967A2 /* preset.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8731A9ED8B300B745AA /* preset.png */; };
+		DD0116821AE6EECF003967A2 /* iphone-background-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EA71AA2959A00AD993E /* iphone-background-1.jpg */; };
+		DD0116831AE6EECF003967A2 /* chip5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8981A9ED8E500B745AA /* chip5.png */; };
+		DD0116841AE6EECF003967A2 /* background-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9281A9ED8FF00B745AA /* background-7.jpg */; };
+		DD0116851AE6EECF003967A2 /* blind-change-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85E1A9ED89600B745AA /* blind-change-12.mp3 */; };
+		DD0116861AE6EECF003967A2 /* table-2-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AB1A9ED8E500B745AA /* table-2-players@2x.png */; };
+		DD0116871AE6EECF003967A2 /* red-ok-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8811A9ED8B300B745AA /* red-ok-icon@2x.png */; };
+		DD0116881AE6EECF003967A2 /* blind-change-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8301A9ED88600B745AA /* blind-change-4.mp3 */; };
+		DD0116891AE6EECF003967A2 /* iphone-background-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB11AA2959A00AD993E /* iphone-background-6.jpg */; };
+		DD01168A1AE6EECF003967A2 /* firstAnteSoundList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F11A9ED74400B745AA /* firstAnteSoundList.plist */; };
+		DD01168B1AE6EECF003967A2 /* hand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9149201A9FF56500CA96AE /* hand@2x.png */; };
+		DD01168C1AE6EECF003967A2 /* preset-regular-normal.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FE1A9ED74400B745AA /* preset-regular-normal.xml */; };
+		DD01168D1AE6EECF003967A2 /* clock-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8BD1A9ED8E500B745AA /* clock-icon@2x.png */; };
+		DD01168E1AE6EECF003967A2 /* blind-change-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8341A9ED88600B745AA /* blind-change-8.mp3 */; };
+		DD01168F1AE6EECF003967A2 /* table-4-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AE1A9ED8E500B745AA /* table-4-players.png */; };
+		DD0116901AE6EECF003967A2 /* iphone-background-9@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB81AA2959A00AD993E /* iphone-background-9@2x.jpg */; };
+		DD0116911AE6EECF003967A2 /* chip5000.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A61A9ED8E500B745AA /* chip5000.png */; };
+		DD0116921AE6EECF003967A2 /* iphone-background-4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAE1AA2959A00AD993E /* iphone-background-4@2x.jpg */; };
+		DD0116931AE6EECF003967A2 /* level-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87E1A9ED8B300B745AA /* level-bg.png */; };
+		DD0116941AE6EECF003967A2 /* chip100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A11A9ED8E500B745AA /* chip100@2x.png */; };
+		DD0116951AE6EECF003967A2 /* preset-deep-hyper.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F51A9ED74400B745AA /* preset-deep-hyper.xml */; };
+		DD0116961AE6EECF003967A2 /* table-3-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AC1A9ED8E500B745AA /* table-3-players.png */; };
+		DD0116971AE6EECF003967A2 /* first-ante-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8601A9ED89600B745AA /* first-ante-6.mp3 */; };
+		DD0116981AE6EECF003967A2 /* chip100.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A01A9ED8E500B745AA /* chip100.png */; };
+		DD0116991AE6EECF003967A2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D3D1AB271C5002A7F43 /* Info.plist */; };
+		DD01169A1AE6EECF003967A2 /* first-ante-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8531A9ED89600B745AA /* first-ante-4.mp3 */; };
+		DD01169B1AE6EECF003967A2 /* blind-change-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8611A9ED89600B745AA /* blind-change-13.mp3 */; };
+		DD01169C1AE6EECF003967A2 /* background-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9271A9ED8FF00B745AA /* background-6.jpg */; };
+		DD01169D1AE6EECF003967A2 /* blind-change-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82E1A9ED88600B745AA /* blind-change-2.mp3 */; };
+		DD01169E1AE6EECF003967A2 /* background-10-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9201A9ED8FF00B745AA /* background-10-thumb.jpg */; };
+		DD01169F1AE6EECF003967A2 /* blind-change-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82D1A9ED88600B745AA /* blind-change-1.mp3 */; };
+		DD0116A01AE6EECF003967A2 /* iphone-background-10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EBA1AA2959A00AD993E /* iphone-background-10@2x.jpg */; };
+		DD0116A11AE6EECF003967A2 /* table-2-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8AA1A9ED8E500B745AA /* table-2-players.png */; };
+		DD0116A21AE6EECF003967A2 /* blind-change-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8561A9ED89600B745AA /* blind-change-9.mp3 */; };
+		DD0116A31AE6EECF003967A2 /* chip10.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89A1A9ED8E500B745AA /* chip10.png */; };
+		DD0116A41AE6EECF003967A2 /* chip500.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A21A9ED8E500B745AA /* chip500.png */; };
+		DD0116A51AE6EECF003967A2 /* background-7-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91A1A9ED8FF00B745AA /* background-7-thumb.jpg */; };
+		DD0116A61AE6EECF003967A2 /* background-6-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9181A9ED8FF00B745AA /* background-6-thumb.jpg */; };
+		DD0116A71AE6EECF003967A2 /* chip50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89F1A9ED8E500B745AA /* chip50@2x.png */; };
+		DD0116A81AE6EECF003967A2 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD6DFA4F1AB51FAF00B5A15C /* iRate.bundle */; };
+		DD0116A91AE6EECF003967A2 /* chip25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89D1A9ED8E500B745AA /* chip25@2x.png */; };
+		DD0116AA1AE6EECF003967A2 /* minute-alert-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8391A9ED88600B745AA /* minute-alert-4.mp3 */; };
+		DD0116AB1AE6EECF003967A2 /* minute-alert-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85C1A9ED89600B745AA /* minute-alert-9.mp3 */; };
+		DD0116AC1AE6EECF003967A2 /* preset-deep-turbo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F81A9ED74400B745AA /* preset-deep-turbo.xml */; };
+		DD0116AD1AE6EECF003967A2 /* background-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9231A9ED8FF00B745AA /* background-2.jpg */; };
+		DD0116AE1AE6EECF003967A2 /* iPad_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D271AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard */; };
+		DD0116AF1AE6EECF003967A2 /* logo-irank.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8791A9ED8B300B745AA /* logo-irank.png */; };
+		DD0116B01AE6EECF003967A2 /* iPad_Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D1C1AB154AD002A7F43 /* iPad_Config.storyboard */; };
+		DD0116B11AE6EECF003967A2 /* manual.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8771A9ED8B300B745AA /* manual.png */; };
+		DD0116B21AE6EECF003967A2 /* blind-change-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8331A9ED88600B745AA /* blind-change-7.mp3 */; };
+		DD0116B31AE6EECF003967A2 /* slider-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87B1A9ED8B300B745AA /* slider-bg.png */; };
+		DD0116B41AE6EECF003967A2 /* background-5-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9171A9ED8FF00B745AA /* background-5-thumb@2x.jpg */; };
+		DD0116B51AE6EECF003967A2 /* iphone-background-7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB41AA2959A00AD993E /* iphone-background-7@2x.jpg */; };
+		DD0116B61AE6EECF003967A2 /* blind-change-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82F1A9ED88600B745AA /* blind-change-3.mp3 */; };
+		DD0116B71AE6EECF003967A2 /* preset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8741A9ED8B300B745AA /* preset@2x.png */; };
+		DD0116B81AE6EECF003967A2 /* table-9-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B81A9ED8E500B745AA /* table-9-players.png */; };
+		DD0116B91AE6EECF003967A2 /* minute-alert-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8541A9ED89600B745AA /* minute-alert-6.mp3 */; };
+		DD0116BA1AE6EECF003967A2 /* preset-deep-slow.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F71A9ED74400B745AA /* preset-deep-slow.xml */; };
+		DD0116BB1AE6EECF003967A2 /* blind-change-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8571A9ED89600B745AA /* blind-change-10.mp3 */; };
+		DD0116BC1AE6EECF003967A2 /* background-1.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87A1A9ED8B300B745AA /* background-1.1.jpg */; };
+		DD0116BD1AE6EECF003967A2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D471AB27274002A7F43 /* Info.plist */; };
+		DD0116BE1AE6EECF003967A2 /* first-ante-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82C1A9ED88600B745AA /* first-ante-3.mp3 */; };
+		DD0116BF1AE6EECF003967A2 /* notify-tin tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85B1A9ED89600B745AA /* notify-tin tone.mp3 */; };
+		DD0116C01AE6EECF003967A2 /* iphone-background-1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EA81AA2959A00AD993E /* iphone-background-1@2x.jpg */; };
+		DD0116C11AE6EECF003967A2 /* table-8-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B61A9ED8E500B745AA /* table-8-players.png */; };
+		DD0116C21AE6EECF003967A2 /* background-8-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91C1A9ED8FF00B745AA /* background-8-thumb.jpg */; };
+		DD0116C31AE6EECF003967A2 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9149211A9FF56500CA96AE /* hand.png */; };
+		DD0116C41AE6EECF003967A2 /* blind-change-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8321A9ED88600B745AA /* blind-change-6.mp3 */; };
+		DD0116C51AE6EECF003967A2 /* black-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF87C1A9ED8B300B745AA /* black-dot.png */; };
+		DD0116C61AE6EECF003967A2 /* iPad_BlindSetEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D121AB15495002A7F43 /* iPad_BlindSetEditor.storyboard */; };
+		DD0116C71AE6EECF003967A2 /* chip10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89B1A9ED8E500B745AA /* chip10@2x.png */; };
+		DD0116C81AE6EECF003967A2 /* background-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9251A9ED8FF00B745AA /* background-4.jpg */; };
+		DD0116C91AE6EECF003967A2 /* preset-regular-turbo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8001A9ED74400B745AA /* preset-regular-turbo.xml */; };
+		DD0116CA1AE6EECF003967A2 /* preset-micro-hyper.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F91A9ED74400B745AA /* preset-micro-hyper.xml */; };
+		DD0116CB1AE6EECF003967A2 /* background-7-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF91B1A9ED8FF00B745AA /* background-7-thumb@2x.jpg */; };
+		DD0116CC1AE6EECF003967A2 /* background-1.3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92B1A9ED8FF00B745AA /* background-1.3.jpg */; };
+		DD0116CD1AE6EECF003967A2 /* chip5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8991A9ED8E500B745AA /* chip5@2x.png */; };
+		DD0116CE1AE6EECF003967A2 /* preset-blindSets.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8011A9ED74400B745AA /* preset-blindSets.plist */; };
+		DD0116CF1AE6EECF003967A2 /* red-ok-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8801A9ED8B300B745AA /* red-ok-icon.png */; };
+		DD0116D01AE6EECF003967A2 /* chip1000.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A41A9ED8E500B745AA /* chip1000.png */; };
+		DD0116D11AE6EECF003967A2 /* chip5000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A71A9ED8E500B745AA /* chip5000@2x.png */; };
+		DD0116D21AE6EECF003967A2 /* chip1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8971A9ED8E500B745AA /* chip1@2x.png */; };
+		DD0116D31AE6EECF003967A2 /* iphone-background-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB31AA2959A00AD993E /* iphone-background-7.jpg */; };
+		DD0116D41AE6EECF003967A2 /* background-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92C1A9ED8FF00B745AA /* background-10.jpg */; };
+		DD0116D51AE6EECF003967A2 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8761A9ED8B300B745AA /* wizard.png */; };
+		DD0116D61AE6EECF003967A2 /* table-10-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8BA1A9ED8E500B745AA /* table-10-players.png */; };
+		DD0116D71AE6EECF003967A2 /* minute-alert-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8371A9ED88600B745AA /* minute-alert-2.mp3 */; };
+		DD0116D81AE6EECF003967A2 /* startupBlindSets.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7F41A9ED74400B745AA /* startupBlindSets.xml */; };
+		DD0116D91AE6EECF003967A2 /* preset-micro-slow.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF7FB1A9ED74400B745AA /* preset-micro-slow.xml */; };
+		DD0116DA1AE6EECF003967A2 /* chip50.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF89E1A9ED8E500B745AA /* chip50.png */; };
+		DD0116DB1AE6EECF003967A2 /* iphone-background-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB51AA2959A00AD993E /* iphone-background-8.jpg */; };
+		DD0116DC1AE6EECF003967A2 /* iPhone_RemoteControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4CF31AB1445E002A7F43 /* iPhone_RemoteControl.storyboard */; };
+		DD0116DD1AE6EECF003967A2 /* background-5-thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9161A9ED8FF00B745AA /* background-5-thumb.jpg */; };
+		DD0116DE1AE6EECF003967A2 /* table-7-players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B51A9ED8E500B745AA /* table-7-players@2x.png */; };
+		DD0116DF1AE6EECF003967A2 /* iphone-background-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAF1AA2959A00AD993E /* iphone-background-5.jpg */; };
+		DD0116E01AE6EECF003967A2 /* iphone-background-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EAD1AA2959A00AD993E /* iphone-background-4.jpg */; };
+		DD0116E11AE6EECF003967A2 /* iPhone_CreateMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4CF81AB14473002A7F43 /* iPhone_CreateMenu.storyboard */; };
+		DD0116E21AE6EECF003967A2 /* wizard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8751A9ED8B300B745AA /* wizard@2x.png */; };
+		DD0116E31AE6EECF003967A2 /* background-6-thumb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9191A9ED8FF00B745AA /* background-6-thumb@2x.jpg */; };
+		DD0116E41AE6EECF003967A2 /* iphone-background-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9B8EB91AA2959A00AD993E /* iphone-background-10.jpg */; };
+		DD0116E51AE6EECF003967A2 /* table-5-players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8B01A9ED8E500B745AA /* table-5-players.png */; };
+		DD0116E61AE6EECF003967A2 /* countdown-step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF83C1A9ED88600B745AA /* countdown-step.mp3 */; };
+		DD0116E71AE6EECF003967A2 /* background-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF9221A9ED8FF00B745AA /* background-1.jpg */; };
+		DD0116E81AE6EECF003967A2 /* chip1000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF8A51A9ED8E500B745AA /* chip1000@2x.png */; };
+		DD0116E91AE6EECF003967A2 /* minute-alert-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF85F1A9ED89600B745AA /* minute-alert-10.mp3 */; };
+		DD0116EA1AE6EECF003967A2 /* first-ante-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF82B1A9ED88600B745AA /* first-ante-2.mp3 */; };
+		DD0116F21AE6F457003967A2 /* Info-Lite.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD0116F11AE6F457003967A2 /* Info-Lite.plist */; };
 		DD022FE71AABDC3C00ED0D39 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD022FE61AABDC3C00ED0D39 /* MBProgressHUD.m */; };
 		DD022FEA1AABF1E400ED0D39 /* iPhone_RemoteControlNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD022FE91AABF1E400ED0D39 /* iPhone_RemoteControlNavigationController.swift */; };
 		DD0230151AACD1BE00ED0D39 /* iPhone_CreateMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0230141AACD1BE00ED0D39 /* iPhone_CreateMenuViewController.swift */; };
@@ -182,9 +405,6 @@
 		DD1EF94B1A9ED8FF00B745AA /* background-1.3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92B1A9ED8FF00B745AA /* background-1.3.jpg */; };
 		DD1EF94C1A9ED8FF00B745AA /* background-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92C1A9ED8FF00B745AA /* background-10.jpg */; };
 		DD1EF94D1A9ED8FF00B745AA /* background-10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD1EF92D1A9ED8FF00B745AA /* background-10@2x.jpg */; };
-		DD3AA5071AFB0DF500AB8EC5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */; };
-		DD3CC0A81AF475D700CADD1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CC0A71AF475D700CADD1F /* Constants.swift */; };
-		DD3CC5371AF486A900CADD1F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */; };
 		DD5BC4A51AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5BC4A71AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard */; };
 		DD6DFA521AB51FAF00B5A15C /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD6DFA4F1AB51FAF00B5A15C /* iRate.bundle */; };
 		DD6DFA531AB51FAF00B5A15C /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6DFA511AB51FAF00B5A15C /* iRate.m */; };
@@ -228,6 +448,7 @@
 		DDFA4D1F1AB154B6002A7F43 /* iPad_CreateMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D211AB154B6002A7F43 /* iPad_CreateMenu.storyboard */; };
 		DDFA4D251AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D271AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard */; };
 		DDFA4D2A1AB154D7002A7F43 /* iPad_Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */; };
+		DDFA4D3B1AB271C5002A7F43 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D3D1AB271C5002A7F43 /* Info.plist */; };
 		DDFA4D481AB27274002A7F43 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D471AB27274002A7F43 /* Info.plist */; };
 		DDFA4D521AB27495002A7F43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFA4D541AB27495002A7F43 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -243,6 +464,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD010FB31AE6A634003967A2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD0116EF1AE6EECF003967A2 /* iRank Timer Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRank Timer Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0116F11AE6F457003967A2 /* Info-Lite.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Lite.plist"; sourceTree = "<group>"; };
 		DD022FE51AABDC3C00ED0D39 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DD022FE61AABDC3C00ED0D39 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DD022FE81AABDCBF00ED0D39 /* iRank Timer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRank Timer-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -424,9 +648,6 @@
 		DD1EF92C1A9ED8FF00B745AA /* background-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-10.jpg"; sourceTree = "<group>"; };
 		DD1EF92D1A9ED8FF00B745AA /* background-10@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-10@2x.jpg"; sourceTree = "<group>"; };
 		DD1EF94F1A9EDAEC00B745AA /* iRank Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iRank Timer.entitlements"; sourceTree = "<group>"; };
-		DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		DD3CC0A71AF475D700CADD1F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		DD5BC4A61AB3C2D500CA2974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone_PresetBlindSets.storyboard; sourceTree = "<group>"; };
 		DD6DFA4A1AB5145300B5A15C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/iPhone_Timer.strings; sourceTree = "<group>"; };
 		DD6DFA4B1AB5146600B5A15C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPhone_Timer.strings; sourceTree = "<group>"; };
@@ -493,6 +714,9 @@
 		DDFA4D2E1AB154DA002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPad_Timer.strings; sourceTree = "<group>"; };
 		DDFA4D321AB26B21002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/iPhone_CreateMenu.strings; sourceTree = "<group>"; };
 		DDFA4D331AB26B28002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/iPhone_CreateMenu.strings; sourceTree = "<group>"; };
+		DDFA4D3E1AB271DB002A7F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		DDFA4D411AB271F1002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/Info.plist; sourceTree = "<group>"; };
+		DDFA4D421AB271F4002A7F43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Info.plist; sourceTree = "<group>"; };
 		DDFA4D471AB27274002A7F43 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDFA4D531AB27495002A7F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DDFA4D551AB27498002A7F43 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -502,12 +726,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DD0116351AE6EECF003967A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD1EF7961A9ED5CA00B745AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3CC5371AF486A900CADD1F /* GoogleMobileAds.framework in Frameworks */,
-				DD3AA5071AFB0DF500AB8EC5 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +753,6 @@
 		DD1EF7901A9ED5CA00B745AA = {
 			isa = PBXGroup;
 			children = (
-				DD3AA5061AFB0DF500AB8EC5 /* CloudKit.framework */,
-				DD3CC5361AF486A900CADD1F /* GoogleMobileAds.framework */,
 				DD1EF79B1A9ED5CA00B745AA /* iRank Timer */,
 				DD1EF7B11A9ED5CA00B745AA /* iRank TimerTests */,
 				DD1EF79A1A9ED5CA00B745AA /* Products */,
@@ -537,6 +764,7 @@
 			children = (
 				DD1EF7991A9ED5CA00B745AA /* iRank Timer.app */,
 				DD1EF7AE1A9ED5CA00B745AA /* iRank TimerTests.xctest */,
+				DD0116EF1AE6EECF003967A2 /* iRank Timer Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,6 +807,8 @@
 			children = (
 				DDFA4D541AB27495002A7F43 /* Localizable.strings */,
 				DDFA4D471AB27274002A7F43 /* Info.plist */,
+				DD0116F11AE6F457003967A2 /* Info-Lite.plist */,
+				DDFA4D3D1AB271C5002A7F43 /* Info.plist */,
 				DD1EF7F01A9ED74400B745AA /* languages.plist */,
 				DD1EF7F11A9ED74400B745AA /* firstAnteSoundList.plist */,
 				DD1EF7F21A9ED74400B745AA /* lastMinuteSoundList.plist */,
@@ -622,7 +852,7 @@
 				DD1EF81B1A9ED84100B745AA /* XmlBlindSetParser.swift */,
 				DD1EF81C1A9ED84100B745AA /* TutorialView.swift */,
 				DD7ACC741AA4127400D7EC05 /* BackgroundViewController.swift */,
-				DD3CC0A71AF475D700CADD1F /* Constants.swift */,
+				DD010FB31AE6A634003967A2 /* Constants.swift */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -818,12 +1048,12 @@
 			children = (
 				DD9B8ED11AA2A15500AD993E /* iPad_TimerViewController.swift */,
 				DD1EF7C51A9ED72A00B745AA /* iPad_BlindSetEditorViewController.swift */,
-				DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */,
 				DDFA4D121AB15495002A7F43 /* iPad_BlindSetEditor.storyboard */,
 				DDFA4D171AB154A3002A7F43 /* iPad_BlindSetWizard.storyboard */,
 				DDFA4D1C1AB154AD002A7F43 /* iPad_Config.storyboard */,
 				DDFA4D211AB154B6002A7F43 /* iPad_CreateMenu.storyboard */,
 				DDFA4D271AB154CC002A7F43 /* iPad_PresetBlindSets.storyboard */,
+				DDFA4D2C1AB154D7002A7F43 /* iPad_Timer.storyboard */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -858,21 +1088,21 @@
 		DD9B8ED31AA2A26E00AD993E /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				DD9B8ECF1AA29FD100AD993E /* iPhone_TimerViewController.swift */,
 				DD7ACC6E1AA4099600D7EC05 /* iPhone_NavigationController.swift */,
 				DD022FE91AABF1E400ED0D39 /* iPhone_RemoteControlNavigationController.swift */,
 				DD0230161AAD06FD00ED0D39 /* iPhone_CreateMenuNavigationController.swift */,
+				DD9B8ECF1AA29FD100AD993E /* iPhone_TimerViewController.swift */,
 				DD7ACC691AA3F3A900D7EC05 /* iPhone_TimerMenuViewController.swift */,
 				DD7ACC721AA411AE00D7EC05 /* iPhone_RemoteControlViewController.swift */,
 				DD12433D1AA7D4F30061832B /* iPhone_BlindSetEditorViewController.swift */,
 				DD9F58401AAB75FD004AC8DD /* iPhone_BlindLevelEditorViewController.swift */,
 				DD0230141AACD1BE00ED0D39 /* iPhone_CreateMenuViewController.swift */,
-				DDFA4CEE1AB14449002A7F43 /* iPhone_Timer.storyboard */,
 				DDFA4D021AB14495002A7F43 /* iPhone_BlindSetEditor.storyboard */,
 				DDFA4CFD1AB14485002A7F43 /* iPhone_Config.storyboard */,
 				DDFA4CF81AB14473002A7F43 /* iPhone_CreateMenu.storyboard */,
 				DD5BC4A71AB3C2D500CA2974 /* iPhone_PresetBlindSets.storyboard */,
 				DDFA4CF31AB1445E002A7F43 /* iPhone_RemoteControl.storyboard */,
+				DDFA4CEE1AB14449002A7F43 /* iPhone_Timer.storyboard */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -880,6 +1110,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DD01160A1AE6EECF003967A2 /* iRank Timer Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0116EC1AE6EECF003967A2 /* Build configuration list for PBXNativeTarget "iRank Timer Lite" */;
+			buildPhases = (
+				DD01160B1AE6EECF003967A2 /* Sources */,
+				DD0116351AE6EECF003967A2 /* Frameworks */,
+				DD0116361AE6EECF003967A2 /* Resources */,
+				DD0116EB1AE6EECF003967A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRank Timer Lite";
+			productName = "iRank Timer";
+			productReference = DD0116EF1AE6EECF003967A2 /* iRank Timer Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DD1EF7981A9ED5CA00B745AA /* iRank Timer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD1EF7B81A9ED5CA00B745AA /* Build configuration list for PBXNativeTarget "iRank Timer" */;
@@ -925,12 +1173,15 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Stegun.com;
 				TargetAttributes = {
+					DD01160A1AE6EECF003967A2 = {
+						DevelopmentTeam = CP356H356Z;
+					};
 					DD1EF7981A9ED5CA00B745AA = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = CP356H356Z;
 						SystemCapabilities = {
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -958,11 +1209,199 @@
 			targets = (
 				DD1EF7981A9ED5CA00B745AA /* iRank Timer */,
 				DD1EF7AD1A9ED5CA00B745AA /* iRank TimerTests */,
+				DD01160A1AE6EECF003967A2 /* iRank Timer Lite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DD0116361AE6EECF003967A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0116371AE6EECF003967A2 /* logo-irank@2x.png in Resources */,
+				DD0116381AE6EECF003967A2 /* blind-change-11.mp3 in Resources */,
+				DD0116391AE6EECF003967A2 /* background-10-thumb@2x.jpg in Resources */,
+				DD01163A1AE6EECF003967A2 /* background-1-thumb.jpg in Resources */,
+				DD01163B1AE6EECF003967A2 /* table-5-players@2x.png in Resources */,
+				DD01163C1AE6EECF003967A2 /* iPhone_Timer.storyboard in Resources */,
+				DD01163D1AE6EECF003967A2 /* table-10-players@2x.png in Resources */,
+				DD01163E1AE6EECF003967A2 /* table-6-players.png in Resources */,
+				DD01163F1AE6EECF003967A2 /* chip10000@2x.png in Resources */,
+				DD0116401AE6EECF003967A2 /* pulse.mp3 in Resources */,
+				DD0116411AE6EECF003967A2 /* iphone-background-3@2x.jpg in Resources */,
+				DD0116421AE6EECF003967A2 /* background-2-thumb@2x.jpg in Resources */,
+				DD0116431AE6EECF003967A2 /* background-3.jpg in Resources */,
+				DD0116441AE6EECF003967A2 /* iPad_CreateMenu.storyboard in Resources */,
+				DD0116451AE6EECF003967A2 /* blindChangeSoundList.plist in Resources */,
+				DD0116461AE6EECF003967A2 /* background-8-thumb@2x.jpg in Resources */,
+				DD0116471AE6EECF003967A2 /* iphone-background-5@2x.jpg in Resources */,
+				DD0116481AE6EECF003967A2 /* background-9-thumb@2x.jpg in Resources */,
+				DD0116491AE6EECF003967A2 /* background-1-thumb@2x.jpg in Resources */,
+				DD01164A1AE6EECF003967A2 /* lastMinuteSoundList.plist in Resources */,
+				DD01164B1AE6EECF003967A2 /* background-9.jpg in Resources */,
+				DD01164C1AE6EECF003967A2 /* background-4-thumb@2x.jpg in Resources */,
+				DD01164D1AE6EECF003967A2 /* languages.plist in Resources */,
+				DD01164E1AE6EECF003967A2 /* background-3-thumb@2x.jpg in Resources */,
+				DD01164F1AE6EECF003967A2 /* iphone-background-6@2x.jpg in Resources */,
+				DD0116501AE6EECF003967A2 /* iPad_BlindSetWizard.storyboard in Resources */,
+				DD0116511AE6EECF003967A2 /* iPad_Timer.storyboard in Resources */,
+				DD0116521AE6EECF003967A2 /* chip25.png in Resources */,
+				DD0116531AE6EECF003967A2 /* twinkle.mp3 in Resources */,
+				DD0116541AE6EECF003967A2 /* iphone-background-9.jpg in Resources */,
+				DD0116551AE6EECF003967A2 /* preset-deep-normal.xml in Resources */,
+				DD0116561AE6EECF003967A2 /* background-10@2x.jpg in Resources */,
+				DD0116571AE6EECF003967A2 /* preset-micro-turbo.xml in Resources */,
+				DD0116581AE6EECF003967A2 /* blind-change-5.mp3 in Resources */,
+				DD0116591AE6EECF003967A2 /* background-4-thumb.jpg in Resources */,
+				DD01165A1AE6EECF003967A2 /* iphone-background-2.jpg in Resources */,
+				DD01165B1AE6EECF003967A2 /* table-9-players@2x.png in Resources */,
+				DD01165C1AE6EECF003967A2 /* minute-alert-8.mp3 in Resources */,
+				DD01165D1AE6EECF003967A2 /* background-2-thumb.jpg in Resources */,
+				DD01165E1AE6EECF003967A2 /* iphone-background-2@2x.jpg in Resources */,
+				DD01165F1AE6EECF003967A2 /* background-9-thumb.jpg in Resources */,
+				DD0116601AE6EECF003967A2 /* level-bg@2x.png in Resources */,
+				DD0116611AE6EECF003967A2 /* preset-regular-hyper.xml in Resources */,
+				DD0116621AE6EECF003967A2 /* clock-tick.mp3 in Resources */,
+				DD0116631AE6EECF003967A2 /* iPhone_PresetBlindSets.storyboard in Resources */,
+				DD0116641AE6EECF003967A2 /* chip10000.png in Resources */,
+				DD0116651AE6EECF003967A2 /* chip500@2x.png in Resources */,
+				DD0116661AE6EECF003967A2 /* minute-alert-7.mp3 in Resources */,
+				DD0116671AE6EECF003967A2 /* preset-regular-slow.xml in Resources */,
+				DD0116681AE6EECF003967A2 /* first-ante-1.mp3 in Resources */,
+				DD0116691AE6EECF003967A2 /* Images.xcassets in Resources */,
+				DD01166A1AE6EECF003967A2 /* table-3-players@2x.png in Resources */,
+				DD01166B1AE6EECF003967A2 /* table-4-players@2x.png in Resources */,
+				DD01166C1AE6EECF003967A2 /* table-7-players.png in Resources */,
+				DD01166D1AE6EECF003967A2 /* background-5.jpg in Resources */,
+				DD01166E1AE6EECF003967A2 /* table-8-players@2x.png in Resources */,
+				DD01166F1AE6EECF003967A2 /* chip1.png in Resources */,
+				DD0116701AE6EECF003967A2 /* iphone-background-3.jpg in Resources */,
+				DD0116711AE6EECF003967A2 /* minute-alert-5.mp3 in Resources */,
+				DD0116721AE6EECF003967A2 /* countdown-timeout.mp3 in Resources */,
+				DD0116731AE6EECF003967A2 /* Localizable.strings in Resources */,
+				DD0116741AE6EECF003967A2 /* gray-dot.png in Resources */,
+				DD0116751AE6EECF003967A2 /* manual@2x.png in Resources */,
+				DD0116761AE6EECF003967A2 /* background-8.jpg in Resources */,
+				DD0116771AE6EECF003967A2 /* iPhone_Config.storyboard in Resources */,
+				DD0116781AE6EECF003967A2 /* iPhone_BlindSetEditor.storyboard in Resources */,
+				DD0116791AE6EECF003967A2 /* first-ante-5.mp3 in Resources */,
+				DD01167A1AE6EECF003967A2 /* preset-micro-normal.xml in Resources */,
+				DD01167B1AE6EECF003967A2 /* minute-alert-3.mp3 in Resources */,
+				DD01167C1AE6EECF003967A2 /* table-6-players@2x.png in Resources */,
+				DD01167D1AE6EECF003967A2 /* clock-icon.png in Resources */,
+				DD01167E1AE6EECF003967A2 /* background-3-thumb.jpg in Resources */,
+				DD01167F1AE6EECF003967A2 /* iphone-background-8@2x.jpg in Resources */,
+				DD0116801AE6EECF003967A2 /* minute-alert-1.mp3 in Resources */,
+				DD0116811AE6EECF003967A2 /* preset.png in Resources */,
+				DD0116821AE6EECF003967A2 /* iphone-background-1.jpg in Resources */,
+				DD0116831AE6EECF003967A2 /* chip5.png in Resources */,
+				DD0116841AE6EECF003967A2 /* background-7.jpg in Resources */,
+				DD0116851AE6EECF003967A2 /* blind-change-12.mp3 in Resources */,
+				DD0116861AE6EECF003967A2 /* table-2-players@2x.png in Resources */,
+				DD0116871AE6EECF003967A2 /* red-ok-icon@2x.png in Resources */,
+				DD0116881AE6EECF003967A2 /* blind-change-4.mp3 in Resources */,
+				DD0116891AE6EECF003967A2 /* iphone-background-6.jpg in Resources */,
+				DD01168A1AE6EECF003967A2 /* firstAnteSoundList.plist in Resources */,
+				DD01168B1AE6EECF003967A2 /* hand@2x.png in Resources */,
+				DD01168C1AE6EECF003967A2 /* preset-regular-normal.xml in Resources */,
+				DD01168D1AE6EECF003967A2 /* clock-icon@2x.png in Resources */,
+				DD01168E1AE6EECF003967A2 /* blind-change-8.mp3 in Resources */,
+				DD01168F1AE6EECF003967A2 /* table-4-players.png in Resources */,
+				DD0116901AE6EECF003967A2 /* iphone-background-9@2x.jpg in Resources */,
+				DD0116911AE6EECF003967A2 /* chip5000.png in Resources */,
+				DD0116921AE6EECF003967A2 /* iphone-background-4@2x.jpg in Resources */,
+				DD0116931AE6EECF003967A2 /* level-bg.png in Resources */,
+				DD0116941AE6EECF003967A2 /* chip100@2x.png in Resources */,
+				DD0116951AE6EECF003967A2 /* preset-deep-hyper.xml in Resources */,
+				DD0116961AE6EECF003967A2 /* table-3-players.png in Resources */,
+				DD0116971AE6EECF003967A2 /* first-ante-6.mp3 in Resources */,
+				DD0116981AE6EECF003967A2 /* chip100.png in Resources */,
+				DD0116991AE6EECF003967A2 /* Info.plist in Resources */,
+				DD01169A1AE6EECF003967A2 /* first-ante-4.mp3 in Resources */,
+				DD01169B1AE6EECF003967A2 /* blind-change-13.mp3 in Resources */,
+				DD01169C1AE6EECF003967A2 /* background-6.jpg in Resources */,
+				DD01169D1AE6EECF003967A2 /* blind-change-2.mp3 in Resources */,
+				DD01169E1AE6EECF003967A2 /* background-10-thumb.jpg in Resources */,
+				DD01169F1AE6EECF003967A2 /* blind-change-1.mp3 in Resources */,
+				DD0116A01AE6EECF003967A2 /* iphone-background-10@2x.jpg in Resources */,
+				DD0116A11AE6EECF003967A2 /* table-2-players.png in Resources */,
+				DD0116A21AE6EECF003967A2 /* blind-change-9.mp3 in Resources */,
+				DD0116A31AE6EECF003967A2 /* chip10.png in Resources */,
+				DD0116A41AE6EECF003967A2 /* chip500.png in Resources */,
+				DD0116A51AE6EECF003967A2 /* background-7-thumb.jpg in Resources */,
+				DD0116A61AE6EECF003967A2 /* background-6-thumb.jpg in Resources */,
+				DD0116A71AE6EECF003967A2 /* chip50@2x.png in Resources */,
+				DD0116A81AE6EECF003967A2 /* iRate.bundle in Resources */,
+				DD0116A91AE6EECF003967A2 /* chip25@2x.png in Resources */,
+				DD0116AA1AE6EECF003967A2 /* minute-alert-4.mp3 in Resources */,
+				DD0116AB1AE6EECF003967A2 /* minute-alert-9.mp3 in Resources */,
+				DD0116AC1AE6EECF003967A2 /* preset-deep-turbo.xml in Resources */,
+				DD0116AD1AE6EECF003967A2 /* background-2.jpg in Resources */,
+				DD0116AE1AE6EECF003967A2 /* iPad_PresetBlindSets.storyboard in Resources */,
+				DD0116AF1AE6EECF003967A2 /* logo-irank.png in Resources */,
+				DD0116B01AE6EECF003967A2 /* iPad_Config.storyboard in Resources */,
+				DD0116B11AE6EECF003967A2 /* manual.png in Resources */,
+				DD0116B21AE6EECF003967A2 /* blind-change-7.mp3 in Resources */,
+				DD0116B31AE6EECF003967A2 /* slider-bg.png in Resources */,
+				DD0116B41AE6EECF003967A2 /* background-5-thumb@2x.jpg in Resources */,
+				DD0116B51AE6EECF003967A2 /* iphone-background-7@2x.jpg in Resources */,
+				DD0116B61AE6EECF003967A2 /* blind-change-3.mp3 in Resources */,
+				DD0116B71AE6EECF003967A2 /* preset@2x.png in Resources */,
+				DD0116B81AE6EECF003967A2 /* table-9-players.png in Resources */,
+				DD0116B91AE6EECF003967A2 /* minute-alert-6.mp3 in Resources */,
+				DD0116BA1AE6EECF003967A2 /* preset-deep-slow.xml in Resources */,
+				DD0116BB1AE6EECF003967A2 /* blind-change-10.mp3 in Resources */,
+				DD0116BC1AE6EECF003967A2 /* background-1.1.jpg in Resources */,
+				DD0116BD1AE6EECF003967A2 /* Info.plist in Resources */,
+				DD0116BE1AE6EECF003967A2 /* first-ante-3.mp3 in Resources */,
+				DD0116BF1AE6EECF003967A2 /* notify-tin tone.mp3 in Resources */,
+				DD0116C01AE6EECF003967A2 /* iphone-background-1@2x.jpg in Resources */,
+				DD0116C11AE6EECF003967A2 /* table-8-players.png in Resources */,
+				DD0116C21AE6EECF003967A2 /* background-8-thumb.jpg in Resources */,
+				DD0116C31AE6EECF003967A2 /* hand.png in Resources */,
+				DD0116C41AE6EECF003967A2 /* blind-change-6.mp3 in Resources */,
+				DD0116C51AE6EECF003967A2 /* black-dot.png in Resources */,
+				DD0116C61AE6EECF003967A2 /* iPad_BlindSetEditor.storyboard in Resources */,
+				DD0116C71AE6EECF003967A2 /* chip10@2x.png in Resources */,
+				DD0116C81AE6EECF003967A2 /* background-4.jpg in Resources */,
+				DD0116C91AE6EECF003967A2 /* preset-regular-turbo.xml in Resources */,
+				DD0116CA1AE6EECF003967A2 /* preset-micro-hyper.xml in Resources */,
+				DD0116CB1AE6EECF003967A2 /* background-7-thumb@2x.jpg in Resources */,
+				DD0116CC1AE6EECF003967A2 /* background-1.3.jpg in Resources */,
+				DD0116CD1AE6EECF003967A2 /* chip5@2x.png in Resources */,
+				DD0116CE1AE6EECF003967A2 /* preset-blindSets.plist in Resources */,
+				DD0116CF1AE6EECF003967A2 /* red-ok-icon.png in Resources */,
+				DD0116D01AE6EECF003967A2 /* chip1000.png in Resources */,
+				DD0116D11AE6EECF003967A2 /* chip5000@2x.png in Resources */,
+				DD0116D21AE6EECF003967A2 /* chip1@2x.png in Resources */,
+				DD0116D31AE6EECF003967A2 /* iphone-background-7.jpg in Resources */,
+				DD0116D41AE6EECF003967A2 /* background-10.jpg in Resources */,
+				DD0116D51AE6EECF003967A2 /* wizard.png in Resources */,
+				DD0116D61AE6EECF003967A2 /* table-10-players.png in Resources */,
+				DD0116D71AE6EECF003967A2 /* minute-alert-2.mp3 in Resources */,
+				DD0116D81AE6EECF003967A2 /* startupBlindSets.xml in Resources */,
+				DD0116D91AE6EECF003967A2 /* preset-micro-slow.xml in Resources */,
+				DD0116DA1AE6EECF003967A2 /* chip50.png in Resources */,
+				DD0116DB1AE6EECF003967A2 /* iphone-background-8.jpg in Resources */,
+				DD0116DC1AE6EECF003967A2 /* iPhone_RemoteControl.storyboard in Resources */,
+				DD0116DD1AE6EECF003967A2 /* background-5-thumb.jpg in Resources */,
+				DD0116DE1AE6EECF003967A2 /* table-7-players@2x.png in Resources */,
+				DD0116DF1AE6EECF003967A2 /* iphone-background-5.jpg in Resources */,
+				DD0116E01AE6EECF003967A2 /* iphone-background-4.jpg in Resources */,
+				DD0116E11AE6EECF003967A2 /* iPhone_CreateMenu.storyboard in Resources */,
+				DD0116E21AE6EECF003967A2 /* wizard@2x.png in Resources */,
+				DD0116E31AE6EECF003967A2 /* background-6-thumb@2x.jpg in Resources */,
+				DD0116E41AE6EECF003967A2 /* iphone-background-10.jpg in Resources */,
+				DD0116E51AE6EECF003967A2 /* table-5-players.png in Resources */,
+				DD0116E61AE6EECF003967A2 /* countdown-step.mp3 in Resources */,
+				DD0116E71AE6EECF003967A2 /* background-1.jpg in Resources */,
+				DD0116E81AE6EECF003967A2 /* chip1000@2x.png in Resources */,
+				DD0116E91AE6EECF003967A2 /* minute-alert-10.mp3 in Resources */,
+				DD0116EA1AE6EECF003967A2 /* first-ante-2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD1EF7971A9ED5CA00B745AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1065,6 +1504,7 @@
 				DD1EF8D41A9ED8E500B745AA /* table-3-players.png in Resources */,
 				DD1EF86F1A9ED89600B745AA /* first-ante-6.mp3 in Resources */,
 				DD1EF8C81A9ED8E500B745AA /* chip100.png in Resources */,
+				DDFA4D3B1AB271C5002A7F43 /* Info.plist in Resources */,
 				DD1EF8621A9ED89600B745AA /* first-ante-4.mp3 in Resources */,
 				DD1EF8701A9ED89600B745AA /* blind-change-13.mp3 in Resources */,
 				DD1EF9471A9ED8FF00B745AA /* background-6.jpg in Resources */,
@@ -1119,6 +1559,7 @@
 				DD1EF8C11A9ED8E500B745AA /* chip5@2x.png in Resources */,
 				DD1EF8131A9ED74400B745AA /* preset-blindSets.plist in Resources */,
 				DD1EF8901A9ED8B300B745AA /* red-ok-icon.png in Resources */,
+				DD0116F21AE6F457003967A2 /* Info-Lite.plist in Resources */,
 				DD1EF8CC1A9ED8E500B745AA /* chip1000.png in Resources */,
 				DD1EF8CF1A9ED8E500B745AA /* chip5000@2x.png in Resources */,
 				DD1EF8BF1A9ED8E500B745AA /* chip1@2x.png in Resources */,
@@ -1159,6 +1600,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DD0116EB1AE6EECF003967A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET=\"$PROJECT_DIR/iRank Timer/Info.plist\"\n\necho $TARGET\nif [ ! -f \"$TARGET\" ]; then\necho \"missing file $TARGET\"\nexit 1;\nfi\n\n#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$TARGET\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$TARGET\"";
+		};
 		DD1EF7BE1A9ED6ED00B745AA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1175,6 +1629,54 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DD01160B1AE6EECF003967A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD01160C1AE6EECF003967A2 /* iPhone_CreateMenuViewController.swift in Sources */,
+				DD01160D1AE6EECF003967A2 /* iPhone_TimerMenuViewController.swift in Sources */,
+				DD01160E1AE6EECF003967A2 /* BlindSetWizardViewController.swift in Sources */,
+				DD01160F1AE6EECF003967A2 /* BlindLevel.swift in Sources */,
+				DD0116101AE6EECF003967A2 /* MPCManager.swift in Sources */,
+				DD0116111AE6EECF003967A2 /* iPhone_CreateMenuNavigationController.swift in Sources */,
+				DD0116121AE6EECF003967A2 /* BlindSetEditorMasterViewController.swift in Sources */,
+				DD0116131AE6EECF003967A2 /* BlindLevelEditorViewController.swift in Sources */,
+				DD0116141AE6EECF003967A2 /* iPhone_RemoteControlNavigationController.swift in Sources */,
+				DD0116151AE6EECF003967A2 /* ConfigDetailsLanguageViewController.swift in Sources */,
+				DD0116161AE6EECF003967A2 /* PresetBlindSetsViewController.swift in Sources */,
+				DD0116171AE6EECF003967A2 /* XmlBlindSetParser.swift in Sources */,
+				DD0116181AE6EECF003967A2 /* TimerViewController.swift in Sources */,
+				DD0116191AE6EECF003967A2 /* BackgroundCell.swift in Sources */,
+				DD01161A1AE6EECF003967A2 /* ConfigDetailsLongPauseViewController.swift in Sources */,
+				DD01161B1AE6EECF003967A2 /* CreateMenuViewController.swift in Sources */,
+				DD01161C1AE6EECF003967A2 /* iPhone_NavigationController.swift in Sources */,
+				DD01161D1AE6EECF003967A2 /* BlindSet.swift in Sources */,
+				DD01161E1AE6EECF003967A2 /* ConfigDetailsBackupViewController.swift in Sources */,
+				DD01161F1AE6EECF003967A2 /* iPad_TimerViewController.swift in Sources */,
+				DD0116201AE6EECF003967A2 /* Util.swift in Sources */,
+				DD0116211AE6EECF003967A2 /* TutorialView.swift in Sources */,
+				DD0116221AE6EECF003967A2 /* Regex.swift in Sources */,
+				DD0116231AE6EECF003967A2 /* BlindSetEditorDetailsViewController.swift in Sources */,
+				DD0116241AE6EECF003967A2 /* Constants.swift in Sources */,
+				DD0116251AE6EECF003967A2 /* MBProgressHUD.m in Sources */,
+				DD0116261AE6EECF003967A2 /* iPhone_BlindSetEditorViewController.swift in Sources */,
+				DD0116271AE6EECF003967A2 /* iPhone_BlindLevelEditorViewController.swift in Sources */,
+				DD0116281AE6EECF003967A2 /* iPad_BlindSetEditorViewController.swift in Sources */,
+				DD0116291AE6EECF003967A2 /* ConfigMasterViewController.swift in Sources */,
+				DD01162A1AE6EECF003967A2 /* iPhone_RemoteControlViewController.swift in Sources */,
+				DD01162B1AE6EECF003967A2 /* ConfigDetailsSoundViewController.swift in Sources */,
+				DD01162C1AE6EECF003967A2 /* iRate.m in Sources */,
+				DD01162D1AE6EECF003967A2 /* ConfigViewController.swift in Sources */,
+				DD01162E1AE6EECF003967A2 /* iPhone_TimerViewController.swift in Sources */,
+				DD01162F1AE6EECF003967A2 /* BlindLevelCell.swift in Sources */,
+				DD0116301AE6EECF003967A2 /* AppDelegate.swift in Sources */,
+				DD0116311AE6EECF003967A2 /* ConfigDetailsMultipeerViewController.swift in Sources */,
+				DD0116321AE6EECF003967A2 /* BackgroundViewController.swift in Sources */,
+				DD0116331AE6EECF003967A2 /* PresetBlindSetCell.swift in Sources */,
+				DD0116341AE6EECF003967A2 /* ConfigDetailsBackgroundViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DD1EF7951A9ED5CA00B745AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1203,7 +1705,7 @@
 				DD1EF8251A9ED84100B745AA /* TutorialView.swift in Sources */,
 				DD1EF8221A9ED84100B745AA /* Regex.swift in Sources */,
 				DD1EF7DF1A9ED72A00B745AA /* BlindSetEditorDetailsViewController.swift in Sources */,
-				DD3CC0A81AF475D700CADD1F /* Constants.swift in Sources */,
+				DD010FB41AE6A634003967A2 /* Constants.swift in Sources */,
 				DD022FE71AABDC3C00ED0D39 /* MBProgressHUD.m in Sources */,
 				DD12433E1AA7D4F30061832B /* iPhone_BlindSetEditorViewController.swift in Sources */,
 				DD9F58411AAB75FD004AC8DD /* iPhone_BlindLevelEditorViewController.swift in Sources */,
@@ -1362,6 +1864,16 @@
 			name = iPad_Timer.storyboard;
 			sourceTree = "<group>";
 		};
+		DDFA4D3D1AB271C5002A7F43 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFA4D3E1AB271DB002A7F43 /* Base */,
+				DDFA4D411AB271F1002A7F43 /* pt */,
+				DDFA4D421AB271F4002A7F43 /* es */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		DDFA4D541AB27495002A7F43 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1375,6 +1887,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DD0116ED1AE6EECF003967A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info-Lite.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iRank Timer Lite";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iRank Timer/iRank Timer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0116EE1AE6EECF003967A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Lite";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info-Lite.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iRank Timer Lite";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iRank Timer/iRank Timer-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DD1EF7B61A9ED5CA00B745AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1466,13 +2019,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "iRank Timer/iRank Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1490,13 +2039,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "iRank Timer/iRank Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luciano Stegun (JDRDT4XYL3)";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/iRank Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1550,6 +2095,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DD0116EC1AE6EECF003967A2 /* Build configuration list for PBXNativeTarget "iRank Timer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0116ED1AE6EECF003967A2 /* Debug */,
+				DD0116EE1AE6EECF003967A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DD1EF7941A9ED5CA00B745AA /* Build configuration list for PBXProject "iRank Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

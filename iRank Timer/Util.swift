@@ -78,32 +78,6 @@ class Util {
         
         return blindLabel;
     }
-    
-    class func getScreenWidth(view: UIView) -> CGFloat {
-        
-        var width  = view.frame.size.width;
-        var height = view.frame.size.height;
-        
-        if( Constants.DeviceIdiom.IS_IPAD && height > width ){
-                
-            width = height;
-        }
-        
-        return width;
-    }
-    
-    class func getScreenHeight(view: UIView) -> CGFloat {
-        
-        var width  = view.frame.size.width;
-        var height = view.frame.size.height;
-        
-        if( Constants.DeviceIdiom.IS_IPAD && height > width ){
-                
-            height = width;
-        }
-        
-        return height;
-    }
 }
 
 extension UIColor {

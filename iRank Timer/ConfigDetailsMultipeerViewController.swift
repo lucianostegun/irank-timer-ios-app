@@ -66,7 +66,7 @@ class ConfigDetailsMultipeerViewController : UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
-        let selectedPeer = appDelegate.mpcManager.foundPeers[indexPath.row] as MCPeerID
+        let selectedPeer = appDelegate.mpcManager.foundPeers[indexPath.row] as! MCPeerID
         appDelegate.mpcManager.browser.invitePeer(selectedPeer, toSession: appDelegate.mpcManager.session, withContext: nil, timeout: 0);
         
 //        var cell = tableView.cellForRowAtIndexPath(indexPath);

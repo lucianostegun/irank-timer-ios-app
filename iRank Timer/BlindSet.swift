@@ -349,7 +349,7 @@ class BlindSet : NSObject, NSCoding {
     
     class func getBlindSetArchivePath() -> String {
         
-        var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as Array;
+        var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as! Array;
         var documentsDirectory : String = paths[0] as! String;
         
         return "\(documentsDirectory)/archivedBlindSetList.data";

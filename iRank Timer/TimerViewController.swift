@@ -13,13 +13,11 @@ import AVFoundation
 import MultipeerConnectivity
 import iAd
 
-class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBannerViewDelegate, GADBannerViewDelegate {
+class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBannerViewDelegate {
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
     
-    var gAdBannerView : GADBannerView!;
-    var iAdBannerView: ADBannerView!
-    
+    @IBOutlet var iAdBannerView: ADBannerView!
     @IBOutlet var sldrTimeSlider : [UISlider]!;
     @IBOutlet var lblTimer : [UILabel]!;
     @IBOutlet var lblSmallBlind : [UILabel]!;
@@ -153,29 +151,11 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
     }
     
     override func viewDidAppear(animated: Bool) {
-        
         super.viewDidAppear(animated);
         
         if( appDelegate.firstExecution ){
             
             NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("showHandAnimation"), userInfo: nil, repeats: false);
-        }
-        
-        if( Constants.LITE_VERSION ){
-            
-            setupAdBanner();
-            
-            if( iAdBannerView != nil ){
-                
-                iAdBannerView.hidden = false;
-                iAdBannerView.alpha  = 1;
-            }
-            
-            if( gAdBannerView != nil ){
-                
-                gAdBannerView.hidden = false;
-                gAdBannerView.alpha  = 1;
-            }
         }
     }
     
@@ -192,44 +172,14 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
         return appDelegate.hideStatusBar;
     }
     
-    func setupAdBanner(){
-        
-    }
-    
     func bannerViewDidLoadAd(banner: ADBannerView!) {
-        
-        if( iAdBannerView != nil ){
-            
-            iAdBannerView.hidden = false;
-        }
-        
-        banner.hidden = false;
+
+        iAdBannerView.hidden = false;
     }
     
     func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!){
-
-        if( iAdBannerView != nil ){
-            
-            iAdBannerView.hidden = true;
-        }
-    }
-    
-    func adViewDidReceiveAd(view: GADBannerView!) {
         
-        if( gAdBannerView != nil ){
-            
-            gAdBannerView.hidden = false;
-        }
-    }
-    
-    func adView(view: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
-        
-        if( gAdBannerView != gAdBannerView ){
-            
-            gAdBannerView.hidden = true;
-        }
-        
-        view.hidden = false;
+        iAdBannerView.hidden = true;
     }
     
     func checkMultipeerMode(){
@@ -843,7 +793,7 @@ class TimerViewController: BackgroundViewController, UIAlertViewDelegate, ADBann
         
         if let newCountDownSeconds = dataDictionary["countDownSeconds"] {
             
-            countDownSeconds = (newCountDownSeconds as String).toInt()!;
+            countDownSeconds = (newCountDownSeconds as! String).toInt()!;
         }
         
         // Check if there's an entry with the "message" key.

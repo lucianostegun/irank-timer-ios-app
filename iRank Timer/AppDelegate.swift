@@ -79,7 +79,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
     var language : String = "english";
     var needBackup : Bool = false;
     var isAdvertising : Bool = true; // Utilizado apenas por iPhones
-    var bannerType : String!;
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -129,15 +128,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         timerViewController.blindSetList         = blindSetList;
         timerViewController.currentBlindSetIndex = currentBlindSetIndex;
         
-        iRate.sharedInstance().applicationBundleID = "com.stegun.iRank-Timer" + (Constants.LITE_VERSION ? "-Lite" : "");
+        iRate.sharedInstance().applicationBundleID = "com.stegun.iRank-Timer"
         iRate.sharedInstance().onlyPromptIfLatestVersion = false
         
         //enable preview mode
         iRate.sharedInstance().previewMode = false
-        
-        bannerType = Int(arc4random_uniform(UInt32(10))) >= 5 ? "google" : "apple";
-        bannerType = "google";
-        println("bannerType: \(bannerType)");
         
         return true;
     }
@@ -276,7 +271,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             
 //            backgroundCustomImage = userDefaults.objectForKey(kSettingsBackgroundImageName) as! UIImage;
             
-            var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as Array;
+            var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as! Array;
             var documentsDirectory : String = paths[0] as! String;
             
             // Get image path in user's folder and store file with name image_CurrentTimestamp.jpg (see documentsPathForFileName below)
@@ -324,7 +319,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
             
             var imageData : NSData = UIImageJPEGRepresentation(self.backgroundCustomImage, 1);
             
-            var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as Array;
+            var paths : Array = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as! Array;
             var documentsDirectory : String = paths[0] as! String;
             
             // Get image path in user's folder and store file with name image_CurrentTimestamp.jpg (see documentsPathForFileName below)
@@ -363,8 +358,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MPCManagerDelegate, iRate
         
         blindSetList = timerViewController.blindSetList;
         
-        (timerViewController as TimerViewController).blindSet.currentElapsedSeconds = (timerViewController as TimerViewController).currentElapsedSeconds;
-        blindSetList[timerViewController.currentBlindSetIndex] = (timerViewController as TimerViewController).blindSet;
+        (timerViewController as! TimerViewController).blindSet.currentElapsedSeconds     = (timerViewController as! TimerViewController).currentElapsedSeconds;
+        blindSetList[timerViewController.currentBlindSetIndex] = (timerViewController as! TimerViewController).blindSet;
         
         BlindSet.archiveBlindSetList(blindSetList);
         saveUserDefaults();

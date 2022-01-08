@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import iAd
 
 class iPhone_TimerViewController: TimerViewController {
     
@@ -30,74 +29,29 @@ class iPhone_TimerViewController: TimerViewController {
         
         UIDevice.currentDevice().beginGeneratingDeviceOrientationNotifications();
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("onDeviceOrientationDidChange:"), name: UIDeviceOrientationDidChangeNotification, object: nil);
-    }
-    
-    override func setupAdBanner(){
         
-        if( appDelegate.bannerType == "apple" ){
+        if( Constants.LITE_VERSION ){
             
-            if( iAdBannerView != nil ){
-                
-                return;
-            }
-            
-            iAdBannerView = ADBannerView(adType: ADAdType.Banner);
-            iAdBannerView.delegate = self;
             iAdBannerView.frame  = CGRectMake(0, 0, self.view.bounds.size.width, 50);
             iAdBannerView.contentMode = UIViewContentMode.Center;
-//            iAdBannerView.hidden = true;
             self.view.addSubview(iAdBannerView)
-        }else{
             
-            if( gAdBannerView != nil ){
-                
-                return;
-            }
             
-            gAdBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait);
-            gAdBannerView.adUnitID = Constants.kBannerUnitID;
-            gAdBannerView.rootViewController = self;
-            gAdBannerView.hidden = true;
-            gAdBannerView.delegate = self;
-            self.view.addSubview(gAdBannerView);
-            gAdBannerView.loadRequest(GADRequest());
+            lblTimer.first!.frame.origin.y         = lblTimer.first!.frame.origin.y + 10;
+            btnPreviousLevel.first!.frame.origin.y = btnPreviousLevel.first!.frame.origin.y + 10;
+            btnNextLevel.first!.frame.origin.y     = btnNextLevel.first!.frame.origin.y + 10;
+            
+            // -----------------------
+            
+            lblTimer.last!.frame.size.height    = 60;
+            btnTimer.last!.frame.size.height    = 60;
+            
+            lblTimer.last!.font = UIFont(name: "Helvetica Neue", size: 65.0);
+            
+            lblTimer.last!.frame.origin.y       = lblTimer.last!.frame.origin.y + 40;
+            btnTimer.last!.frame.origin.y       = btnTimer.last!.frame.origin.y + 40;
+            sldrTimeSlider.last!.frame.origin.y = sldrTimeSlider.last!.frame.origin.y + 15;
         }
-        
-        repositionViewsForAdBannerView();
-    }
-    
-    override func bannerViewDidLoadAd(banner: ADBannerView!) {
-        
-        super.bannerViewDidLoadAd(banner);
-    }
-    
-    override func adViewDidReceiveAd(view: GADBannerView!) {
-        
-        super.adViewDidReceiveAd(view);
-    }
-    
-    func repositionViewsForAdBannerView(){
-        
-//        lblTimer.first!.frame.origin.y         = lblTimer.first!.frame.origin.y + 10;
-//        btnPreviousLevel.first!.frame.origin.y = btnPreviousLevel.first!.frame.origin.y + 10;
-//        btnNextLevel.first!.frame.origin.y     = btnNextLevel.first!.frame.origin.y + 10;
-//
-//        lblTimer.last!.frame.size.height       = 60;
-//        btnTimer.last!.frame.size.height       = 60;
-//        lblTimer.last!.frame.origin.y          = lblTimer.last!.frame.origin.y + 40;
-//        btnTimer.last!.frame.origin.y          = btnTimer.last!.frame.origin.y + 40;
-//        sldrTimeSlider.last!.frame.origin.y    = sldrTimeSlider.last!.frame.origin.y + 15;
-
-        lblTimer.first!.frame.origin.y         = 30.0
-        btnPreviousLevel.first!.frame.origin.y = 30.0
-        btnNextLevel.first!.frame.origin.y     = 30.0
-        
-        lblTimer.last!.frame.size.height       = 60.0
-        btnTimer.last!.frame.size.height       = 60.0
-        
-        lblTimer.last!.frame.origin.y          = 54.0
-        btnTimer.last!.frame.origin.y          = 54.0
-        sldrTimeSlider.last!.frame.origin.y    = 120.0
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -109,8 +63,18 @@ class iPhone_TimerViewController: TimerViewController {
         switchOptionalLabels();
     }
     
+    override func viewDidAppear(animated: Bool) {
+        
+        super.viewDidAppear(animated);
+//        
+//        if( Constants.LITE_VERSION ){
+//            
+//            iAdBannerView.frame       = CGRectMake(0, 0, self.view.bounds.width, 50);
+//            iAdBannerView.contentMode = UIViewContentMode.Center;
+//        }
+    }
+    
     override func viewDidDisappear(animated: Bool) {
-
         super.viewDidDisappear(animated);
         
         MBProgressHUD.hideAllHUDsForView(self.view, animated: true);
@@ -137,32 +101,6 @@ class iPhone_TimerViewController: TimerViewController {
         switchOptionalLabels();
 
         portraitView.hidden = appDelegate.isLandscape();
-        
-        if( Constants.LITE_VERSION ){
-            
-            var adSize : GADAdSize!;
-            var adFrame : CGRect!;
-            
-            if( appDelegate.isLandscape() ){
-                
-                adFrame = CGRectMake(0, 0, self.view.bounds.size.width, 32);
-                adSize  = kGADAdSizeSmartBannerLandscape;
-            }else{
-                
-                adFrame = CGRectMake(0, 0, self.view.bounds.size.width, 50);
-                adSize  = kGADAdSizeSmartBannerPortrait;
-            }
-            
-            if( iAdBannerView != nil ){
-                
-                iAdBannerView.frame  = adFrame;
-            }
-            
-            if( gAdBannerView != nil ){
-                
-                gAdBannerView.adSize = adSize;
-            }
-        }
     }
     
     func switchOptionalLabels(){

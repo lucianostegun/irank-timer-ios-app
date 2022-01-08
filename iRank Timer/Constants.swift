@@ -10,11 +10,10 @@ import Foundation
 
 struct Constants {
     
-    static var LITE_VERSION : Bool = true;
+    static var LITE_VERSION : Bool = false;
     
-    static let IOS_VERSION   = NSString(string: UIDevice.currentDevice().systemVersion).doubleValue;
-    static let APP_URL       = "https://itunes.apple.com/%@/app/irank-poker-timer/id717279039";
-    static let kBannerUnitID = "ca-app-pub-0504466650636760/7383758550";
+    static let IOS_VERSION = NSString(string: UIDevice.currentDevice().systemVersion).doubleValue;
+    static let APP_URL     = "https://itunes.apple.com/%@/app/irank-poker-timer/id717279039";
     
     struct DeviceIdiom {
         
