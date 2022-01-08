@@ -1,0 +1,89 @@
+/* Class = "UILabel"; text = "Run in background"; ObjectID = "0bd-Ta-vLX"; */
+"0bd-Ta-vLX.text" = "Rodar em segundo plano";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "3Tv-27-neA"; */
+"3Tv-27-neA.title" = "Editar";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "4Kl-SH-LKd"; */
+"4Kl-SH-LKd.title" = "Root View Controller";
+
+/* Class = "UITableViewSection"; headerTitle = "general"; ObjectID = "4Zl-cA-eC4"; */
+"4Zl-cA-eC4.headerTitle" = "geral";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "5x8-nT-Uyf"; */
+"5x8-nT-Uyf.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "8LA-am-UcQ"; */
+"8LA-am-UcQ.text" = "Title";
+
+/* Class = "UILabel"; text = "Sounds"; ObjectID = "EWn-zi-nZa"; */
+"EWn-zi-nZa.text" = "Sons";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "F8o-cJ-NAs"; */
+"F8o-cJ-NAs.text" = "Idioma";
+
+/* Class = "UILabel"; text = "Play sounds"; ObjectID = "GF5-m4-e0Z"; */
+"GF5-m4-e0Z.text" = "Reproduzir sons";
+
+/* Class = "UILabel"; text = "Hide status bar"; ObjectID = "HMA-IQ-0pz"; */
+"HMA-IQ-0pz.text" = "Ocultar barra de status";
+
+/* Class = "UILabel"; text = "Long pause alert"; ObjectID = "IC3-z8-E3g"; */
+"IC3-z8-E3g.text" = "Alertar jogo pausado";
+
+/* Class = "UILabel"; text = "Last 5 seconds alert"; ObjectID = "LFQ-2j-rIC"; */
+"LFQ-2j-rIC.text" = "Toque de 5 segundos";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "LT6-1Q-pHv"; */
+"LT6-1Q-pHv.text" = "Inglês";
+
+/* Class = "UILabel"; text = "Prevent sleep"; ObjectID = "NLJ-li-3he"; */
+"NLJ-li-3he.text" = "Prevenir bloqueio";
+
+/* Class = "UINavigationItem"; title = "iRank Timer Config"; ObjectID = "NLn-mc-gua"; */
+"NLn-mc-gua.title" = "Opções iRank Timer";
+
+/* Class = "UILabel"; text = "2 minutes"; ObjectID = "P0u-3R-Zaa"; */
+"P0u-3R-Zaa.text" = "2 minutes";
+
+/* Class = "UILabel"; text = "Short blind numbers"; ObjectID = "Xh8-N1-Ksu"; */
+"Xh8-N1-Ksu.text" = "Abreviar blinds";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "YYZ-xk-QQb"; */
+"YYZ-xk-QQb.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Enable multipeer"; ObjectID = "ZM6-TP-5nt"; */
+"ZM6-TP-5nt.text" = "Habilitar controle remoto";
+
+/* Class = "UILabel"; text = "Inverse text color"; ObjectID = "ald-r2-DaZ"; */
+"ald-r2-DaZ.text" = "Inverter cores";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "aoO-cC-BZg"; */
+"aoO-cC-BZg.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "fk1-6v-O6F"; */
+"fk1-6v-O6F.text" = "Detalhes";
+
+/* Class = "UITableViewSection"; headerTitle = "sound settings"; ObjectID = "iAB-aR-Wcm"; */
+"iAB-aR-Wcm.headerTitle" = "Configurações de som";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "jSu-O2-gkY"; */
+"jSu-O2-gkY.title" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kwj-Ad-hGn"; */
+"kwj-Ad-hGn.text" = "Label";
+
+/* Class = "UILabel"; text = "iCloud backup"; ObjectID = "lmk-vo-OJQ"; */
+"lmk-vo-OJQ.text" = "Backup no iCloud";
+
+/* Class = "UITableViewSection"; headerTitle = "layout"; ObjectID = "mRs-fY-P9G"; */
+"mRs-fY-P9G.headerTitle" = "Aparência";
+
+/* Class = "UILabel"; text = "2 minutes"; ObjectID = "uOn-K5-PUJ"; */
+"uOn-K5-PUJ.text" = "2 minutes";
+
+/* Class = "UILabel"; text = "Disabled"; ObjectID = "wh6-Hu-Hgd"; */
+"wh6-Hu-Hgd.text" = "Desabilitado";
+
+/* Class = "UILabel"; text = "Background mode"; ObjectID = "yCO-li-zE2"; */
+"yCO-li-zE2.text" = "Imagem de fundo";

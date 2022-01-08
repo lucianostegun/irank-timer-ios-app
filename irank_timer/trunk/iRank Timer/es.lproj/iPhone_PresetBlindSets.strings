@@ -1,0 +1,33 @@
+/* Class = "UIBarButtonItem"; title = "Filter"; ObjectID = "Chx-og-ETg"; */
+"Chx-og-ETg.title" = "Filtro";
+
+/* Class = "UILabel"; text = "18 levels"; ObjectID = "XRp-Iq-BVp"; */
+"XRp-Iq-BVp.text" = "18 levels";
+
+/* Class = "UILabel"; text = "2-5 players"; ObjectID = "XYd-ky-nSC"; */
+"XYd-ky-nSC.text" = "2-5 players";
+
+/* Class = "UILabel"; text = "Chips"; ObjectID = "XoD-bu-ljl"; */
+"XoD-bu-ljl.text" = "Fichas";
+
+/* Class = "UILabel"; text = "Duration: 04:00:00"; ObjectID = "aXV-R2-Ple"; */
+"aXV-R2-Ple.text" = "Duração: 04:00:00";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "iEg-fF-OI5"; */
+"iEg-fF-OI5.title" = "Juegos predefinidos";
+
+/* Class = "UILabel"; text = "stack: 5000 chips"; ObjectID = "iJy-Vb-4y4"; */
+"iJy-Vb-4y4.text" = "stack: 5000 chips";
+
+/* Class = "UILabel"; text = "Blinds: 5min."; ObjectID = "kXM-N7-lmo"; */
+"kXM-N7-lmo.text" = "Blinds: 5min.";
+
+/* Class = "UILabel"; text = "regular stack hyper turbo + ante"; ObjectID = "qYD-Qi-E0X"; */
+"qYD-Qi-E0X.text" = "regular stack hyper turbo + ante";
+
+/* Class = "UILabel"; text = "No breaks"; ObjectID = "vis-DP-MNr"; */
+"vis-DP-MNr.text" = "Sin intervalos";
+
+
+
+

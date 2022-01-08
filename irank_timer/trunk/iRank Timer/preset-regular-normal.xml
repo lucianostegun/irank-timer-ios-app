@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blindSets>
+	<blindSet id="8" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="20" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="3" bigBlind="6" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="6" bigBlind="12" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="7" bigBlind="14" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="32" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="3" bigBlind="6" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="6" bigBlind="12" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="7" bigBlind="14" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="8" bigBlind="16" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="9" bigBlind="18" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="11" bigBlind="22" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="16" bigBlind="32" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="21" bigBlind="42" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="44" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="8000" bigBlind="16000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="56" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="3" bigBlind="6" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="6" bigBlind="12" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="68" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="3" bigBlind="6" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="7" bigBlind="14" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="14" bigBlind="28" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="80" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="6" bigBlind="12" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="7000" bigBlind="14000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="40000" bigBlind="80000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="92" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="8" bigBlind="16" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="70" bigBlind="140" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="104" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="1" bigBlind="2" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="2" bigBlind="4" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="3" bigBlind="6" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="4" bigBlind="8" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="6" bigBlind="12" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="14" bigBlind="28" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="116" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="128" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="140" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="35" bigBlind="70" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="60" bigBlind="120" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="70" bigBlind="140" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="80" bigBlind="160" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="105" bigBlind="210" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="152" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="10000" bigBlind="20000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="40000" bigBlind="80000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="164" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="176" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="70" bigBlind="140" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="188" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="6000" bigBlind="12000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="40000" bigBlind="80000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="200000" bigBlind="400000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="200" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="212" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="5" bigBlind="10" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="15" bigBlind="30" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="224" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="236" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="85" bigBlind="170" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="248" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="60" bigBlind="120" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="70" bigBlind="140" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="80" bigBlind="160" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="105" bigBlind="210" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="130" bigBlind="260" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="155" bigBlind="310" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="180" bigBlind="360" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="205" bigBlind="410" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="260" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="20000" bigBlind="40000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="80000" bigBlind="160000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="272" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="284" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="296" name="Regular Stack Normal" levels="7" duration="02:20:00" durationSeconds="8400" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="10000" bigBlind="20000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="70000" bigBlind="140000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="400000" bigBlind="800000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="308" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="6000" bigBlind="12000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="320" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="10" bigBlind="20" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="20" bigBlind="40" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="30" bigBlind="60" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="40" bigBlind="80" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="339" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="340" name="Regular Stack Normal + Ante" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="175" bigBlind="350" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="300" bigBlind="600" ante="75" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="369" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="225" bigBlind="450" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="250" bigBlind="500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="350" bigBlind="700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="450" bigBlind="900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="550" bigBlind="1100" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="370" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="175" bigBlind="350" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="225" bigBlind="450" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="250" bigBlind="500" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="350" bigBlind="700" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="450" bigBlind="900" ante="100" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="399" name="Regular Stack Normal" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="225" bigBlind="450" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="250" bigBlind="500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="275" bigBlind="550" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="325" bigBlind="650" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="350" bigBlind="700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="450" bigBlind="900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="550" bigBlind="1100" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="400" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="175" bigBlind="350" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="225" bigBlind="450" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="250" bigBlind="500" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="275" bigBlind="550" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="300" bigBlind="600" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="325" bigBlind="650" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="350" bigBlind="700" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="450" bigBlind="900" ante="100" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="429" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="275" bigBlind="550" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="5000" bigBlind="10000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="430" name="Regular Stack Normal + Ante" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="275" bigBlind="550" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="459" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="460" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="175" bigBlind="350" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="300" bigBlind="600" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="700" bigBlind="1400" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="489" name="Regular Stack Normal" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="125" bigBlind="250" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="175" bigBlind="350" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="490" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="175" bigBlind="350" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="300" bigBlind="600" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="600" bigBlind="1200" ante="150" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="700" bigBlind="1400" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="519" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="8000" bigBlind="16000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="15000" bigBlind="30000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="520" name="Regular Stack Normal + Ante" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="4000" bigBlind="8000" ante="1000" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="8000" bigBlind="16000" ante="2000" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="550" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="600" bigBlind="1200" ante="150" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="4000" bigBlind="8000" ante="1000" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="580" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="25" bigBlind="50" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="75" bigBlind="150" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="100" bigBlind="200" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="125" bigBlind="250" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="150" bigBlind="300" ante="25" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="300" bigBlind="600" ante="75" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="700" bigBlind="1400" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="609" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="639" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="250" bigBlind="500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="350" bigBlind="700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="450" bigBlind="900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="550" bigBlind="1100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="650" bigBlind="1300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="750" bigBlind="1500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="850" bigBlind="1700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="950" bigBlind="1900" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="640" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="250" bigBlind="500" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="300" bigBlind="600" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="350" bigBlind="700" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="450" bigBlind="900" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="550" bigBlind="1100" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="650" bigBlind="1300" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="750" bigBlind="1500" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="850" bigBlind="1700" ante="200" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="669" name="Regular Stack Normal" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="250" bigBlind="500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="350" bigBlind="700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="450" bigBlind="900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="550" bigBlind="1100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="650" bigBlind="1300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="750" bigBlind="1500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="850" bigBlind="1700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="950" bigBlind="1900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="1050" bigBlind="2100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="1150" bigBlind="2300" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="670" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="250" bigBlind="500" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="300" bigBlind="600" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="350" bigBlind="700" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="450" bigBlind="900" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="550" bigBlind="1100" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="650" bigBlind="1300" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="750" bigBlind="1500" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="850" bigBlind="1700" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="950" bigBlind="1900" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="1050" bigBlind="2100" ante="300" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="699" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="6000" bigBlind="12000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="10000" bigBlind="20000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="700" name="Regular Stack Normal + Ante" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="300" bigBlind="600" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="6000" bigBlind="12000" ante="1500" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="729" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="730" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="300" bigBlind="600" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="700" bigBlind="1400" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="759" name="Regular Stack Normal" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="250" bigBlind="500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="350" bigBlind="700" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="450" bigBlind="900" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="550" bigBlind="1100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="650" bigBlind="1300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="750" bigBlind="1500" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="800" bigBlind="1600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="760" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="250" bigBlind="500" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="350" bigBlind="700" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="450" bigBlind="900" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="550" bigBlind="1100" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="650" bigBlind="1300" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="750" bigBlind="1500" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="800" bigBlind="1600" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="789" name="Regular Stack Normal" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="8000" bigBlind="16000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="15000" bigBlind="30000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="30000" bigBlind="60000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="790" name="Regular Stack Normal + Ante" levels="10" duration="03:20:00" durationSeconds="12000" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:00:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:20:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="02:40:00" smallBlind="4000" bigBlind="8000" ante="1000" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:00:00" smallBlind="8000" bigBlind="16000" ante="2000" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:20:00" smallBlind="15000" bigBlind="30000" ante="4000" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="819" name="Regular Stack Normal" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="800" bigBlind="1600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="5000" bigBlind="10000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="7000" bigBlind="14000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="10000" bigBlind="20000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="820" name="Regular Stack Normal + Ante" levels="13" duration="04:40:00" durationSeconds="16800" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="01:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="02:00:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="300" bigBlind="600" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="800" bigBlind="1600" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="5000" bigBlind="10000" ante="1000" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="04:40:00" smallBlind="7000" bigBlind="14000" ante="2000" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="849" name="Regular Stack Normal" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="300" bigBlind="600" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="400" bigBlind="800" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="500" bigBlind="1000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="600" bigBlind="1200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="700" bigBlind="1400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="1000" bigBlind="2000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1500" bigBlind="3000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="2000" bigBlind="4000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="3000" bigBlind="6000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="4000" bigBlind="8000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="5000" bigBlind="10000" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="7000" bigBlind="14000" ante="0" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+	<blindSet id="850" name="Regular Stack Normal + Ante" levels="16" duration="06:00:00" durationSeconds="21600" playSound="1" blindChangeAlert="1" lastMinuteAlert="1" doublePrevious="1">
+		<blindLevel levelNumber="1" elapsedTime="00:20:00" smallBlind="50" bigBlind="100" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="2" elapsedTime="00:40:00" smallBlind="100" bigBlind="200" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="3" elapsedTime="01:00:00" smallBlind="150" bigBlind="300" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="4" elapsedTime="01:20:00" smallBlind="200" bigBlind="400" ante="0" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="5" elapsedTime="01:40:00" smallBlind="200" bigBlind="400" ante="50" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="02:00:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="6" elapsedTime="02:20:00" smallBlind="300" bigBlind="600" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="7" elapsedTime="02:40:00" smallBlind="400" bigBlind="800" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="8" elapsedTime="03:00:00" smallBlind="500" bigBlind="1000" ante="100" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="9" elapsedTime="03:20:00" smallBlind="600" bigBlind="1200" ante="150" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="10" elapsedTime="03:40:00" smallBlind="700" bigBlind="1400" ante="200" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="11" elapsedTime="04:00:00" smallBlind="1000" bigBlind="2000" ante="300" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="12" elapsedTime="04:20:00" smallBlind="1500" bigBlind="3000" ante="400" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="0" elapsedTime="04:40:00" smallBlind="0" bigBlind="0" ante="0" duration="20" isBreak="1"></blindLevel>
+		<blindLevel levelNumber="13" elapsedTime="05:00:00" smallBlind="2000" bigBlind="4000" ante="500" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="14" elapsedTime="05:20:00" smallBlind="3000" bigBlind="6000" ante="800" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="15" elapsedTime="05:40:00" smallBlind="4000" bigBlind="8000" ante="1000" duration="20" isBreak="0"></blindLevel>
+		<blindLevel levelNumber="16" elapsedTime="06:00:00" smallBlind="5000" bigBlind="10000" ante="1000" duration="20" isBreak="0"></blindLevel>
+	</blindSet>
+
+</blindSets>
